@@ -1,0 +1,215 @@
+{
+  "resolvedId": "C:/projects/desix/pages/en/index.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <SectionsHome1Slider/>\r\n    <!-- <SectionsHome1Service/> -->\r\n    <SectionsHome1About/>\r\n    <SectionsHome1Marquee/>\r\n    <SectionsHome1Calltoaction/>\r\n    <!-- <SectionsHome1Faq/>\r\n    <SectionsHome1Testimonial/> -->\r\n    <SectionsHome1Whychoseus/>\r\n    <!-- <SectionsHome1Project/> -->\r\n    <!-- <SectionsHome1Funfact/> -->\r\n    <SectionsHome1Blog/>\r\n    <!-- <SectionsHome1Clients/> -->\r\n    <SectionsHome1Contact/>\r\n  </template>",
+      "start": 1721717529224,
+      "end": 1721717529284,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721717529284,
+      "end": 1721717529284,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_SectionsHome1Slider = _resolveComponent(\"SectionsHome1Slider\")\n  const _component_SectionsHome1About = _resolveComponent(\"SectionsHome1About\")\n  const _component_SectionsHome1Marquee = _resolveComponent(\"SectionsHome1Marquee\")\n  const _component_SectionsHome1Calltoaction = _resolveComponent(\"SectionsHome1Calltoaction\")\n  const _component_SectionsHome1Whychoseus = _resolveComponent(\"SectionsHome1Whychoseus\")\n  const _component_SectionsHome1Blog = _resolveComponent(\"SectionsHome1Blog\")\n  const _component_SectionsHome1Contact = _resolveComponent(\"SectionsHome1Contact\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_SectionsHome1Slider),\n    _createVNode(_component_SectionsHome1About),\n    _createVNode(_component_SectionsHome1Marquee),\n    _createVNode(_component_SectionsHome1Calltoaction),\n    _createVNode(_component_SectionsHome1Whychoseus),\n    _createVNode(_component_SectionsHome1Blog),\n    _createVNode(_component_SectionsHome1Contact)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529284,
+      "end": 1721717529285,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721717529285,
+      "end": 1721717529285,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721717529285,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721717529286,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721717529286,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721717529286,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721717529286,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/components/sections/home1/Slider.vue\";\nimport { default as __nuxt_component_1 } from \"C:/projects/desix/components/sections/home1/About.vue\";\nimport { default as __nuxt_component_2 } from \"C:/projects/desix/components/sections/home1/Marquee.vue\";\nimport { default as __nuxt_component_3 } from \"C:/projects/desix/components/sections/home1/Calltoaction.vue\";\nimport { default as __nuxt_component_4 } from \"C:/projects/desix/components/sections/home1/Whychoseus.vue\";\nimport { default as __nuxt_component_5 } from \"C:/projects/desix/components/sections/home1/Blog.vue\";\nimport { default as __nuxt_component_6 } from \"C:/projects/desix/components/sections/home1/Contact.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_SectionsHome1Slider = __nuxt_component_0\n  const _component_SectionsHome1About = __nuxt_component_1\n  const _component_SectionsHome1Marquee = __nuxt_component_2\n  const _component_SectionsHome1Calltoaction = __nuxt_component_3\n  const _component_SectionsHome1Whychoseus = __nuxt_component_4\n  const _component_SectionsHome1Blog = __nuxt_component_5\n  const _component_SectionsHome1Contact = __nuxt_component_6\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_SectionsHome1Slider),\n    _createVNode(_component_SectionsHome1About),\n    _createVNode(_component_SectionsHome1Marquee),\n    _createVNode(_component_SectionsHome1Calltoaction),\n    _createVNode(_component_SectionsHome1Whychoseus),\n    _createVNode(_component_SectionsHome1Blog),\n    _createVNode(_component_SectionsHome1Contact)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529286,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721717529286,
+      "end": 1721717529286,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721717529286,
+      "end": 1721717529287,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721717529287,
+      "end": 1721717529287,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "resolvedId": "C:/projects/desix/components/sections/home1/Marquee.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n\t<!-- marquee-section -->\r\n\t<section class=\"marquee-section\">\r\n\t  <div class=\"inner-container\">\r\n\t\t\t<div class=\"marquee\">\r\n\t\t\t  <div class=\"marquee-block\"> \r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">Transofrm ideas into reality</NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">INSPIRED WITH CREATIVITY </NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<!-- <div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/page-about\">*Design &amp; development craft</NuxtLink></h6>\r\n\t\t\t\t\t</div> -->\r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">unlock the potential</NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">Study What you need</NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t  </div>\r\n\t\t\t  <div class=\"marquee-block\"> \r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">Find best solutions</NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">Design, Coding & Testing </NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- content-box -->\r\n\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t  <h6 class=\"title\"><NuxtLink to=\"/about\">24/7 Help & Support</NuxtLink></h6>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t\r\n\t\t\t  </div>\r\n\t\t\t</div>\r\n\t  </div>\r\n\t</section>\r\n\t<!-- End marguee section -->\r\n</template>",
+      "start": 1721717529506,
+      "end": 1721717529727,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721717529727,
+      "end": 1721717529727,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"marquee-section\" }\nconst _hoisted_2 = { class: \"inner-container\" }\nconst _hoisted_3 = { class: \"marquee\" }\nconst _hoisted_4 = { class: \"marquee-block\" }\nconst _hoisted_5 = { class: \"content-box\" }\nconst _hoisted_6 = { class: \"title\" }\nconst _hoisted_7 = { class: \"content-box\" }\nconst _hoisted_8 = { class: \"title\" }\nconst _hoisted_9 = { class: \"content-box\" }\nconst _hoisted_10 = { class: \"title\" }\nconst _hoisted_11 = { class: \"content-box\" }\nconst _hoisted_12 = { class: \"title\" }\nconst _hoisted_13 = { class: \"marquee-block\" }\nconst _hoisted_14 = { class: \"content-box\" }\nconst _hoisted_15 = { class: \"title\" }\nconst _hoisted_16 = { class: \"content-box\" }\nconst _hoisted_17 = { class: \"title\" }\nconst _hoisted_18 = { class: \"content-box\" }\nconst _hoisted_19 = { class: \"title\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"h6\", _hoisted_6, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Transofrm ideas into reality\")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_7, [\n            _createElementVNode(\"h6\", _hoisted_8, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"INSPIRED WITH CREATIVITY \")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_9, [\n            _createElementVNode(\"h6\", _hoisted_10, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"unlock the potential\")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_11, [\n            _createElementVNode(\"h6\", _hoisted_12, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Study What you need\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_13, [\n          _createElementVNode(\"div\", _hoisted_14, [\n            _createElementVNode(\"h6\", _hoisted_15, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Find best solutions\")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_16, [\n            _createElementVNode(\"h6\", _hoisted_17, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Design, Coding & Testing \")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_18, [\n            _createElementVNode(\"h6\", _hoisted_19, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"24/7 Help & Support\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529727,
+      "end": 1721717529728,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721717529728,
+      "end": 1721717529728,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721717529729,
+      "end": 1721717529729,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"marquee-section\" }\nconst _hoisted_2 = { class: \"inner-container\" }\nconst _hoisted_3 = { class: \"marquee\" }\nconst _hoisted_4 = { class: \"marquee-block\" }\nconst _hoisted_5 = { class: \"content-box\" }\nconst _hoisted_6 = { class: \"title\" }\nconst _hoisted_7 = { class: \"content-box\" }\nconst _hoisted_8 = { class: \"title\" }\nconst _hoisted_9 = { class: \"content-box\" }\nconst _hoisted_10 = { class: \"title\" }\nconst _hoisted_11 = { class: \"content-box\" }\nconst _hoisted_12 = { class: \"title\" }\nconst _hoisted_13 = { class: \"marquee-block\" }\nconst _hoisted_14 = { class: \"content-box\" }\nconst _hoisted_15 = { class: \"title\" }\nconst _hoisted_16 = { class: \"content-box\" }\nconst _hoisted_17 = { class: \"title\" }\nconst _hoisted_18 = { class: \"content-box\" }\nconst _hoisted_19 = { class: \"title\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"h6\", _hoisted_6, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Transofrm ideas into reality\")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_7, [\n            _createElementVNode(\"h6\", _hoisted_8, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"INSPIRED WITH CREATIVITY \")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_9, [\n            _createElementVNode(\"h6\", _hoisted_10, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"unlock the potential\")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_11, [\n            _createElementVNode(\"h6\", _hoisted_12, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Study What you need\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_13, [\n          _createElementVNode(\"div\", _hoisted_14, [\n            _createElementVNode(\"h6\", _hoisted_15, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Find best solutions\")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_16, [\n            _createElementVNode(\"h6\", _hoisted_17, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Design, Coding & Testing \")\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_18, [\n            _createElementVNode(\"h6\", _hoisted_19, [\n              _createVNode(_component_NuxtLink, { to: \"/about\" }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"24/7 Help & Support\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529729,
+      "end": 1721717529730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721717529730,
+      "end": 1721717529730,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721717529730,
+      "end": 1721717529730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721717529730,
+      "end": 1721717529730,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "resolvedId": "C:/projects/desix/components/sections/home1/WhychoseusSE.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"why-choose-us\">\r\n      <div class=\"anim-icons\">\r\n        <span class=\"icon icon-arrow1\"></span>\r\n      </div>\r\n      <div class=\"auto-container\">\r\n        <div class=\"row\">\r\n          <!-- Content Column -->\r\n          <div class=\"content-column col-lg-6\">\r\n            <div class=\"inner-column wow fadeInRight\">\r\n              <div class=\"sec-title\">\r\n                <i class=\"sub-title\"></i>\r\n                <h2>Varför välja oss?</h2>\r\n                <!-- <h4 class=\"other-title\">Proin est lacus, sagittis lobortis iaculise get.</h4>\r\n                <div class=\"text\">There are many variations of passages of available but the majority have suffered. Alteration in some form, lipsum is simply free text by injected humou or randomised words even believable.</div> -->\r\n                <span class=\"icon icon-arrow3\"></span>\r\n              </div>\r\n              <div class=\"info-outer\">\r\n                <div class=\"row\">\r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                      \r\n                        <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/1.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                     \r\n                      <h5 class=\"title\">Ledare inom mjukvaruutveckling</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                   \r\n                        <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/2.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                    \r\n                      <h5 class=\"title\">Bäst resultat</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                      <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/3.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                      <h5 class=\"title\">Smarta lösningar</h5>\r\n                    </div>\r\n                  </div>\r\n  \r\n  \r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                      <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/6.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                      <h5 class=\"title\">Fokus på kunden</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                      <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/5.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                      <h5 class=\"title\">Bevisad meritlista</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                      <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/4.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                       <!-- <img src=\"/public/images/icons/1.jpeg\" width=\"50\" /> -->\r\n                        \r\n                      <h5 class=\"title\">Säkert och pålitligt</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class=\"info-box col-md-4\">\r\n                    <div class=\"inner\">\r\n                      <i class=\"icon \">\r\n                        <div>\r\n                          <img src=\"/public/images/icons/7.jpeg\" width=\"50\" />\r\n                        </div>\r\n                      </i>\r\n                      <h5 class=\"title\">Innovation som kärna</h5>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <!-- Image Column -->\r\n          <div class=\"image-column col-lg-6\">\r\n            <div class=\"inner-column\">\r\n              <div class=\"image-box\">\r\n                <figure class=\"image anim-overlay\"><img src=\"/images/resource/why-us.jpg\" alt=\"\"></figure>\r\n                <div class=\"rounded-text\">\r\n                  <img src=\"/images/resource/round-text-se.png\" alt=\"\">\r\n                  <span class=\"letter\">R</span>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </section>\r\n  </template>",
+      "start": 1721717529713,
+      "end": 1721717529852,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721717529852,
+      "end": 1721717529852,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/public/images/icons/1.jpeg'\nimport _imports_1 from '/public/images/icons/2.jpeg'\nimport _imports_2 from '/public/images/icons/3.jpeg'\nimport _imports_3 from '/public/images/icons/6.jpeg'\nimport _imports_4 from '/public/images/icons/5.jpeg'\nimport _imports_5 from '/public/images/icons/4.jpeg'\nimport _imports_6 from '/public/images/icons/7.jpeg'\nimport _imports_7 from '/images/resource/why-us.jpg'\nimport _imports_8 from '/images/resource/round-text-se.png'\n\n\nconst _hoisted_1 = { class: \"why-choose-us\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"anim-icons\\\"><span class=\\\"icon icon-arrow1\\\"></span></div><div class=\\\"auto-container\\\"><div class=\\\"row\\\"><div class=\\\"content-column col-lg-6\\\"><div class=\\\"inner-column wow fadeInRight\\\"><div class=\\\"sec-title\\\"><i class=\\\"sub-title\\\"></i><h2>Varför välja oss?</h2><span class=\\\"icon icon-arrow3\\\"></span></div><div class=\\\"info-outer\\\"><div class=\\\"row\\\"><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_0 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Ledare inom mjukvaruutveckling</h5></div></div><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_1 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Bäst resultat</h5></div></div><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_2 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Smarta lösningar</h5></div></div><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_3 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Fokus på kunden</h5></div></div><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_4 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Bevisad meritlista</h5></div></div><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_5 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Säkert och pålitligt</h5></div></div><div class=\\\"info-box col-md-4\\\"><div class=\\\"inner\\\"><i class=\\\"icon\\\"><div><img src=\\\"\" + _imports_6 + \"\\\" width=\\\"50\\\"></div></i><h5 class=\\\"title\\\">Innovation som kärna</h5></div></div></div></div></div></div><div class=\\\"image-column col-lg-6\\\"><div class=\\\"inner-column\\\"><div class=\\\"image-box\\\"><figure class=\\\"image anim-overlay\\\"><img src=\\\"\" + _imports_7 + \"\\\" alt=\\\"\\\"></figure><div class=\\\"rounded-text\\\"><img src=\\\"\" + _imports_8 + \"\\\" alt=\\\"\\\"><span class=\\\"letter\\\">R</span></div></div></div></div></div></div>\", 2)\nconst _hoisted_4 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529852,
+      "end": 1721717529854,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721717529854,
+      "end": 1721717529854,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721717529854,
+      "end": 1721717529855,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721717529855,
+      "end": 1721717529855,
+      "order": "normal"
+    }
+  ]
+}

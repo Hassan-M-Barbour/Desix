@@ -1,0 +1,1 @@
+import{_ as n}from"./PageTitle.neMdx7uE.js";import{_}from"./Projectdetails.pDLxtK7U.js";import{c as a,b as t,F as r,o as c}from"./entry.noroYABu.js";import"./nuxt-link.fn2VZHbw.js";import"./project-4.KqG7Yrtu.js";const g={__name:"page-project-details",setup(s){return(p,m)=>{const e=n,o=_;return c(),a(r,null,[t(e,{title:"Project Details"}),t(o)],64)}}};export{g as default};

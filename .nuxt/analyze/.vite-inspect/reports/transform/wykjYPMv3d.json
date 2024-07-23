@@ -1,0 +1,215 @@
+{
+  "resolvedId": "C:/projects/desix/components/sections/home1/AboutSE.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n\t<section class=\"about-section pt-7\">\r\n\t\t<div class=\"auto-container\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<!-- Content Column -->\r\n\t\t\t\t<div class=\"content-column col-lg-6 order-2 wow fadeInRight\">\r\n\t\t\t\t\t<div class=\"inner-column\">\r\n\t\t\t\t\t\t<div class=\"sec-title\">\r\n\t\t\t\t\t\t\t<span class=\"sub-title\">LÄR KÄNNA OSS</span>\r\n\t\t\t\t\t\t\t<h2>Förhöj er digitala upplevelse med våra banbrytande mjukvarulösningar\r\n                                </h2>\r\n\t\t\t\t\t\t\t<div class=\"text\">\r\n                                På ROSETECH är vi mycket mer än bara ett mjukvaruutvecklingsföretag; vi är innovatörer och mästare på digital excellens. Vi vet att i dagens snabba och ständigt skiftande digitala landskap är er framgång beroende av effektiviteten hos era mjukvarulösningar. Det är där vi kommer in - för att tillsammans med er förverkliga era visioner till konkreta, skräddarsydda och kraftfulla lösningar.\r\n                            </div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t<!-- Info Box -->\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<div class=\"inner\">\r\n\t\t\t\t\t\t\t\t<i class=\"icon flaticon-targeted-marketing\"></i>\r\n\t\t\t\t\t\t\t\t<h5 class=\"title\">Ledare inom mjukvaruutveckling</h5>\r\n\t\t\t\t\t\t\t\t<div class=\"text\">Vi säkerställer att vårt omfattande utbud av utvecklingstjänster är helt rätt beslut för ert företag, oavsett storlek.</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t<!-- Info Box -->\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<div class=\"inner\">\r\n\t\t\t\t\t\t\t\t<i class=\"icon flaticon-diplomat\"></i>\r\n\t\t\t\t\t\t\t\t<h5 class=\"title\">Expertutvecklare</h5>\r\n\t\t\t\t\t\t\t\t<div class=\"text\">\r\n                                    Vårt team av erfarna utvecklare har kompetens inom en rad olika programmeringsspråk och ramverk, vilket gör det möjligt för oss att skapa skräddarsydda lösningar för era specifika behov.\r\n                                </div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<div class=\"other-info\">\r\n\t\t\t\t\t\t\t<!-- <div class=\"author-info\">\r\n\t\t\t\t\t\t\t\t<div class=\"inner\">\r\n\t\t\t\t\t\t\t\t\t<figure class=\"thumb\"><img src=\"/images/resource/avatar.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t\t\t\t<h5 class=\"name\">Aleesha brown</h5>\r\n\t\t\t\t\t\t\t\t\t<span class=\"designation\">CEO & CO Founder</span>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div> -->\r\n\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/about\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\">Upptäck Mer</span></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Image Column -->\r\n\t\t\t\t<div class=\"image-column col-lg-6 wow fadeInLeft\">\r\n\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t<span class=\"icon-dots bounce-y\"></span>\r\n\t\t\t\t\t\t<span class=\"icon-circle zoom-one\"></span>\r\n\t\t\t\t\t\t<figure class=\"image-1 wow fadeIn\"><img src=\"/images/resource/about-1.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t<figure class=\"image-2 wow fadeIn\" data-wow-delay=\"600ms\"><img src=\"/images/resource/about-2.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t<div class=\"exp-box\">\r\n\t\t\t\t\t\t\t<div class=\"inner\">\r\n\t\t\t\t\t\t\t\t<i class=\"icon flaticon-promotion\"></i>\r\n\t\t\t\t\t\t\t\t<span class=\"count\" style=\"font-size:22px;\">Många</span>\r\n\t\t\t\t\t\t\t\t<div class=\"text\">Års Erfarenhet</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n</template>",
+      "start": 1721717529436,
+      "end": 1721717529556,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721717529556,
+      "end": 1721717529556,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/about-1.jpg'\nimport _imports_1 from '/images/resource/about-2.jpg'\n\n\nconst _hoisted_1 = { class: \"about-section pt-7\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"content-column col-lg-6 order-2 wow fadeInRight\" }\nconst _hoisted_5 = { class: \"inner-column\" }\nconst _hoisted_6 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"sec-title\\\"><span class=\\\"sub-title\\\">LÄR KÄNNA OSS</span><h2>Förhöj er digitala upplevelse med våra banbrytande mjukvarulösningar </h2><div class=\\\"text\\\"> På ROSETECH är vi mycket mer än bara ett mjukvaruutvecklingsföretag; vi är innovatörer och mästare på digital excellens. Vi vet att i dagens snabba och ständigt skiftande digitala landskap är er framgång beroende av effektiviteten hos era mjukvarulösningar. Det är där vi kommer in - för att tillsammans med er förverkliga era visioner till konkreta, skräddarsydda och kraftfulla lösningar. </div></div><div class=\\\"info-box\\\"><div class=\\\"inner\\\"><i class=\\\"icon flaticon-targeted-marketing\\\"></i><h5 class=\\\"title\\\">Ledare inom mjukvaruutveckling</h5><div class=\\\"text\\\">Vi säkerställer att vårt omfattande utbud av utvecklingstjänster är helt rätt beslut för ert företag, oavsett storlek.</div></div></div><div class=\\\"info-box\\\"><div class=\\\"inner\\\"><i class=\\\"icon flaticon-diplomat\\\"></i><h5 class=\\\"title\\\">Expertutvecklare</h5><div class=\\\"text\\\"> Vårt team av erfarna utvecklare har kompetens inom en rad olika programmeringsspråk och ramverk, vilket gör det möjligt för oss att skapa skräddarsydda lösningar för era specifika behov. </div></div></div>\", 3)\nconst _hoisted_9 = { class: \"other-info\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Upptäck Mer\", -1)\nconst _hoisted_11 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-column col-lg-6 wow fadeInLeft\\\"><div class=\\\"image-box\\\"><span class=\\\"icon-dots bounce-y\\\"></span><span class=\\\"icon-circle zoom-one\\\"></span><figure class=\\\"image-1 wow fadeIn\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure><figure class=\\\"image-2 wow fadeIn\\\" data-wow-delay=\\\"600ms\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure><div class=\\\"exp-box\\\"><div class=\\\"inner\\\"><i class=\\\"icon flaticon-promotion\\\"></i><span class=\\\"count\\\" style=\\\"font-size:22px;\\\">Många</span><div class=\\\"text\\\">Års Erfarenhet</div></div></div></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_NuxtLink, {\n                to: \"/about\",\n                class: \"theme-btn btn-style-one\"\n              }, {\n                default: _withCtx(() => [\n                  _hoisted_10\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _hoisted_11\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529556,
+      "end": 1721717529561,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721717529561,
+      "end": 1721717529561,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721717529561,
+      "end": 1721717529562,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721717529562,
+      "end": 1721717529563,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/about-1.jpg'\nimport _imports_1 from '/images/resource/about-2.jpg'\n\n\nconst _hoisted_1 = { class: \"about-section pt-7\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"content-column col-lg-6 order-2 wow fadeInRight\" }\nconst _hoisted_5 = { class: \"inner-column\" }\nconst _hoisted_6 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"sec-title\\\"><span class=\\\"sub-title\\\">LÄR KÄNNA OSS</span><h2>Förhöj er digitala upplevelse med våra banbrytande mjukvarulösningar </h2><div class=\\\"text\\\"> På ROSETECH är vi mycket mer än bara ett mjukvaruutvecklingsföretag; vi är innovatörer och mästare på digital excellens. Vi vet att i dagens snabba och ständigt skiftande digitala landskap är er framgång beroende av effektiviteten hos era mjukvarulösningar. Det är där vi kommer in - för att tillsammans med er förverkliga era visioner till konkreta, skräddarsydda och kraftfulla lösningar. </div></div><div class=\\\"info-box\\\"><div class=\\\"inner\\\"><i class=\\\"icon flaticon-targeted-marketing\\\"></i><h5 class=\\\"title\\\">Ledare inom mjukvaruutveckling</h5><div class=\\\"text\\\">Vi säkerställer att vårt omfattande utbud av utvecklingstjänster är helt rätt beslut för ert företag, oavsett storlek.</div></div></div><div class=\\\"info-box\\\"><div class=\\\"inner\\\"><i class=\\\"icon flaticon-diplomat\\\"></i><h5 class=\\\"title\\\">Expertutvecklare</h5><div class=\\\"text\\\"> Vårt team av erfarna utvecklare har kompetens inom en rad olika programmeringsspråk och ramverk, vilket gör det möjligt för oss att skapa skräddarsydda lösningar för era specifika behov. </div></div></div>\", 3)\nconst _hoisted_9 = { class: \"other-info\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Upptäck Mer\", -1)\nconst _hoisted_11 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-column col-lg-6 wow fadeInLeft\\\"><div class=\\\"image-box\\\"><span class=\\\"icon-dots bounce-y\\\"></span><span class=\\\"icon-circle zoom-one\\\"></span><figure class=\\\"image-1 wow fadeIn\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure><figure class=\\\"image-2 wow fadeIn\\\" data-wow-delay=\\\"600ms\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure><div class=\\\"exp-box\\\"><div class=\\\"inner\\\"><i class=\\\"icon flaticon-promotion\\\"></i><span class=\\\"count\\\" style=\\\"font-size:22px;\\\">Många</span><div class=\\\"text\\\">Års Erfarenhet</div></div></div></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createElementVNode(\"div\", _hoisted_9, [\n              _createVNode(_component_NuxtLink, {\n                to: \"/about\",\n                class: \"theme-btn btn-style-one\"\n              }, {\n                default: _withCtx(() => [\n                  _hoisted_10\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _hoisted_11\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721717529563,
+      "end": 1721717529563,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "resolvedId": "C:/projects/desix/components/sections/innerpages/Graphicdesign.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"services-details\">\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <!--Start Services Details Sidebar-->\r\n          <div class=\"col-xl-4 col-lg-4\">\r\n            <div class=\"service-sidebar\">\r\n              <!--Start Services Details Sidebar Single-->\r\n              <div class=\"sidebar-widget service-sidebar-single\">\r\n  \r\n                <div class=\"sidebar-service-list\">\r\n                  <ul>\r\n                    <li ><NuxtLink to=\"website-development\" class=\"current\"><i class=\"fas fa-angle-right\"></i><span>Web Apps Development</span></NuxtLink></li>\r\n                    <li class=\"current\" ><NuxtLink to=\"graphic-design\"><i class=\"fas fa-angle-right\"></i><span>Graphic Designing</span></NuxtLink></li>\r\n                    <li><NuxtLink to=\"ui-ux-design\"><i class=\"fas fa-angle-right\"></i><span>UI / UX Designing</span></NuxtLink></li>\r\n                    <li ><NuxtLink to=\"mobile-apps-development\"><i class=\"fas fa-angle-right\"></i><span>Mobile Apps Development</span></NuxtLink></li>\r\n                     </ul>\r\n                </div>\r\n  \r\n                <div class=\"service-details-help\">\r\n                  <div class=\"help-shape-1\"></div>\r\n                  <div class=\"help-shape-2\"></div>\r\n                  <h2 class=\"help-title\">Contact with <br> us for any <br> advice</h2>\r\n                  <div class=\"help-icon\">\r\n                    <span class=\" lnr-icon-phone-handset\"></span>\r\n                  </div>\r\n                  <div class=\"help-contact\">\r\n                    <p>Need help? Talk to an expert</p>\r\n                    <NuxtLink to=\"tel:+46 7 35 35 34 34\">+46735353434</NuxtLink>\r\n                  </div>\r\n                </div>\r\n  \r\n                <!--Start Services Details Sidebar Single-->\r\n                <!-- <div class=\"sidebar-widget service-sidebar-single mt-4\">\r\n                  <div class=\"service-sidebar-single-btn wow fadeInUp\" data-wow-delay=\"0.5s\" data-wow-duration=\"1200m\">\r\n                    <NuxtLink to=\"#\" class=\"theme-btn btn-style-one d-grid\"><span class=\"btn-title\"><span class=\"fas fa-file-pdf\"></span> download pdf file</span></NuxtLink>\r\n                  </div>\r\n                </div> -->\r\n              </div>\r\n              <!--End Services Details Sidebar-->\r\n            </div>\r\n          </div>\r\n  \r\n          <!--Start Services Details Content-->\r\n          <div class=\"col-xl-8 col-lg-8\">\r\n            <div class=\"services-details__content\">\r\n              <img src=\"/images/resource/service-2.jpg\" alt=\"\" />\r\n              <h3 class=\"mt-4\">Graphic Design Services</h3>\r\n              <p style=\"text-align: justify;\">\r\n                We are pleased to provide a  professional graphic design services that seamlessly integrate with your brand. With our expertise, we can enhance your visual identity by creating captivating graphics and attractive visual styles. Whether you need a complete brand redesign or just minor adjustments, we are here to help improve your brand image for greater impact and engagement. Contact us today to discuss your specific needs and let us create a visual identity that sets you apart from the rest.\r\n            </p>\r\n              <div class=\"content mt-40\">\r\n                <!-- <div class=\"text\">\r\n                  <h3>Service Center</h3>\r\n                  <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\r\n              <blockquote class=\"blockquote-one\">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur</blockquote>\r\n                </div> -->\r\n                <!-- <div class=\"feature-list mt-4\">\r\n                  <div class=\"row clearfix\">\r\n                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                      <img class=\"mb-3\" src=\"/images/resource/service-d1.jpg\" alt=\"images\" />\r\n                      <p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>\r\n                    </div>\r\n                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                      <img class=\"mb-3\" src=\"/images/resource/service-d2.jpg\" alt=\"images\" />\r\n                      <p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div> -->\r\n            </div>\r\n              <!--  -->\r\n            </div>\r\n          </div>\r\n          <!--End Services Details Content-->\r\n        </div>\r\n      </div>\r\n    </section>\r\n  </template>\r\n  <script setup>\r\n  import { ref } from 'vue'\r\n  \r\n  const isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n  })\r\n  \r\n  const handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n      isActive.value.status = false\r\n    } else {\r\n      isActive.value.status = true\r\n      isActive.value.key = key\r\n    }\r\n  };\r\n  </script>",
+      "start": 1721717529490,
+      "end": 1721717529711,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1721717529711,
+      "end": 1721717529711,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-2.jpg'\n\n\nconst _hoisted_1 = { class: \"services-details\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-xl-4 col-lg-4\" }\nconst _hoisted_5 = { class: \"service-sidebar\" }\nconst _hoisted_6 = { class: \"sidebar-widget service-sidebar-single\" }\nconst _hoisted_7 = { class: \"sidebar-service-list\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Web Apps Development\", -1)\nconst _hoisted_10 = { class: \"current\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Graphic Designing\", -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"span\", null, \"UI / UX Designing\", -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Mobile Apps Development\", -1)\nconst _hoisted_17 = { class: \"service-details-help\" }\nconst _hoisted_18 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"help-shape-1\\\"></div><div class=\\\"help-shape-2\\\"></div><h2 class=\\\"help-title\\\">Contact with <br> us for any <br> advice</h2><div class=\\\"help-icon\\\"><span class=\\\"lnr-icon-phone-handset\\\"></span></div>\", 4)\nconst _hoisted_22 = { class: \"help-contact\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Need help? Talk to an expert\", -1)\nconst _hoisted_24 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"col-xl-8 col-lg-8\\\"><div class=\\\"services-details__content\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><h3 class=\\\"mt-4\\\">Graphic Design Services</h3><p style=\\\"text-align:justify;\\\"> We are pleased to provide a professional graphic design services that seamlessly integrate with your brand. With our expertise, we can enhance your visual identity by creating captivating graphics and attractive visual styles. Whether you need a complete brand redesign or just minor adjustments, we are here to help improve your brand image for greater impact and engagement. Contact us today to discuss your specific needs and let us create a visual identity that sets you apart from the rest. </p><div class=\\\"content mt-40\\\"></div></div></div>\", 1)\n\nimport { ref } from 'vue'\r\n  \r\n  \nconst _sfc_main = {\n  __name: 'Graphicdesign',\n  setup(__props) {\n\r\n  const isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n  })\r\n  \r\n  const handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n      isActive.value.status = false\r\n    } else {\r\n      isActive.value.status = true\r\n      isActive.value.key = key\r\n    }\r\n  };\r\n  \nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"div\", _hoisted_7, [\n                _createElementVNode(\"ul\", null, [\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, {\n                      to: \"website-development\",\n                      class: \"current\"\n                    }, {\n                      default: _withCtx(() => [\n                        _hoisted_8,\n                        _hoisted_9\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", _hoisted_10, [\n                    _createVNode(_component_NuxtLink, { to: \"graphic-design\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_11,\n                        _hoisted_12\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"ui-ux-design\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_13,\n                        _hoisted_14\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"mobile-apps-development\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_15,\n                        _hoisted_16\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_17, [\n                _hoisted_18,\n                _createElementVNode(\"div\", _hoisted_22, [\n                  _hoisted_23,\n                  _createVNode(_component_NuxtLink, { to: \"tel:+46 7 35 35 34 34\" }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"+46735353434\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _hoisted_24\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1721717529711,
+      "end": 1721717529713,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1721717529713,
+      "end": 1721717529713,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1721717529713,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-2.jpg'\n\n\nconst _hoisted_1 = { class: \"services-details\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-xl-4 col-lg-4\" }\nconst _hoisted_5 = { class: \"service-sidebar\" }\nconst _hoisted_6 = { class: \"sidebar-widget service-sidebar-single\" }\nconst _hoisted_7 = { class: \"sidebar-service-list\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Web Apps Development\", -1)\nconst _hoisted_10 = { class: \"current\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Graphic Designing\", -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"span\", null, \"UI / UX Designing\", -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Mobile Apps Development\", -1)\nconst _hoisted_17 = { class: \"service-details-help\" }\nconst _hoisted_18 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"help-shape-1\\\"></div><div class=\\\"help-shape-2\\\"></div><h2 class=\\\"help-title\\\">Contact with <br> us for any <br> advice</h2><div class=\\\"help-icon\\\"><span class=\\\"lnr-icon-phone-handset\\\"></span></div>\", 4)\nconst _hoisted_22 = { class: \"help-contact\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Need help? Talk to an expert\", -1)\nconst _hoisted_24 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"col-xl-8 col-lg-8\\\"><div class=\\\"services-details__content\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><h3 class=\\\"mt-4\\\">Graphic Design Services</h3><p style=\\\"text-align:justify;\\\"> We are pleased to provide a professional graphic design services that seamlessly integrate with your brand. With our expertise, we can enhance your visual identity by creating captivating graphics and attractive visual styles. Whether you need a complete brand redesign or just minor adjustments, we are here to help improve your brand image for greater impact and engagement. Contact us today to discuss your specific needs and let us create a visual identity that sets you apart from the rest. </p><div class=\\\"content mt-40\\\"></div></div></div>\", 1)\n\nimport { ref } from 'vue'\r\n  \r\n  \nconst _sfc_main = {\n  __name: 'Graphicdesign',\n  setup(__props) {\n\r\n  const isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n  })\r\n  \r\n  const handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n      isActive.value.status = false\r\n    } else {\r\n      isActive.value.status = true\r\n      isActive.value.key = key\r\n    }\r\n  };\r\n  \nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"div\", _hoisted_7, [\n                _createElementVNode(\"ul\", null, [\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, {\n                      to: \"website-development\",\n                      class: \"current\"\n                    }, {\n                      default: _withCtx(() => [\n                        _hoisted_8,\n                        _hoisted_9\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", _hoisted_10, [\n                    _createVNode(_component_NuxtLink, { to: \"graphic-design\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_11,\n                        _hoisted_12\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"ui-ux-design\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_13,\n                        _hoisted_14\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"mobile-apps-development\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_15,\n                        _hoisted_16\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_17, [\n                _hoisted_18,\n                _createElementVNode(\"div\", _hoisted_22, [\n                  _hoisted_23,\n                  _createVNode(_component_NuxtLink, { to: \"tel:+46 7 35 35 34 34\" }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"+46735353434\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _hoisted_24\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1721717529714,
+      "end": 1721717529714,
+      "order": "normal"
+    }
+  ]
+}
