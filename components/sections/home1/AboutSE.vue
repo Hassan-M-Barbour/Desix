@@ -58,7 +58,11 @@
 						<div class="exp-box">
 							<div class="inner">
 								<i class="icon flaticon-promotion"></i>
+<<<<<<< HEAD
 								<span class="count"  >Flera</span>
+=======
+								<span class="count" >Flera</span>
+>>>>>>> 34e6b85af6dbb1f97f5479982f74cd11d9e87110
 								<div class="text">Års Erfarenhet</div>
 							</div>
 						</div>
