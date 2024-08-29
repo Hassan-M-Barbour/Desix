@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <ul class=\"navigation\">\r\n    <!-- <li class=\"current dropdown\"> -->\r\n      <li>\r\n      <NuxtLink to=\"/en\">Home</NuxtLink>\r\n      <!-- <ul>\r\n        <li>\r\n          <NuxtLink to=\"/\">Home page 01</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-2\">Home page 02</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-3\">Home page 03</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-4\">Home page 04</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-5\">Home page 05</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-6\">Home page 06</NuxtLink>\r\n        </li>\r\n      </ul> -->\r\n    </li>\r\n    <li><NuxtLink to=\"/en/about\">About</NuxtLink></li>\r\n    <li><NuxtLink to=\"/en/team\">Team</NuxtLink></li>\r\n    <li><NuxtLink to=\"/en/services\">Services</NuxtLink></li>\r\n    <li><NuxtLink to=\"/en/projects\">Projects</NuxtLink></li>\r\n    <li><NuxtLink to=\"/en/news\">News</NuxtLink></li>\r\n    <!-- <li class=\"dropdown\">\r\n      <NuxtLink to=\"#\">Pages</NuxtLink>\r\n      <ul>\r\n        <li>\r\n          <NuxtLink to=\"/about\">About</NuxtLink>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n          <NuxtLink to=\"/\">Team</NuxtLink>\r\n          <ul>\r\n            <li>\r\n              <NuxtLink to=\"/page-team\">Team grid</NuxtLink>\r\n            </li>\r\n            <li>\r\n              <NuxtLink to=\"/page-team-details\">Team Details</NuxtLink>\r\n            </li>            \r\n          </ul>\r\n        </li>\r\n      </ul>\r\n    </li> -->\r\n    <!-- <li class=\"dropdown\">\r\n      <NuxtLink to=\"#\">Service</NuxtLink>\r\n      <ul>\r\n        <li>\r\n          <NuxtLink to=\"/page-service\">Service grid</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/page-service-details\">Service Details</NuxtLink>\r\n        </li>\r\n      </ul>\r\n    </li>\r\n    <li class=\"dropdown\">\r\n      <NuxtLink to=\"#\">Project</NuxtLink>\r\n      <ul>\r\n        <li>\r\n          <NuxtLink to=\"/page-projects\">Project grid</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/page-project-details\">Project Details</NuxtLink>\r\n        </li>\r\n      </ul>\r\n    </li>\r\n    <li class=\"dropdown\">\r\n      <NuxtLink to=\"#\">News</NuxtLink>\r\n      <ul>\r\n        <li>\r\n          <NuxtLink to=\"/news-grid\">News Grid</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/news-details\">News Details</NuxtLink>\r\n        </li>\r\n      </ul>\r\n    </li> -->\r\n    <li>\r\n      <NuxtLink to=\"/en/contact\">Contact</NuxtLink>\r\n    </li>\r\n\r\n    <li class=\"dropdown\">\r\n      <NuxtLink to=\"/en\"><img src=\"/public/images/resource/pricing-1.png\" width=\"25\" /></NuxtLink>\r\n      <ul>\r\n        <li>\r\n          <NuxtLink to=\"/\">Swedish</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/en\">English</NuxtLink>\r\n        </li>\r\n      </ul>\r\n    </li>\r\n  </ul>\r\n</template>",
-      "start": 1721717538152,
-      "end": 1721717540637,
+      "start": 1722340239533,
+      "end": 1722340239633,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717540637,
-      "end": 1721717540637,
+      "start": 1722340239633,
+      "end": 1722340239633,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/public/images/resource/pricing-1.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<ul${_ssrRenderAttrs(_mergeProps({ class: \"navigation\" }, _attrs))}><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Home`)\n      } else {\n        return [\n          _createTextVNode(\"Home\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/about\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`About`)\n      } else {\n        return [\n          _createTextVNode(\"About\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/team\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Team`)\n      } else {\n        return [\n          _createTextVNode(\"Team\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/services\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Services`)\n      } else {\n        return [\n          _createTextVNode(\"Services\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/projects\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Projects`)\n      } else {\n        return [\n          _createTextVNode(\"Projects\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/news\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`News`)\n      } else {\n        return [\n          _createTextVNode(\"News\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/contact\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Contact`)\n      } else {\n        return [\n          _createTextVNode(\"Contact\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"dropdown\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } width=\"25\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            width: \"25\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<ul><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Swedish`)\n      } else {\n        return [\n          _createTextVNode(\"Swedish\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`English`)\n      } else {\n        return [\n          _createTextVNode(\"English\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></li></ul>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/layout/Menu.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1721717540637,
-      "end": 1721717540639,
+      "start": 1722340239633,
+      "end": 1722340239636,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239636,
+      "end": 1722340239636,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239636,
+      "end": 1722340239636,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239636,
+      "end": 1722340239636,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239636,
+      "end": 1722340239636,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239636,
+      "end": 1722340239636,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239636,
+      "end": 1722340239636,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717540639,
-      "end": 1721717540639,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717540639,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717540640,
-      "end": 1721717540640,
+      "start": 1722340239637,
+      "end": 1722340239637,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717540640,
-      "end": 1721717540641,
+      "start": 1722340239637,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717540640,
-      "end": 1721717540641,
+      "start": 1722340239637,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239640,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239640,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239640,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239640,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239640,
+      "end": 1722340239640,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/public/images/resource/pricing-1.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<ul${_ssrRenderAttrs(_mergeProps({ class: \"navigation\" }, _attrs))}><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Home`)\n      } else {\n        return [\n          _createTextVNode(\"Home\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/about\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`About`)\n      } else {\n        return [\n          _createTextVNode(\"About\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/team\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Team`)\n      } else {\n        return [\n          _createTextVNode(\"Team\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/services\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Services`)\n      } else {\n        return [\n          _createTextVNode(\"Services\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/projects\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Projects`)\n      } else {\n        return [\n          _createTextVNode(\"Projects\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/news\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`News`)\n      } else {\n        return [\n          _createTextVNode(\"News\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/contact\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Contact`)\n      } else {\n        return [\n          _createTextVNode(\"Contact\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"dropdown\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } width=\"25\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            width: \"25\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<ul><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Swedish`)\n      } else {\n        return [\n          _createTextVNode(\"Swedish\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`English`)\n      } else {\n        return [\n          _createTextVNode(\"English\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></li></ul>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/layout/Menu.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239640,
+      "end": 1722340239641,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717540641,
-      "end": 1721717540641,
+      "start": 1722340239641,
+      "end": 1722340239641,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717540641,
-      "end": 1721717540642,
+      "start": 1722340239641,
+      "end": 1722340239642,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717540642,
-      "end": 1721717540642,
+      "start": 1722340239642,
+      "end": 1722340239642,
       "order": "normal"
     }
   ]

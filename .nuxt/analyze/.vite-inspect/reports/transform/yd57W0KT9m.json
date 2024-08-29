@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<section class=\"projects-section p-7\">\r\n\t\t<div class=\"auto-container\">\r\n\t\t\t<div class=\"sec-title text-center\">\r\n\t\t\t\t<span class=\"sub-title\">VÅR PORTFÖLJ</span>\r\n\t\t\t\t<h2>Utforska våra nyligen <br>avslutade projekt</h2>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"outer-box\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t\t<div class=\"project-block col-lg-3 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"http://speedyphonefix.net\" target=\"_blank\"><img src=\"/images/resource/project-1.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"http://speedyphonefix.net\" target=\"_blank\" class=\"icon\"><i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<span class=\"cat\">Utveckling</span>\r\n\t\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"http://speedyphonefix.net\" target=\"_blank\" title=\"\">Speedy Phone Fix</NuxtLink></h4>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t\t<div class=\"project-block col-lg-3 col-md-6 wow fadeInUp\" data-wow-delay=\"300ms\">\r\n\t\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"https://l-television.com/LTV/\" target=\"_blank\"><img src=\"/images/resource/project-2.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"https://l-television.com/LTV/\" target=\"_blank\" class=\"icon\"><i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<span class=\"cat\">Utveckling</span>\r\n\t\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"https://l-television.com/LTV/\" target=\"_blank\" title=\"\">LTV Web Site</NuxtLink></h4>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t\t<div class=\"project-block col-lg-3 col-md-6 wow fadeInUp\" data-wow-delay=\"600ms\">\r\n\t\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"https://hefty.ae/\" target=\"_blank\"><img src=\"/images/resource/project-3.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"https://hefty.ae/\" target=\"_blank\" class=\"icon\"><i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<span class=\"cat\">Utveckling</span>\r\n\t\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"https://hefty.ae/\" target=\"_blank\" title=\"\">Hefty.ae</NuxtLink></h4>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t\t<div class=\"project-block col-lg-3 col-md-6 wow fadeInUp\" data-wow-delay=\"900ms\">\r\n\t\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"http://iaenggroup.com/\" target=\"_blank\"><img src=\"/images/resource/project-4.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"http://iaenggroup.com/\" target=\"_blank\" class=\"icon\"><i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<span class=\"cat\">Utveckling</span>\r\n\t\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"http://iaenggroup.com/\" target=\"_blank\" title=\"\">IA Engineering Group</NuxtLink></h4>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n</template>",
-      "start": 1721717529733,
-      "end": 1721717529876,
+      "start": 1722340225763,
+      "end": 1722340225986,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225986,
+      "end": 1722340225986,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225986,
+      "end": 1722340225987,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225987,
+      "end": 1722340225987,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225987,
+      "end": 1722340225987,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225987,
+      "end": 1722340225987,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225987,
+      "end": 1722340225987,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529876,
-      "end": 1721717529876,
+      "start": 1722340225987,
+      "end": 1722340225987,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/project-1.jpg'\nimport _imports_1 from '/images/resource/project-2.jpg'\nimport _imports_2 from '/images/resource/project-3.jpg'\nimport _imports_3 from '/images/resource/project-4.jpg'\n\n\nconst _hoisted_1 = { class: \"projects-section p-7\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"VÅR PORTFÖLJ\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, [\n    /*#__PURE__*/_createTextVNode(\"Utforska våra nyligen \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"avslutade projekt\")\n  ])\n], -1)\nconst _hoisted_4 = { class: \"outer-box\" }\nconst _hoisted_5 = { class: \"row\" }\nconst _hoisted_6 = { class: \"project-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_7 = { class: \"inner-box\" }\nconst _hoisted_8 = { class: \"image-box\" }\nconst _hoisted_9 = { class: \"image\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_11 = { class: \"content-box\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_14 = { class: \"title\" }\nconst _hoisted_15 = {\n  class: \"project-block col-lg-3 col-md-6 wow fadeInUp\",\n  \"data-wow-delay\": \"300ms\"\n}\nconst _hoisted_16 = { class: \"inner-box\" }\nconst _hoisted_17 = { class: \"image-box\" }\nconst _hoisted_18 = { class: \"image\" }\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_20 = { class: \"content-box\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_22 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_23 = { class: \"title\" }\nconst _hoisted_24 = {\n  class: \"project-block col-lg-3 col-md-6 wow fadeInUp\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_25 = { class: \"inner-box\" }\nconst _hoisted_26 = { class: \"image-box\" }\nconst _hoisted_27 = { class: \"image\" }\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_29 = { class: \"content-box\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_32 = { class: \"title\" }\nconst _hoisted_33 = {\n  class: \"project-block col-lg-3 col-md-6 wow fadeInUp\",\n  \"data-wow-delay\": \"900ms\"\n}\nconst _hoisted_34 = { class: \"inner-box\" }\nconst _hoisted_35 = { class: \"image-box\" }\nconst _hoisted_36 = { class: \"image\" }\nconst _hoisted_37 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_3,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_38 = { class: \"content-box\" }\nconst _hoisted_39 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_40 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_41 = { class: \"title\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"div\", _hoisted_8, [\n                _createElementVNode(\"figure\", _hoisted_9, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://speedyphonefix.net\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_10\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_11, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"http://speedyphonefix.net\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_12\n                  ]),\n                  _: 1\n                }),\n                _hoisted_13,\n                _createElementVNode(\"h4\", _hoisted_14, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://speedyphonefix.net\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"Speedy Phone Fix\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_15, [\n            _createElementVNode(\"div\", _hoisted_16, [\n              _createElementVNode(\"div\", _hoisted_17, [\n                _createElementVNode(\"figure\", _hoisted_18, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://l-television.com/LTV/\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_19\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_20, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"https://l-television.com/LTV/\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_21\n                  ]),\n                  _: 1\n                }),\n                _hoisted_22,\n                _createElementVNode(\"h4\", _hoisted_23, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://l-television.com/LTV/\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"LTV Web Site\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_24, [\n            _createElementVNode(\"div\", _hoisted_25, [\n              _createElementVNode(\"div\", _hoisted_26, [\n                _createElementVNode(\"figure\", _hoisted_27, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://hefty.ae/\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_28\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_29, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"https://hefty.ae/\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_30\n                  ]),\n                  _: 1\n                }),\n                _hoisted_31,\n                _createElementVNode(\"h4\", _hoisted_32, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://hefty.ae/\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"Hefty.ae\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_33, [\n            _createElementVNode(\"div\", _hoisted_34, [\n              _createElementVNode(\"div\", _hoisted_35, [\n                _createElementVNode(\"figure\", _hoisted_36, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://iaenggroup.com/\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_37\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_38, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"http://iaenggroup.com/\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_39\n                  ]),\n                  _: 1\n                }),\n                _hoisted_40,\n                _createElementVNode(\"h4\", _hoisted_41, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://iaenggroup.com/\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"IA Engineering Group\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529876,
-      "end": 1721717529878,
+      "start": 1722340225987,
+      "end": 1722340225989,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225989,
+      "end": 1722340225989,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225989,
+      "end": 1722340225989,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225989,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529878,
-      "end": 1721717529878,
+      "start": 1722340225990,
+      "end": 1722340225990,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717529878,
-      "end": 1721717529879,
+      "start": 1722340225990,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529879,
-      "end": 1721717529879,
+      "start": 1722340225993,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529879,
-      "end": 1721717529879,
+      "start": 1722340225993,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529879,
-      "end": 1721717529879,
+      "start": 1722340225993,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529879,
-      "end": 1721717529879,
+      "start": 1722340225993,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/project-1.jpg'\nimport _imports_1 from '/images/resource/project-2.jpg'\nimport _imports_2 from '/images/resource/project-3.jpg'\nimport _imports_3 from '/images/resource/project-4.jpg'\n\n\nconst _hoisted_1 = { class: \"projects-section p-7\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"VÅR PORTFÖLJ\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, [\n    /*#__PURE__*/_createTextVNode(\"Utforska våra nyligen \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"avslutade projekt\")\n  ])\n], -1)\nconst _hoisted_4 = { class: \"outer-box\" }\nconst _hoisted_5 = { class: \"row\" }\nconst _hoisted_6 = { class: \"project-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_7 = { class: \"inner-box\" }\nconst _hoisted_8 = { class: \"image-box\" }\nconst _hoisted_9 = { class: \"image\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_11 = { class: \"content-box\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_14 = { class: \"title\" }\nconst _hoisted_15 = {\n  class: \"project-block col-lg-3 col-md-6 wow fadeInUp\",\n  \"data-wow-delay\": \"300ms\"\n}\nconst _hoisted_16 = { class: \"inner-box\" }\nconst _hoisted_17 = { class: \"image-box\" }\nconst _hoisted_18 = { class: \"image\" }\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_20 = { class: \"content-box\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_22 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_23 = { class: \"title\" }\nconst _hoisted_24 = {\n  class: \"project-block col-lg-3 col-md-6 wow fadeInUp\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_25 = { class: \"inner-box\" }\nconst _hoisted_26 = { class: \"image-box\" }\nconst _hoisted_27 = { class: \"image\" }\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_29 = { class: \"content-box\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_32 = { class: \"title\" }\nconst _hoisted_33 = {\n  class: \"project-block col-lg-3 col-md-6 wow fadeInUp\",\n  \"data-wow-delay\": \"900ms\"\n}\nconst _hoisted_34 = { class: \"inner-box\" }\nconst _hoisted_35 = { class: \"image-box\" }\nconst _hoisted_36 = { class: \"image\" }\nconst _hoisted_37 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_3,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_38 = { class: \"content-box\" }\nconst _hoisted_39 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" }, null, -1)\nconst _hoisted_40 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"cat\" }, \"Utveckling\", -1)\nconst _hoisted_41 = { class: \"title\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"div\", _hoisted_8, [\n                _createElementVNode(\"figure\", _hoisted_9, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://speedyphonefix.net\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_10\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_11, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"http://speedyphonefix.net\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_12\n                  ]),\n                  _: 1\n                }),\n                _hoisted_13,\n                _createElementVNode(\"h4\", _hoisted_14, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://speedyphonefix.net\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"Speedy Phone Fix\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_15, [\n            _createElementVNode(\"div\", _hoisted_16, [\n              _createElementVNode(\"div\", _hoisted_17, [\n                _createElementVNode(\"figure\", _hoisted_18, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://l-television.com/LTV/\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_19\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_20, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"https://l-television.com/LTV/\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_21\n                  ]),\n                  _: 1\n                }),\n                _hoisted_22,\n                _createElementVNode(\"h4\", _hoisted_23, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://l-television.com/LTV/\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"LTV Web Site\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_24, [\n            _createElementVNode(\"div\", _hoisted_25, [\n              _createElementVNode(\"div\", _hoisted_26, [\n                _createElementVNode(\"figure\", _hoisted_27, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://hefty.ae/\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_28\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_29, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"https://hefty.ae/\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_30\n                  ]),\n                  _: 1\n                }),\n                _hoisted_31,\n                _createElementVNode(\"h4\", _hoisted_32, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"https://hefty.ae/\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"Hefty.ae\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ]),\n          _createElementVNode(\"div\", _hoisted_33, [\n            _createElementVNode(\"div\", _hoisted_34, [\n              _createElementVNode(\"div\", _hoisted_35, [\n                _createElementVNode(\"figure\", _hoisted_36, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://iaenggroup.com/\",\n                    target: \"_blank\"\n                  }, {\n                    default: _withCtx(() => [\n                      _hoisted_37\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_38, [\n                _createVNode(_component_NuxtLink, {\n                  to: \"http://iaenggroup.com/\",\n                  target: \"_blank\",\n                  class: \"icon\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_39\n                  ]),\n                  _: 1\n                }),\n                _hoisted_40,\n                _createElementVNode(\"h4\", _hoisted_41, [\n                  _createVNode(_component_NuxtLink, {\n                    to: \"http://iaenggroup.com/\",\n                    target: \"_blank\",\n                    title: \"\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"IA Engineering Group\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529879,
-      "end": 1721717529880,
+      "start": 1722340225993,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529880,
-      "end": 1721717529880,
+      "start": 1722340225993,
+      "end": 1722340225993,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529880,
-      "end": 1721717529880,
+      "start": 1722340225994,
+      "end": 1722340225994,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529880,
-      "end": 1721717529880,
+      "start": 1722340225994,
+      "end": 1722340225994,
       "order": "normal"
     }
   ]

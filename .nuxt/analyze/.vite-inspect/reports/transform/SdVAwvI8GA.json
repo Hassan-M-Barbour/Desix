@@ -4,208 +4,208 @@
     {
       "name": "virtual",
       "result": "import { default as aboutB0TTjLavT3Meta } from \"C:/projects/desix/pages/about.vue?macro=true\";\nimport { default as contactkEENh4tVTOMeta } from \"C:/projects/desix/pages/contact.vue?macro=true\";\nimport { default as content_45strategy_45examplesDvKMYZ2ssgMeta } from \"C:/projects/desix/pages/content-strategy-examples.vue?macro=true\";\nimport { default as abouthkCKlAJ9xoMeta } from \"C:/projects/desix/pages/en/about.vue?macro=true\";\nimport { default as contactYN164AfMdUMeta } from \"C:/projects/desix/pages/en/contact.vue?macro=true\";\nimport { default as content_45strategy_45examplesBKaG20box7Meta } from \"C:/projects/desix/pages/en/content-strategy-examples.vue?macro=true\";\nimport { default as graphic_45design4JwA5r4t7cMeta } from \"C:/projects/desix/pages/en/graphic-design.vue?macro=true\";\nimport { default as indexy4dHwAqAdNMeta } from \"C:/projects/desix/pages/en/index.vue?macro=true\";\nimport { default as mobile_45apps_45developmentr3Q1X7hob3Meta } from \"C:/projects/desix/pages/en/mobile-apps-development.vue?macro=true\";\nimport { default as news_45detailsCtLKeDwAHyMeta } from \"C:/projects/desix/pages/en/news-details.vue?macro=true\";\nimport { default as newsV0uE7RyCezMeta } from \"C:/projects/desix/pages/en/news.vue?macro=true\";\nimport { default as page_45project_45detailspzH0S9TpxjMeta } from \"C:/projects/desix/pages/en/page-project-details.vue?macro=true\";\nimport { default as page_45service_45detailsVWHfeR6Oy0Meta } from \"C:/projects/desix/pages/en/page-service-details.vue?macro=true\";\nimport { default as page_45team_45detailsIfGpTZMrkQMeta } from \"C:/projects/desix/pages/en/page-team-details.vue?macro=true\";\nimport { default as projectskkInLD5HKJMeta } from \"C:/projects/desix/pages/en/projects.vue?macro=true\";\nimport { default as servicesMgcCGmXqD2Meta } from \"C:/projects/desix/pages/en/services.vue?macro=true\";\nimport { default as team4iPnNdM5AFMeta } from \"C:/projects/desix/pages/en/team.vue?macro=true\";\nimport { default as ui_45ux_45designwV69bvNl8tMeta } from \"C:/projects/desix/pages/en/ui-ux-design.vue?macro=true\";\nimport { default as website_45developmentKnolFftSfPMeta } from \"C:/projects/desix/pages/en/website-development.vue?macro=true\";\nimport { default as what_45are_45keywordsfYrrVs23gTMeta } from \"C:/projects/desix/pages/en/what-are-keywords.vue?macro=true\";\nimport { default as what_45is_45google_45gemini_45aihk2bqwcdXdMeta } from \"C:/projects/desix/pages/en/what-is-google-gemini-ai.vue?macro=true\";\nimport { default as graphic_45design2vtr7IlxjeMeta } from \"C:/projects/desix/pages/graphic-design.vue?macro=true\";\nimport { default as index2a8gdlyTKHMeta } from \"C:/projects/desix/pages/index.vue?macro=true\";\nimport { default as mobile_45apps_45developmentHhvA3dZdh4Meta } from \"C:/projects/desix/pages/mobile-apps-development.vue?macro=true\";\nimport { default as news_45detailsIj2K2qT71aMeta } from \"C:/projects/desix/pages/news-details.vue?macro=true\";\nimport { default as newsPLZGBcpsXCMeta } from \"C:/projects/desix/pages/news.vue?macro=true\";\nimport { default as page_45project_45detailss1kTSVOqBKMeta } from \"C:/projects/desix/pages/page-project-details.vue?macro=true\";\nimport { default as page_45service_45details1Bm9VPeEgYMeta } from \"C:/projects/desix/pages/page-service-details.vue?macro=true\";\nimport { default as page_45team_45detailsVvO5PoWKnIMeta } from \"C:/projects/desix/pages/page-team-details.vue?macro=true\";\nimport { default as projectskN4XzWRE7NMeta } from \"C:/projects/desix/pages/projects.vue?macro=true\";\nimport { default as servicesVlnruD36tBMeta } from \"C:/projects/desix/pages/services.vue?macro=true\";\nimport { default as teamAesRFtFFcBMeta } from \"C:/projects/desix/pages/team.vue?macro=true\";\nimport { default as ui_45ux_45designxVhRBJlUsOMeta } from \"C:/projects/desix/pages/ui-ux-design.vue?macro=true\";\nimport { default as website_45developmentUM1q3lNUdPMeta } from \"C:/projects/desix/pages/website-development.vue?macro=true\";\nimport { default as what_45are_45keywordsJqTklvzX7MMeta } from \"C:/projects/desix/pages/what-are-keywords.vue?macro=true\";\nimport { default as what_45is_45google_45gemini_45aiH0nO95umjCMeta } from \"C:/projects/desix/pages/what-is-google-gemini-ai.vue?macro=true\";\nexport default [\n  {\n    name: aboutB0TTjLavT3Meta?.name ?? \"about\",\n    path: aboutB0TTjLavT3Meta?.path ?? \"/about\",\n    meta: aboutB0TTjLavT3Meta || {},\n    alias: aboutB0TTjLavT3Meta?.alias || [],\n    redirect: aboutB0TTjLavT3Meta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: contactkEENh4tVTOMeta?.name ?? \"contact\",\n    path: contactkEENh4tVTOMeta?.path ?? \"/contact\",\n    meta: contactkEENh4tVTOMeta || {},\n    alias: contactkEENh4tVTOMeta?.alias || [],\n    redirect: contactkEENh4tVTOMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/contact.vue\").then(m => m.default || m)\n  },\n  {\n    name: content_45strategy_45examplesDvKMYZ2ssgMeta?.name ?? \"content-strategy-examples\",\n    path: content_45strategy_45examplesDvKMYZ2ssgMeta?.path ?? \"/content-strategy-examples\",\n    meta: content_45strategy_45examplesDvKMYZ2ssgMeta || {},\n    alias: content_45strategy_45examplesDvKMYZ2ssgMeta?.alias || [],\n    redirect: content_45strategy_45examplesDvKMYZ2ssgMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/content-strategy-examples.vue\").then(m => m.default || m)\n  },\n  {\n    name: abouthkCKlAJ9xoMeta?.name ?? \"en-about\",\n    path: abouthkCKlAJ9xoMeta?.path ?? \"/en/about\",\n    meta: abouthkCKlAJ9xoMeta || {},\n    alias: abouthkCKlAJ9xoMeta?.alias || [],\n    redirect: abouthkCKlAJ9xoMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: contactYN164AfMdUMeta?.name ?? \"en-contact\",\n    path: contactYN164AfMdUMeta?.path ?? \"/en/contact\",\n    meta: contactYN164AfMdUMeta || {},\n    alias: contactYN164AfMdUMeta?.alias || [],\n    redirect: contactYN164AfMdUMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/contact.vue\").then(m => m.default || m)\n  },\n  {\n    name: content_45strategy_45examplesBKaG20box7Meta?.name ?? \"en-content-strategy-examples\",\n    path: content_45strategy_45examplesBKaG20box7Meta?.path ?? \"/en/content-strategy-examples\",\n    meta: content_45strategy_45examplesBKaG20box7Meta || {},\n    alias: content_45strategy_45examplesBKaG20box7Meta?.alias || [],\n    redirect: content_45strategy_45examplesBKaG20box7Meta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/content-strategy-examples.vue\").then(m => m.default || m)\n  },\n  {\n    name: graphic_45design4JwA5r4t7cMeta?.name ?? \"en-graphic-design\",\n    path: graphic_45design4JwA5r4t7cMeta?.path ?? \"/en/graphic-design\",\n    meta: graphic_45design4JwA5r4t7cMeta || {},\n    alias: graphic_45design4JwA5r4t7cMeta?.alias || [],\n    redirect: graphic_45design4JwA5r4t7cMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/graphic-design.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexy4dHwAqAdNMeta?.name ?? \"en\",\n    path: indexy4dHwAqAdNMeta?.path ?? \"/en\",\n    meta: indexy4dHwAqAdNMeta || {},\n    alias: indexy4dHwAqAdNMeta?.alias || [],\n    redirect: indexy4dHwAqAdNMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: mobile_45apps_45developmentr3Q1X7hob3Meta?.name ?? \"en-mobile-apps-development\",\n    path: mobile_45apps_45developmentr3Q1X7hob3Meta?.path ?? \"/en/mobile-apps-development\",\n    meta: mobile_45apps_45developmentr3Q1X7hob3Meta || {},\n    alias: mobile_45apps_45developmentr3Q1X7hob3Meta?.alias || [],\n    redirect: mobile_45apps_45developmentr3Q1X7hob3Meta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/mobile-apps-development.vue\").then(m => m.default || m)\n  },\n  {\n    name: news_45detailsCtLKeDwAHyMeta?.name ?? \"en-news-details\",\n    path: news_45detailsCtLKeDwAHyMeta?.path ?? \"/en/news-details\",\n    meta: news_45detailsCtLKeDwAHyMeta || {},\n    alias: news_45detailsCtLKeDwAHyMeta?.alias || [],\n    redirect: news_45detailsCtLKeDwAHyMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/news-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: newsV0uE7RyCezMeta?.name ?? \"en-news\",\n    path: newsV0uE7RyCezMeta?.path ?? \"/en/news\",\n    meta: newsV0uE7RyCezMeta || {},\n    alias: newsV0uE7RyCezMeta?.alias || [],\n    redirect: newsV0uE7RyCezMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/news.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45project_45detailspzH0S9TpxjMeta?.name ?? \"en-page-project-details\",\n    path: page_45project_45detailspzH0S9TpxjMeta?.path ?? \"/en/page-project-details\",\n    meta: page_45project_45detailspzH0S9TpxjMeta || {},\n    alias: page_45project_45detailspzH0S9TpxjMeta?.alias || [],\n    redirect: page_45project_45detailspzH0S9TpxjMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/page-project-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45service_45detailsVWHfeR6Oy0Meta?.name ?? \"en-page-service-details\",\n    path: page_45service_45detailsVWHfeR6Oy0Meta?.path ?? \"/en/page-service-details\",\n    meta: page_45service_45detailsVWHfeR6Oy0Meta || {},\n    alias: page_45service_45detailsVWHfeR6Oy0Meta?.alias || [],\n    redirect: page_45service_45detailsVWHfeR6Oy0Meta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/page-service-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45team_45detailsIfGpTZMrkQMeta?.name ?? \"en-page-team-details\",\n    path: page_45team_45detailsIfGpTZMrkQMeta?.path ?? \"/en/page-team-details\",\n    meta: page_45team_45detailsIfGpTZMrkQMeta || {},\n    alias: page_45team_45detailsIfGpTZMrkQMeta?.alias || [],\n    redirect: page_45team_45detailsIfGpTZMrkQMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/page-team-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: projectskkInLD5HKJMeta?.name ?? \"en-projects\",\n    path: projectskkInLD5HKJMeta?.path ?? \"/en/projects\",\n    meta: projectskkInLD5HKJMeta || {},\n    alias: projectskkInLD5HKJMeta?.alias || [],\n    redirect: projectskkInLD5HKJMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/projects.vue\").then(m => m.default || m)\n  },\n  {\n    name: servicesMgcCGmXqD2Meta?.name ?? \"en-services\",\n    path: servicesMgcCGmXqD2Meta?.path ?? \"/en/services\",\n    meta: servicesMgcCGmXqD2Meta || {},\n    alias: servicesMgcCGmXqD2Meta?.alias || [],\n    redirect: servicesMgcCGmXqD2Meta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/services.vue\").then(m => m.default || m)\n  },\n  {\n    name: team4iPnNdM5AFMeta?.name ?? \"en-team\",\n    path: team4iPnNdM5AFMeta?.path ?? \"/en/team\",\n    meta: team4iPnNdM5AFMeta || {},\n    alias: team4iPnNdM5AFMeta?.alias || [],\n    redirect: team4iPnNdM5AFMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/team.vue\").then(m => m.default || m)\n  },\n  {\n    name: ui_45ux_45designwV69bvNl8tMeta?.name ?? \"en-ui-ux-design\",\n    path: ui_45ux_45designwV69bvNl8tMeta?.path ?? \"/en/ui-ux-design\",\n    meta: ui_45ux_45designwV69bvNl8tMeta || {},\n    alias: ui_45ux_45designwV69bvNl8tMeta?.alias || [],\n    redirect: ui_45ux_45designwV69bvNl8tMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/ui-ux-design.vue\").then(m => m.default || m)\n  },\n  {\n    name: website_45developmentKnolFftSfPMeta?.name ?? \"en-website-development\",\n    path: website_45developmentKnolFftSfPMeta?.path ?? \"/en/website-development\",\n    meta: website_45developmentKnolFftSfPMeta || {},\n    alias: website_45developmentKnolFftSfPMeta?.alias || [],\n    redirect: website_45developmentKnolFftSfPMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/website-development.vue\").then(m => m.default || m)\n  },\n  {\n    name: what_45are_45keywordsfYrrVs23gTMeta?.name ?? \"en-what-are-keywords\",\n    path: what_45are_45keywordsfYrrVs23gTMeta?.path ?? \"/en/what-are-keywords\",\n    meta: what_45are_45keywordsfYrrVs23gTMeta || {},\n    alias: what_45are_45keywordsfYrrVs23gTMeta?.alias || [],\n    redirect: what_45are_45keywordsfYrrVs23gTMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/what-are-keywords.vue\").then(m => m.default || m)\n  },\n  {\n    name: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.name ?? \"en-what-is-google-gemini-ai\",\n    path: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.path ?? \"/en/what-is-google-gemini-ai\",\n    meta: what_45is_45google_45gemini_45aihk2bqwcdXdMeta || {},\n    alias: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.alias || [],\n    redirect: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/en/what-is-google-gemini-ai.vue\").then(m => m.default || m)\n  },\n  {\n    name: graphic_45design2vtr7IlxjeMeta?.name ?? \"graphic-design\",\n    path: graphic_45design2vtr7IlxjeMeta?.path ?? \"/graphic-design\",\n    meta: graphic_45design2vtr7IlxjeMeta || {},\n    alias: graphic_45design2vtr7IlxjeMeta?.alias || [],\n    redirect: graphic_45design2vtr7IlxjeMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/graphic-design.vue\").then(m => m.default || m)\n  },\n  {\n    name: index2a8gdlyTKHMeta?.name ?? \"index\",\n    path: index2a8gdlyTKHMeta?.path ?? \"/\",\n    meta: index2a8gdlyTKHMeta || {},\n    alias: index2a8gdlyTKHMeta?.alias || [],\n    redirect: index2a8gdlyTKHMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: mobile_45apps_45developmentHhvA3dZdh4Meta?.name ?? \"mobile-apps-development\",\n    path: mobile_45apps_45developmentHhvA3dZdh4Meta?.path ?? \"/mobile-apps-development\",\n    meta: mobile_45apps_45developmentHhvA3dZdh4Meta || {},\n    alias: mobile_45apps_45developmentHhvA3dZdh4Meta?.alias || [],\n    redirect: mobile_45apps_45developmentHhvA3dZdh4Meta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/mobile-apps-development.vue\").then(m => m.default || m)\n  },\n  {\n    name: news_45detailsIj2K2qT71aMeta?.name ?? \"news-details\",\n    path: news_45detailsIj2K2qT71aMeta?.path ?? \"/news-details\",\n    meta: news_45detailsIj2K2qT71aMeta || {},\n    alias: news_45detailsIj2K2qT71aMeta?.alias || [],\n    redirect: news_45detailsIj2K2qT71aMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/news-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: newsPLZGBcpsXCMeta?.name ?? \"news\",\n    path: newsPLZGBcpsXCMeta?.path ?? \"/news\",\n    meta: newsPLZGBcpsXCMeta || {},\n    alias: newsPLZGBcpsXCMeta?.alias || [],\n    redirect: newsPLZGBcpsXCMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/news.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45project_45detailss1kTSVOqBKMeta?.name ?? \"page-project-details\",\n    path: page_45project_45detailss1kTSVOqBKMeta?.path ?? \"/page-project-details\",\n    meta: page_45project_45detailss1kTSVOqBKMeta || {},\n    alias: page_45project_45detailss1kTSVOqBKMeta?.alias || [],\n    redirect: page_45project_45detailss1kTSVOqBKMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/page-project-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45service_45details1Bm9VPeEgYMeta?.name ?? \"page-service-details\",\n    path: page_45service_45details1Bm9VPeEgYMeta?.path ?? \"/page-service-details\",\n    meta: page_45service_45details1Bm9VPeEgYMeta || {},\n    alias: page_45service_45details1Bm9VPeEgYMeta?.alias || [],\n    redirect: page_45service_45details1Bm9VPeEgYMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/page-service-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45team_45detailsVvO5PoWKnIMeta?.name ?? \"page-team-details\",\n    path: page_45team_45detailsVvO5PoWKnIMeta?.path ?? \"/page-team-details\",\n    meta: page_45team_45detailsVvO5PoWKnIMeta || {},\n    alias: page_45team_45detailsVvO5PoWKnIMeta?.alias || [],\n    redirect: page_45team_45detailsVvO5PoWKnIMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/page-team-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: projectskN4XzWRE7NMeta?.name ?? \"projects\",\n    path: projectskN4XzWRE7NMeta?.path ?? \"/projects\",\n    meta: projectskN4XzWRE7NMeta || {},\n    alias: projectskN4XzWRE7NMeta?.alias || [],\n    redirect: projectskN4XzWRE7NMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/projects.vue\").then(m => m.default || m)\n  },\n  {\n    name: servicesVlnruD36tBMeta?.name ?? \"services\",\n    path: servicesVlnruD36tBMeta?.path ?? \"/services\",\n    meta: servicesVlnruD36tBMeta || {},\n    alias: servicesVlnruD36tBMeta?.alias || [],\n    redirect: servicesVlnruD36tBMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/services.vue\").then(m => m.default || m)\n  },\n  {\n    name: teamAesRFtFFcBMeta?.name ?? \"team\",\n    path: teamAesRFtFFcBMeta?.path ?? \"/team\",\n    meta: teamAesRFtFFcBMeta || {},\n    alias: teamAesRFtFFcBMeta?.alias || [],\n    redirect: teamAesRFtFFcBMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/team.vue\").then(m => m.default || m)\n  },\n  {\n    name: ui_45ux_45designxVhRBJlUsOMeta?.name ?? \"ui-ux-design\",\n    path: ui_45ux_45designxVhRBJlUsOMeta?.path ?? \"/ui-ux-design\",\n    meta: ui_45ux_45designxVhRBJlUsOMeta || {},\n    alias: ui_45ux_45designxVhRBJlUsOMeta?.alias || [],\n    redirect: ui_45ux_45designxVhRBJlUsOMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/ui-ux-design.vue\").then(m => m.default || m)\n  },\n  {\n    name: website_45developmentUM1q3lNUdPMeta?.name ?? \"website-development\",\n    path: website_45developmentUM1q3lNUdPMeta?.path ?? \"/website-development\",\n    meta: website_45developmentUM1q3lNUdPMeta || {},\n    alias: website_45developmentUM1q3lNUdPMeta?.alias || [],\n    redirect: website_45developmentUM1q3lNUdPMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/website-development.vue\").then(m => m.default || m)\n  },\n  {\n    name: what_45are_45keywordsJqTklvzX7MMeta?.name ?? \"what-are-keywords\",\n    path: what_45are_45keywordsJqTklvzX7MMeta?.path ?? \"/what-are-keywords\",\n    meta: what_45are_45keywordsJqTklvzX7MMeta || {},\n    alias: what_45are_45keywordsJqTklvzX7MMeta?.alias || [],\n    redirect: what_45are_45keywordsJqTklvzX7MMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/what-are-keywords.vue\").then(m => m.default || m)\n  },\n  {\n    name: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.name ?? \"what-is-google-gemini-ai\",\n    path: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.path ?? \"/what-is-google-gemini-ai\",\n    meta: what_45is_45google_45gemini_45aiH0nO95umjCMeta || {},\n    alias: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.alias || [],\n    redirect: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.redirect,\n    component: () => import(\"C:/projects/desix/pages/what-is-google-gemini-ai.vue\").then(m => m.default || m)\n  }\n]",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222102,
+      "end": 1722340222102,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717527532,
-      "end": 1721717527532,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717527532,
-      "end": 1721717527533,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222103,
+      "end": 1722340222103,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717527533,
-      "end": 1721717527533,
+      "start": 1722340222104,
+      "end": 1722340222104,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717527533,
-      "end": 1721717527535,
+      "start": 1722340222104,
+      "end": 1722340222105,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717527535,
-      "end": 1721717527535,
+      "start": 1722340222105,
+      "end": 1722340222105,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717527535,
-      "end": 1721717527535,
+      "start": 1722340222106,
+      "end": 1722340222106,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717527535,
-      "end": 1721717527542,
+      "start": 1722340222106,
+      "end": 1722340222121,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717527542,
-      "end": 1721717527542,
+      "start": 1722340222122,
+      "end": 1722340222122,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717527542,
-      "end": 1721717527542,
+      "start": 1722340222122,
+      "end": 1722340222122,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717527542,
-      "end": 1721717527543,
+      "start": 1722340222122,
+      "end": 1722340222122,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717527543,
-      "end": 1721717527543,
+      "start": 1722340222122,
+      "end": 1722340222122,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1721717527543,
-      "end": 1721717527543,
+      "start": 1722340222122,
+      "end": 1722340222122,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717527543,
-      "end": 1721717527543,
+      "start": 1722340222122,
+      "end": 1722340222122,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as aboutB0TTjLavT3Meta } from \"C:/projects/desix/pages/about.vue?macro=true\";\nimport { default as contactkEENh4tVTOMeta } from \"C:/projects/desix/pages/contact.vue?macro=true\";\nimport { default as content_45strategy_45examplesDvKMYZ2ssgMeta } from \"C:/projects/desix/pages/content-strategy-examples.vue?macro=true\";\nimport { default as abouthkCKlAJ9xoMeta } from \"C:/projects/desix/pages/en/about.vue?macro=true\";\nimport { default as contactYN164AfMdUMeta } from \"C:/projects/desix/pages/en/contact.vue?macro=true\";\nimport { default as content_45strategy_45examplesBKaG20box7Meta } from \"C:/projects/desix/pages/en/content-strategy-examples.vue?macro=true\";\nimport { default as graphic_45design4JwA5r4t7cMeta } from \"C:/projects/desix/pages/en/graphic-design.vue?macro=true\";\nimport { default as indexy4dHwAqAdNMeta } from \"C:/projects/desix/pages/en/index.vue?macro=true\";\nimport { default as mobile_45apps_45developmentr3Q1X7hob3Meta } from \"C:/projects/desix/pages/en/mobile-apps-development.vue?macro=true\";\nimport { default as news_45detailsCtLKeDwAHyMeta } from \"C:/projects/desix/pages/en/news-details.vue?macro=true\";\nimport { default as newsV0uE7RyCezMeta } from \"C:/projects/desix/pages/en/news.vue?macro=true\";\nimport { default as page_45project_45detailspzH0S9TpxjMeta } from \"C:/projects/desix/pages/en/page-project-details.vue?macro=true\";\nimport { default as page_45service_45detailsVWHfeR6Oy0Meta } from \"C:/projects/desix/pages/en/page-service-details.vue?macro=true\";\nimport { default as page_45team_45detailsIfGpTZMrkQMeta } from \"C:/projects/desix/pages/en/page-team-details.vue?macro=true\";\nimport { default as projectskkInLD5HKJMeta } from \"C:/projects/desix/pages/en/projects.vue?macro=true\";\nimport { default as servicesMgcCGmXqD2Meta } from \"C:/projects/desix/pages/en/services.vue?macro=true\";\nimport { default as team4iPnNdM5AFMeta } from \"C:/projects/desix/pages/en/team.vue?macro=true\";\nimport { default as ui_45ux_45designwV69bvNl8tMeta } from \"C:/projects/desix/pages/en/ui-ux-design.vue?macro=true\";\nimport { default as website_45developmentKnolFftSfPMeta } from \"C:/projects/desix/pages/en/website-development.vue?macro=true\";\nimport { default as what_45are_45keywordsfYrrVs23gTMeta } from \"C:/projects/desix/pages/en/what-are-keywords.vue?macro=true\";\nimport { default as what_45is_45google_45gemini_45aihk2bqwcdXdMeta } from \"C:/projects/desix/pages/en/what-is-google-gemini-ai.vue?macro=true\";\nimport { default as graphic_45design2vtr7IlxjeMeta } from \"C:/projects/desix/pages/graphic-design.vue?macro=true\";\nimport { default as index2a8gdlyTKHMeta } from \"C:/projects/desix/pages/index.vue?macro=true\";\nimport { default as mobile_45apps_45developmentHhvA3dZdh4Meta } from \"C:/projects/desix/pages/mobile-apps-development.vue?macro=true\";\nimport { default as news_45detailsIj2K2qT71aMeta } from \"C:/projects/desix/pages/news-details.vue?macro=true\";\nimport { default as newsPLZGBcpsXCMeta } from \"C:/projects/desix/pages/news.vue?macro=true\";\nimport { default as page_45project_45detailss1kTSVOqBKMeta } from \"C:/projects/desix/pages/page-project-details.vue?macro=true\";\nimport { default as page_45service_45details1Bm9VPeEgYMeta } from \"C:/projects/desix/pages/page-service-details.vue?macro=true\";\nimport { default as page_45team_45detailsVvO5PoWKnIMeta } from \"C:/projects/desix/pages/page-team-details.vue?macro=true\";\nimport { default as projectskN4XzWRE7NMeta } from \"C:/projects/desix/pages/projects.vue?macro=true\";\nimport { default as servicesVlnruD36tBMeta } from \"C:/projects/desix/pages/services.vue?macro=true\";\nimport { default as teamAesRFtFFcBMeta } from \"C:/projects/desix/pages/team.vue?macro=true\";\nimport { default as ui_45ux_45designxVhRBJlUsOMeta } from \"C:/projects/desix/pages/ui-ux-design.vue?macro=true\";\nimport { default as website_45developmentUM1q3lNUdPMeta } from \"C:/projects/desix/pages/website-development.vue?macro=true\";\nimport { default as what_45are_45keywordsJqTklvzX7MMeta } from \"C:/projects/desix/pages/what-are-keywords.vue?macro=true\";\nimport { default as what_45is_45google_45gemini_45aiH0nO95umjCMeta } from \"C:/projects/desix/pages/what-is-google-gemini-ai.vue?macro=true\";\nexport default [\n  {\n    name: aboutB0TTjLavT3Meta?.name ?? \"about\",\n    path: aboutB0TTjLavT3Meta?.path ?? \"/about\",\n    meta: aboutB0TTjLavT3Meta || {},\n    alias: aboutB0TTjLavT3Meta?.alias || [],\n    redirect: aboutB0TTjLavT3Meta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/about.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: contactkEENh4tVTOMeta?.name ?? \"contact\",\n    path: contactkEENh4tVTOMeta?.path ?? \"/contact\",\n    meta: contactkEENh4tVTOMeta || {},\n    alias: contactkEENh4tVTOMeta?.alias || [],\n    redirect: contactkEENh4tVTOMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/contact.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: content_45strategy_45examplesDvKMYZ2ssgMeta?.name ?? \"content-strategy-examples\",\n    path: content_45strategy_45examplesDvKMYZ2ssgMeta?.path ?? \"/content-strategy-examples\",\n    meta: content_45strategy_45examplesDvKMYZ2ssgMeta || {},\n    alias: content_45strategy_45examplesDvKMYZ2ssgMeta?.alias || [],\n    redirect: content_45strategy_45examplesDvKMYZ2ssgMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/content-strategy-examples.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: abouthkCKlAJ9xoMeta?.name ?? \"en-about\",\n    path: abouthkCKlAJ9xoMeta?.path ?? \"/en/about\",\n    meta: abouthkCKlAJ9xoMeta || {},\n    alias: abouthkCKlAJ9xoMeta?.alias || [],\n    redirect: abouthkCKlAJ9xoMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/about.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: contactYN164AfMdUMeta?.name ?? \"en-contact\",\n    path: contactYN164AfMdUMeta?.path ?? \"/en/contact\",\n    meta: contactYN164AfMdUMeta || {},\n    alias: contactYN164AfMdUMeta?.alias || [],\n    redirect: contactYN164AfMdUMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/contact.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: content_45strategy_45examplesBKaG20box7Meta?.name ?? \"en-content-strategy-examples\",\n    path: content_45strategy_45examplesBKaG20box7Meta?.path ?? \"/en/content-strategy-examples\",\n    meta: content_45strategy_45examplesBKaG20box7Meta || {},\n    alias: content_45strategy_45examplesBKaG20box7Meta?.alias || [],\n    redirect: content_45strategy_45examplesBKaG20box7Meta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/content-strategy-examples.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: graphic_45design4JwA5r4t7cMeta?.name ?? \"en-graphic-design\",\n    path: graphic_45design4JwA5r4t7cMeta?.path ?? \"/en/graphic-design\",\n    meta: graphic_45design4JwA5r4t7cMeta || {},\n    alias: graphic_45design4JwA5r4t7cMeta?.alias || [],\n    redirect: graphic_45design4JwA5r4t7cMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/graphic-design.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexy4dHwAqAdNMeta?.name ?? \"en\",\n    path: indexy4dHwAqAdNMeta?.path ?? \"/en\",\n    meta: indexy4dHwAqAdNMeta || {},\n    alias: indexy4dHwAqAdNMeta?.alias || [],\n    redirect: indexy4dHwAqAdNMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: mobile_45apps_45developmentr3Q1X7hob3Meta?.name ?? \"en-mobile-apps-development\",\n    path: mobile_45apps_45developmentr3Q1X7hob3Meta?.path ?? \"/en/mobile-apps-development\",\n    meta: mobile_45apps_45developmentr3Q1X7hob3Meta || {},\n    alias: mobile_45apps_45developmentr3Q1X7hob3Meta?.alias || [],\n    redirect: mobile_45apps_45developmentr3Q1X7hob3Meta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/mobile-apps-development.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: news_45detailsCtLKeDwAHyMeta?.name ?? \"en-news-details\",\n    path: news_45detailsCtLKeDwAHyMeta?.path ?? \"/en/news-details\",\n    meta: news_45detailsCtLKeDwAHyMeta || {},\n    alias: news_45detailsCtLKeDwAHyMeta?.alias || [],\n    redirect: news_45detailsCtLKeDwAHyMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/news-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: newsV0uE7RyCezMeta?.name ?? \"en-news\",\n    path: newsV0uE7RyCezMeta?.path ?? \"/en/news\",\n    meta: newsV0uE7RyCezMeta || {},\n    alias: newsV0uE7RyCezMeta?.alias || [],\n    redirect: newsV0uE7RyCezMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/news.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45project_45detailspzH0S9TpxjMeta?.name ?? \"en-page-project-details\",\n    path: page_45project_45detailspzH0S9TpxjMeta?.path ?? \"/en/page-project-details\",\n    meta: page_45project_45detailspzH0S9TpxjMeta || {},\n    alias: page_45project_45detailspzH0S9TpxjMeta?.alias || [],\n    redirect: page_45project_45detailspzH0S9TpxjMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/page-project-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45service_45detailsVWHfeR6Oy0Meta?.name ?? \"en-page-service-details\",\n    path: page_45service_45detailsVWHfeR6Oy0Meta?.path ?? \"/en/page-service-details\",\n    meta: page_45service_45detailsVWHfeR6Oy0Meta || {},\n    alias: page_45service_45detailsVWHfeR6Oy0Meta?.alias || [],\n    redirect: page_45service_45detailsVWHfeR6Oy0Meta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/page-service-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45team_45detailsIfGpTZMrkQMeta?.name ?? \"en-page-team-details\",\n    path: page_45team_45detailsIfGpTZMrkQMeta?.path ?? \"/en/page-team-details\",\n    meta: page_45team_45detailsIfGpTZMrkQMeta || {},\n    alias: page_45team_45detailsIfGpTZMrkQMeta?.alias || [],\n    redirect: page_45team_45detailsIfGpTZMrkQMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/page-team-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: projectskkInLD5HKJMeta?.name ?? \"en-projects\",\n    path: projectskkInLD5HKJMeta?.path ?? \"/en/projects\",\n    meta: projectskkInLD5HKJMeta || {},\n    alias: projectskkInLD5HKJMeta?.alias || [],\n    redirect: projectskkInLD5HKJMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/projects.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: servicesMgcCGmXqD2Meta?.name ?? \"en-services\",\n    path: servicesMgcCGmXqD2Meta?.path ?? \"/en/services\",\n    meta: servicesMgcCGmXqD2Meta || {},\n    alias: servicesMgcCGmXqD2Meta?.alias || [],\n    redirect: servicesMgcCGmXqD2Meta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/services.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: team4iPnNdM5AFMeta?.name ?? \"en-team\",\n    path: team4iPnNdM5AFMeta?.path ?? \"/en/team\",\n    meta: team4iPnNdM5AFMeta || {},\n    alias: team4iPnNdM5AFMeta?.alias || [],\n    redirect: team4iPnNdM5AFMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/team.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: ui_45ux_45designwV69bvNl8tMeta?.name ?? \"en-ui-ux-design\",\n    path: ui_45ux_45designwV69bvNl8tMeta?.path ?? \"/en/ui-ux-design\",\n    meta: ui_45ux_45designwV69bvNl8tMeta || {},\n    alias: ui_45ux_45designwV69bvNl8tMeta?.alias || [],\n    redirect: ui_45ux_45designwV69bvNl8tMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/ui-ux-design.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: website_45developmentKnolFftSfPMeta?.name ?? \"en-website-development\",\n    path: website_45developmentKnolFftSfPMeta?.path ?? \"/en/website-development\",\n    meta: website_45developmentKnolFftSfPMeta || {},\n    alias: website_45developmentKnolFftSfPMeta?.alias || [],\n    redirect: website_45developmentKnolFftSfPMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/website-development.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: what_45are_45keywordsfYrrVs23gTMeta?.name ?? \"en-what-are-keywords\",\n    path: what_45are_45keywordsfYrrVs23gTMeta?.path ?? \"/en/what-are-keywords\",\n    meta: what_45are_45keywordsfYrrVs23gTMeta || {},\n    alias: what_45are_45keywordsfYrrVs23gTMeta?.alias || [],\n    redirect: what_45are_45keywordsfYrrVs23gTMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/what-are-keywords.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.name ?? \"en-what-is-google-gemini-ai\",\n    path: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.path ?? \"/en/what-is-google-gemini-ai\",\n    meta: what_45is_45google_45gemini_45aihk2bqwcdXdMeta || {},\n    alias: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.alias || [],\n    redirect: what_45is_45google_45gemini_45aihk2bqwcdXdMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/en/what-is-google-gemini-ai.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: graphic_45design2vtr7IlxjeMeta?.name ?? \"graphic-design\",\n    path: graphic_45design2vtr7IlxjeMeta?.path ?? \"/graphic-design\",\n    meta: graphic_45design2vtr7IlxjeMeta || {},\n    alias: graphic_45design2vtr7IlxjeMeta?.alias || [],\n    redirect: graphic_45design2vtr7IlxjeMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/graphic-design.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: index2a8gdlyTKHMeta?.name ?? \"index\",\n    path: index2a8gdlyTKHMeta?.path ?? \"/\",\n    meta: index2a8gdlyTKHMeta || {},\n    alias: index2a8gdlyTKHMeta?.alias || [],\n    redirect: index2a8gdlyTKHMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: mobile_45apps_45developmentHhvA3dZdh4Meta?.name ?? \"mobile-apps-development\",\n    path: mobile_45apps_45developmentHhvA3dZdh4Meta?.path ?? \"/mobile-apps-development\",\n    meta: mobile_45apps_45developmentHhvA3dZdh4Meta || {},\n    alias: mobile_45apps_45developmentHhvA3dZdh4Meta?.alias || [],\n    redirect: mobile_45apps_45developmentHhvA3dZdh4Meta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/mobile-apps-development.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: news_45detailsIj2K2qT71aMeta?.name ?? \"news-details\",\n    path: news_45detailsIj2K2qT71aMeta?.path ?? \"/news-details\",\n    meta: news_45detailsIj2K2qT71aMeta || {},\n    alias: news_45detailsIj2K2qT71aMeta?.alias || [],\n    redirect: news_45detailsIj2K2qT71aMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/news-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: newsPLZGBcpsXCMeta?.name ?? \"news\",\n    path: newsPLZGBcpsXCMeta?.path ?? \"/news\",\n    meta: newsPLZGBcpsXCMeta || {},\n    alias: newsPLZGBcpsXCMeta?.alias || [],\n    redirect: newsPLZGBcpsXCMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/news.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45project_45detailss1kTSVOqBKMeta?.name ?? \"page-project-details\",\n    path: page_45project_45detailss1kTSVOqBKMeta?.path ?? \"/page-project-details\",\n    meta: page_45project_45detailss1kTSVOqBKMeta || {},\n    alias: page_45project_45detailss1kTSVOqBKMeta?.alias || [],\n    redirect: page_45project_45detailss1kTSVOqBKMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/page-project-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45service_45details1Bm9VPeEgYMeta?.name ?? \"page-service-details\",\n    path: page_45service_45details1Bm9VPeEgYMeta?.path ?? \"/page-service-details\",\n    meta: page_45service_45details1Bm9VPeEgYMeta || {},\n    alias: page_45service_45details1Bm9VPeEgYMeta?.alias || [],\n    redirect: page_45service_45details1Bm9VPeEgYMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/page-service-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45team_45detailsVvO5PoWKnIMeta?.name ?? \"page-team-details\",\n    path: page_45team_45detailsVvO5PoWKnIMeta?.path ?? \"/page-team-details\",\n    meta: page_45team_45detailsVvO5PoWKnIMeta || {},\n    alias: page_45team_45detailsVvO5PoWKnIMeta?.alias || [],\n    redirect: page_45team_45detailsVvO5PoWKnIMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/page-team-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: projectskN4XzWRE7NMeta?.name ?? \"projects\",\n    path: projectskN4XzWRE7NMeta?.path ?? \"/projects\",\n    meta: projectskN4XzWRE7NMeta || {},\n    alias: projectskN4XzWRE7NMeta?.alias || [],\n    redirect: projectskN4XzWRE7NMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/projects.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: servicesVlnruD36tBMeta?.name ?? \"services\",\n    path: servicesVlnruD36tBMeta?.path ?? \"/services\",\n    meta: servicesVlnruD36tBMeta || {},\n    alias: servicesVlnruD36tBMeta?.alias || [],\n    redirect: servicesVlnruD36tBMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/services.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: teamAesRFtFFcBMeta?.name ?? \"team\",\n    path: teamAesRFtFFcBMeta?.path ?? \"/team\",\n    meta: teamAesRFtFFcBMeta || {},\n    alias: teamAesRFtFFcBMeta?.alias || [],\n    redirect: teamAesRFtFFcBMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/team.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: ui_45ux_45designxVhRBJlUsOMeta?.name ?? \"ui-ux-design\",\n    path: ui_45ux_45designxVhRBJlUsOMeta?.path ?? \"/ui-ux-design\",\n    meta: ui_45ux_45designxVhRBJlUsOMeta || {},\n    alias: ui_45ux_45designxVhRBJlUsOMeta?.alias || [],\n    redirect: ui_45ux_45designxVhRBJlUsOMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/ui-ux-design.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: website_45developmentUM1q3lNUdPMeta?.name ?? \"website-development\",\n    path: website_45developmentUM1q3lNUdPMeta?.path ?? \"/website-development\",\n    meta: website_45developmentUM1q3lNUdPMeta || {},\n    alias: website_45developmentUM1q3lNUdPMeta?.alias || [],\n    redirect: website_45developmentUM1q3lNUdPMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/website-development.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: what_45are_45keywordsJqTklvzX7MMeta?.name ?? \"what-are-keywords\",\n    path: what_45are_45keywordsJqTklvzX7MMeta?.path ?? \"/what-are-keywords\",\n    meta: what_45are_45keywordsJqTklvzX7MMeta || {},\n    alias: what_45are_45keywordsJqTklvzX7MMeta?.alias || [],\n    redirect: what_45are_45keywordsJqTklvzX7MMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/what-are-keywords.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.name ?? \"what-is-google-gemini-ai\",\n    path: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.path ?? \"/what-is-google-gemini-ai\",\n    meta: what_45is_45google_45gemini_45aiH0nO95umjCMeta || {},\n    alias: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.alias || [],\n    redirect: what_45is_45google_45gemini_45aiH0nO95umjCMeta?.redirect,\n    component: () => __vitePreload(() => import(\"C:/projects/desix/pages/what-is-google-gemini-ai.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
-      "start": 1721717527543,
-      "end": 1721717527544,
+      "start": 1722340222123,
+      "end": 1722340222126,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1721717527544,
-      "end": 1721717527544,
+      "start": 1722340222126,
+      "end": 1722340222126,
       "order": "normal"
     }
   ]

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <section class=\"services-details\">\r\n    <div class=\"container\">\r\n      <div class=\"row\">\r\n        <!--Start Services Details Sidebar-->\r\n        <div class=\"col-xl-4 col-lg-4\">\r\n          <div class=\"service-sidebar\">\r\n            <!--Start Services Details Sidebar Single-->\r\n            <div class=\"sidebar-widget service-sidebar-single\">\r\n\r\n              <div class=\"sidebar-service-list\">\r\n                <ul>\r\n                  <li><NuxtLink to=\"page-service-details\" class=\"current\"><i class=\"fas fa-angle-right\"></i><span>Website Development</span></NuxtLink></li>\r\n                  <li class=\"current\"><NuxtLink to=\"page-service-details\"><i class=\"fas fa-angle-right\"></i><span>Graphic Designing</span></NuxtLink></li>\r\n                  <li><NuxtLink to=\"page-service-details\"><i class=\"fas fa-angle-right\"></i><span>Digital Marketing</span></NuxtLink></li>\r\n                  <li><NuxtLink to=\"page-service-details\"><i class=\"fas fa-angle-right\"></i><span>Apps Development</span></NuxtLink></li>\r\n                  <li><NuxtLink to=\"page-service-details\"><i class=\"fas fa-angle-right\"></i><span>Seo & Content Writing</span></NuxtLink></li>\r\n                  <li><NuxtLink to=\"page-service-details\"><i class=\"fas fa-angle-right\"></i><span>UI / UX Designing</span></NuxtLink></li>\r\n                </ul>\r\n              </div>\r\n\r\n              <div class=\"service-details-help\">\r\n                <div class=\"help-shape-1\"></div>\r\n                <div class=\"help-shape-2\"></div>\r\n                <h2 class=\"help-title\">Contact with <br> us for any <br> advice</h2>\r\n                <div class=\"help-icon\">\r\n                  <span class=\" lnr-icon-phone-handset\"></span>\r\n                </div>\r\n                <div class=\"help-contact\">\r\n                  <p>Need help? Talk to an expert</p>\r\n                  <NuxtLink to=\"tel:12463330079\">+892 ( 123 ) 112 - 9999</NuxtLink>\r\n                </div>\r\n              </div>\r\n\r\n              <!--Start Services Details Sidebar Single-->\r\n              <!-- <div class=\"sidebar-widget service-sidebar-single mt-4\">\r\n                <div class=\"service-sidebar-single-btn wow fadeInUp\" data-wow-delay=\"0.5s\" data-wow-duration=\"1200m\">\r\n                  <NuxtLink to=\"#\" class=\"theme-btn btn-style-one d-grid\"><span class=\"btn-title\"><span class=\"fas fa-file-pdf\"></span> download pdf file</span></NuxtLink>\r\n                </div>\r\n              </div> -->\r\n            </div>\r\n            <!--End Services Details Sidebar-->\r\n          </div>\r\n        </div>\r\n\r\n        <!--Start Services Details Content-->\r\n        <div class=\"col-xl-8 col-lg-8\">\r\n          <div class=\"services-details__content\">\r\n            <img src=\"/images/resource/service-details.jpg\" alt=\"\" />\r\n            <h3 class=\"mt-4\">Service Overview</h3>\r\n            <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>\r\n            <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur adipis icing elit  </p>\r\n            <div class=\"content mt-40\">\r\n              <div class=\"text\">\r\n                <h3>Service Center</h3>\r\n                <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\r\n            <blockquote class=\"blockquote-one\">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur</blockquote>\r\n              </div>\r\n              <div class=\"feature-list mt-4\">\r\n                <div class=\"row clearfix\">\r\n                  <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                    <img class=\"mb-3\" src=\"/images/resource/service-d1.jpg\" alt=\"images\" />\r\n                    <p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>\r\n                  </div>\r\n                  <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                    <img class=\"mb-3\" src=\"/images/resource/service-d2.jpg\" alt=\"images\" />\r\n                    <p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\" mt-25\">\r\n              <h3>Frequently Asked Question</h3>\r\n              <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\r\n              <ul class=\"accordion-box wow fadeInRight\">\r\n                <!--Block-->\r\n                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 1}\">\r\n                  <div class=\"acc-btn\" :class=\"{ 'active': isActive.key === 1}\" @click=\"handleClick(1)\">Is my technology allowed on tech?\r\n                    <div class=\"icon fa fa-plus\"></div>\r\n                  </div>\r\n                  <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 1}\">\r\n                    <div class=\"content\">\r\n                      <div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>\r\n                    </div>\r\n                  </div>\r\n                </li>\r\n                <!--Block-->\r\n                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 2}\">\r\n                  <div class=\"acc-btn\" :class=\"{ 'active': isActive.key === 2}\" @click=\"handleClick(2)\">How to soft launch your business?\r\n                    <div class=\"icon fa fa-plus\"></div>\r\n                  </div>\r\n                  <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 2}\">\r\n                    <div class=\"content\">\r\n                      <div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>\r\n                    </div>\r\n                  </div>\r\n                </li>\r\n                <!--Block-->\r\n                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 3}\">\r\n                  <div class=\"acc-btn\" :class=\"{ 'active': isActive.key === 3}\" @click=\"handleClick(3)\">How to turn visitors into contributors\r\n                    <div class=\"icon fa fa-plus\"></div>\r\n                  </div>\r\n                  <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 3}\">\r\n                    <div class=\"content\">\r\n                      <div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>\r\n                    </div>\r\n                  </div>\r\n                </li>\r\n                <!--Block-->\r\n                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 4}\">\r\n                  <div class=\"acc-btn\" :class=\"{ 'active': isActive.key === 4}\" @click=\"handleClick(4)\">\r\n                    How can i find my solutions?\r\n                    <div class=\"icon fa fa-plus\"></div>\r\n                  </div>\r\n                  <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 4}\">\r\n                    <div class=\"content\">\r\n                      <div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>\r\n                    </div>\r\n                  </div>\r\n                </li>\r\n              </ul>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <!--End Services Details Content-->\r\n      </div>\r\n    </div>\r\n  </section>\r\n</template>\r\n<script setup>\r\nimport { ref } from 'vue'\r\n\r\nconst isActive = ref({\r\n  status: false,\r\n  key: 1,\r\n})\r\n\r\nconst handleClick = (key) => {\r\n  if (isActive.value.key === key) {\r\n    isActive.value.status = false\r\n  } else {\r\n    isActive.value.status = true\r\n    isActive.value.key = key\r\n  }\r\n};\r\n</script>",
-      "start": 1721717529567,
-      "end": 1721717529784,
+      "start": 1722340225374,
+      "end": 1722340225804,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529784,
-      "end": 1721717529784,
+      "start": 1722340225804,
+      "end": 1722340225804,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, normalizeClass as _normalizeClass, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-details.jpg'\nimport _imports_1 from '/images/resource/service-d1.jpg'\nimport _imports_2 from '/images/resource/service-d2.jpg'\n\n\nconst _hoisted_1 = { class: \"services-details\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-xl-4 col-lg-4\" }\nconst _hoisted_5 = { class: \"service-sidebar\" }\nconst _hoisted_6 = { class: \"sidebar-widget service-sidebar-single\" }\nconst _hoisted_7 = { class: \"sidebar-service-list\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Website Development\", -1)\nconst _hoisted_10 = { class: \"current\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Graphic Designing\", -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Digital Marketing\", -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Apps Development\", -1)\nconst _hoisted_17 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_18 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Seo & Content Writing\", -1)\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"span\", null, \"UI / UX Designing\", -1)\nconst _hoisted_21 = { class: \"service-details-help\" }\nconst _hoisted_22 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"help-shape-1\\\"></div><div class=\\\"help-shape-2\\\"></div><h2 class=\\\"help-title\\\">Contact with <br> us for any <br> advice</h2><div class=\\\"help-icon\\\"><span class=\\\"lnr-icon-phone-handset\\\"></span></div>\", 4)\nconst _hoisted_26 = { class: \"help-contact\" }\nconst _hoisted_27 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Need help? Talk to an expert\", -1)\nconst _hoisted_28 = { class: \"col-xl-8 col-lg-8\" }\nconst _hoisted_29 = { class: \"services-details__content\" }\nconst _hoisted_30 = /*#__PURE__*/_createStaticVNode(\"<img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><h3 class=\\\"mt-4\\\">Service Overview</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p><p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur adipis icing elit </p><div class=\\\"content mt-40\\\"><div class=\\\"text\\\"><h3>Service Center</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><blockquote class=\\\"blockquote-one\\\">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur</blockquote></div><div class=\\\"feature-list mt-4\\\"><div class=\\\"row clearfix\\\"><div class=\\\"col-lg-6 col-md-6 col-sm-12 column\\\"><img class=\\\"mb-3\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"images\\\"><p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p></div><div class=\\\"col-lg-6 col-md-6 col-sm-12 column\\\"><img class=\\\"mb-3\\\" src=\\\"\" + _imports_2 + \"\\\" alt=\\\"images\\\"><p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p></div></div></div></div>\", 5)\nconst _hoisted_35 = { class: \"mt-25\" }\nconst _hoisted_36 = /*#__PURE__*/_createElementVNode(\"h3\", null, \"Frequently Asked Question\", -1)\nconst _hoisted_37 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\", -1)\nconst _hoisted_38 = { class: \"accordion-box wow fadeInRight\" }\nconst _hoisted_39 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_40 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_41 = [\n  _hoisted_40\n]\nconst _hoisted_42 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_43 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_44 = [\n  _hoisted_43\n]\nconst _hoisted_45 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_46 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_47 = [\n  _hoisted_46\n]\nconst _hoisted_48 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_49 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_50 = [\n  _hoisted_49\n]\n\nimport { ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'Servicesdetails',\n  setup(__props) {\n\r\nconst isActive = ref({\r\n  status: false,\r\n  key: 1,\r\n})\r\n\r\nconst handleClick = (key) => {\r\n  if (isActive.value.key === key) {\r\n    isActive.value.status = false\r\n  } else {\r\n    isActive.value.status = true\r\n    isActive.value.key = key\r\n  }\r\n};\r\n\nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"div\", _hoisted_7, [\n                _createElementVNode(\"ul\", null, [\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, {\n                      to: \"page-service-details\",\n                      class: \"current\"\n                    }, {\n                      default: _withCtx(() => [\n                        _hoisted_8,\n                        _hoisted_9\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", _hoisted_10, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_11,\n                        _hoisted_12\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_13,\n                        _hoisted_14\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_15,\n                        _hoisted_16\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_17,\n                        _hoisted_18\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_19,\n                        _hoisted_20\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_21, [\n                _hoisted_22,\n                _createElementVNode(\"div\", _hoisted_26, [\n                  _hoisted_27,\n                  _createVNode(_component_NuxtLink, { to: \"tel:12463330079\" }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"+892 ( 123 ) 112 - 9999\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_28, [\n          _createElementVNode(\"div\", _hoisted_29, [\n            _hoisted_30,\n            _createElementVNode(\"div\", _hoisted_35, [\n              _hoisted_36,\n              _hoisted_37,\n              _createElementVNode(\"ul\", _hoisted_38, [\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 1}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 1}]),\n                    onClick: _cache[0] || (_cache[0] = $event => (handleClick(1)))\n                  }, [\n                    _createTextVNode(\"Is my technology allowed on tech? \"),\n                    _hoisted_39\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 1}])\n                  }, _hoisted_41, 2)\n                ], 2),\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 2}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 2}]),\n                    onClick: _cache[1] || (_cache[1] = $event => (handleClick(2)))\n                  }, [\n                    _createTextVNode(\"How to soft launch your business? \"),\n                    _hoisted_42\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 2}])\n                  }, _hoisted_44, 2)\n                ], 2),\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 3}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 3}]),\n                    onClick: _cache[2] || (_cache[2] = $event => (handleClick(3)))\n                  }, [\n                    _createTextVNode(\"How to turn visitors into contributors \"),\n                    _hoisted_45\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 3}])\n                  }, _hoisted_47, 2)\n                ], 2),\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 4}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 4}]),\n                    onClick: _cache[3] || (_cache[3] = $event => (handleClick(4)))\n                  }, [\n                    _createTextVNode(\" How can i find my solutions? \"),\n                    _hoisted_48\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 4}])\n                  }, _hoisted_50, 2)\n                ], 2)\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529784,
-      "end": 1721717529790,
+      "start": 1722340225804,
+      "end": 1722340225817,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225817,
+      "end": 1722340225817,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225817,
+      "end": 1722340225817,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225817,
+      "end": 1722340225817,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225817,
+      "end": 1722340225817,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225817,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529790,
-      "end": 1721717529790,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529790,
-      "end": 1721717529791,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529791,
-      "end": 1721717529791,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529791,
-      "end": 1721717529791,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529791,
-      "end": 1721717529791,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529791,
-      "end": 1721717529791,
+      "start": 1722340225818,
+      "end": 1722340225818,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717529791,
-      "end": 1721717529793,
+      "start": 1722340225818,
+      "end": 1722340225822,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225822,
+      "end": 1722340225822,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225822,
+      "end": 1722340225822,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225822,
+      "end": 1722340225822,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225822,
+      "end": 1722340225822,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, normalizeClass as _normalizeClass, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-details.jpg'\nimport _imports_1 from '/images/resource/service-d1.jpg'\nimport _imports_2 from '/images/resource/service-d2.jpg'\n\n\nconst _hoisted_1 = { class: \"services-details\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-xl-4 col-lg-4\" }\nconst _hoisted_5 = { class: \"service-sidebar\" }\nconst _hoisted_6 = { class: \"sidebar-widget service-sidebar-single\" }\nconst _hoisted_7 = { class: \"sidebar-service-list\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Website Development\", -1)\nconst _hoisted_10 = { class: \"current\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Graphic Designing\", -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Digital Marketing\", -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Apps Development\", -1)\nconst _hoisted_17 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_18 = /*#__PURE__*/_createElementVNode(\"span\", null, \"Seo & Content Writing\", -1)\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-angle-right\" }, null, -1)\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"span\", null, \"UI / UX Designing\", -1)\nconst _hoisted_21 = { class: \"service-details-help\" }\nconst _hoisted_22 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"help-shape-1\\\"></div><div class=\\\"help-shape-2\\\"></div><h2 class=\\\"help-title\\\">Contact with <br> us for any <br> advice</h2><div class=\\\"help-icon\\\"><span class=\\\"lnr-icon-phone-handset\\\"></span></div>\", 4)\nconst _hoisted_26 = { class: \"help-contact\" }\nconst _hoisted_27 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Need help? Talk to an expert\", -1)\nconst _hoisted_28 = { class: \"col-xl-8 col-lg-8\" }\nconst _hoisted_29 = { class: \"services-details__content\" }\nconst _hoisted_30 = /*#__PURE__*/_createStaticVNode(\"<img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><h3 class=\\\"mt-4\\\">Service Overview</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p><p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur adipis icing elit </p><div class=\\\"content mt-40\\\"><div class=\\\"text\\\"><h3>Service Center</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><blockquote class=\\\"blockquote-one\\\">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur</blockquote></div><div class=\\\"feature-list mt-4\\\"><div class=\\\"row clearfix\\\"><div class=\\\"col-lg-6 col-md-6 col-sm-12 column\\\"><img class=\\\"mb-3\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"images\\\"><p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p></div><div class=\\\"col-lg-6 col-md-6 col-sm-12 column\\\"><img class=\\\"mb-3\\\" src=\\\"\" + _imports_2 + \"\\\" alt=\\\"images\\\"><p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p></div></div></div></div>\", 5)\nconst _hoisted_35 = { class: \"mt-25\" }\nconst _hoisted_36 = /*#__PURE__*/_createElementVNode(\"h3\", null, \"Frequently Asked Question\", -1)\nconst _hoisted_37 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\", -1)\nconst _hoisted_38 = { class: \"accordion-box wow fadeInRight\" }\nconst _hoisted_39 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_40 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_41 = [\n  _hoisted_40\n]\nconst _hoisted_42 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_43 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_44 = [\n  _hoisted_43\n]\nconst _hoisted_45 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_46 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_47 = [\n  _hoisted_46\n]\nconst _hoisted_48 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"icon fa fa-plus\" }, null, -1)\nconst _hoisted_49 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"content\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.\")\n], -1)\nconst _hoisted_50 = [\n  _hoisted_49\n]\n\nimport { ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'Servicesdetails',\n  setup(__props) {\n\r\nconst isActive = ref({\r\n  status: false,\r\n  key: 1,\r\n})\r\n\r\nconst handleClick = (key) => {\r\n  if (isActive.value.key === key) {\r\n    isActive.value.status = false\r\n  } else {\r\n    isActive.value.status = true\r\n    isActive.value.key = key\r\n  }\r\n};\r\n\nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"div\", _hoisted_7, [\n                _createElementVNode(\"ul\", null, [\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, {\n                      to: \"page-service-details\",\n                      class: \"current\"\n                    }, {\n                      default: _withCtx(() => [\n                        _hoisted_8,\n                        _hoisted_9\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", _hoisted_10, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_11,\n                        _hoisted_12\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_13,\n                        _hoisted_14\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_15,\n                        _hoisted_16\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_17,\n                        _hoisted_18\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _createElementVNode(\"li\", null, [\n                    _createVNode(_component_NuxtLink, { to: \"page-service-details\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_19,\n                        _hoisted_20\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ]),\n              _createElementVNode(\"div\", _hoisted_21, [\n                _hoisted_22,\n                _createElementVNode(\"div\", _hoisted_26, [\n                  _hoisted_27,\n                  _createVNode(_component_NuxtLink, { to: \"tel:12463330079\" }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"+892 ( 123 ) 112 - 9999\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_28, [\n          _createElementVNode(\"div\", _hoisted_29, [\n            _hoisted_30,\n            _createElementVNode(\"div\", _hoisted_35, [\n              _hoisted_36,\n              _hoisted_37,\n              _createElementVNode(\"ul\", _hoisted_38, [\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 1}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 1}]),\n                    onClick: _cache[0] || (_cache[0] = $event => (handleClick(1)))\n                  }, [\n                    _createTextVNode(\"Is my technology allowed on tech? \"),\n                    _hoisted_39\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 1}])\n                  }, _hoisted_41, 2)\n                ], 2),\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 2}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 2}]),\n                    onClick: _cache[1] || (_cache[1] = $event => (handleClick(2)))\n                  }, [\n                    _createTextVNode(\"How to soft launch your business? \"),\n                    _hoisted_42\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 2}])\n                  }, _hoisted_44, 2)\n                ], 2),\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 3}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 3}]),\n                    onClick: _cache[2] || (_cache[2] = $event => (handleClick(3)))\n                  }, [\n                    _createTextVNode(\"How to turn visitors into contributors \"),\n                    _hoisted_45\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 3}])\n                  }, _hoisted_47, 2)\n                ], 2),\n                _createElementVNode(\"li\", {\n                  class: _normalizeClass([\"accordion block\", { 'active-block': isActive.value.key === 4}])\n                }, [\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-btn\", { 'active': isActive.value.key === 4}]),\n                    onClick: _cache[3] || (_cache[3] = $event => (handleClick(4)))\n                  }, [\n                    _createTextVNode(\" How can i find my solutions? \"),\n                    _hoisted_48\n                  ], 2),\n                  _createElementVNode(\"div\", {\n                    class: _normalizeClass([\"acc-content\", { 'current': isActive.value.key === 4}])\n                  }, _hoisted_50, 2)\n                ], 2)\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225822,
+      "end": 1722340225823,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225823,
+      "end": 1722340225823,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225823,
+      "end": 1722340225824,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529793,
-      "end": 1721717529793,
+      "start": 1722340225824,
+      "end": 1722340225824,
       "order": "normal"
     }
   ]

@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"services-details\">\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <!--Start Services Details Sidebar-->\r\n          <div class=\"col-xl-4 col-lg-4\">\r\n            <div class=\"service-sidebar\">\r\n              <!--Start Services Details Sidebar Single-->\r\n              <div class=\"sidebar-widget service-sidebar-single\">\r\n  \r\n                <div class=\"sidebar-service-list\">\r\n                  <ul>\r\n                    <li ><NuxtLink to=\"website-development\" class=\"current\"><i class=\"fas fa-angle-right\"></i><span>Web Apps Development</span></NuxtLink></li>\r\n                    <li class=\"current\" ><NuxtLink to=\"graphic-design\"><i class=\"fas fa-angle-right\"></i><span>Graphic Designing</span></NuxtLink></li>\r\n                    <li><NuxtLink to=\"ui-ux-design\"><i class=\"fas fa-angle-right\"></i><span>UI / UX Designing</span></NuxtLink></li>\r\n                    <li ><NuxtLink to=\"mobile-apps-development\"><i class=\"fas fa-angle-right\"></i><span>Mobile Apps Development</span></NuxtLink></li>\r\n                     </ul>\r\n                </div>\r\n  \r\n                <div class=\"service-details-help\">\r\n                  <div class=\"help-shape-1\"></div>\r\n                  <div class=\"help-shape-2\"></div>\r\n                  <h2 class=\"help-title\">Contact with <br> us for any <br> advice</h2>\r\n                  <div class=\"help-icon\">\r\n                    <span class=\" lnr-icon-phone-handset\"></span>\r\n                  </div>\r\n                  <div class=\"help-contact\">\r\n                    <p>Need help? Talk to an expert</p>\r\n                    <NuxtLink to=\"tel:+46 7 35 35 34 34\">+46735353434</NuxtLink>\r\n                  </div>\r\n                </div>\r\n  \r\n                <!--Start Services Details Sidebar Single-->\r\n                <!-- <div class=\"sidebar-widget service-sidebar-single mt-4\">\r\n                  <div class=\"service-sidebar-single-btn wow fadeInUp\" data-wow-delay=\"0.5s\" data-wow-duration=\"1200m\">\r\n                    <NuxtLink to=\"#\" class=\"theme-btn btn-style-one d-grid\"><span class=\"btn-title\"><span class=\"fas fa-file-pdf\"></span> download pdf file</span></NuxtLink>\r\n                  </div>\r\n                </div> -->\r\n              </div>\r\n              <!--End Services Details Sidebar-->\r\n            </div>\r\n          </div>\r\n  \r\n          <!--Start Services Details Content-->\r\n          <div class=\"col-xl-8 col-lg-8\">\r\n            <div class=\"services-details__content\">\r\n              <img src=\"/images/resource/service-2.jpg\" alt=\"\" />\r\n              <h3 class=\"mt-4\">Graphic Design Services</h3>\r\n              <p style=\"text-align: justify;\">\r\n                We are pleased to provide a  professional graphic design services that seamlessly integrate with your brand. With our expertise, we can enhance your visual identity by creating captivating graphics and attractive visual styles. Whether you need a complete brand redesign or just minor adjustments, we are here to help improve your brand image for greater impact and engagement. Contact us today to discuss your specific needs and let us create a visual identity that sets you apart from the rest.\r\n            </p>\r\n              <div class=\"content mt-40\">\r\n                <!-- <div class=\"text\">\r\n                  <h3>Service Center</h3>\r\n                  <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\r\n              <blockquote class=\"blockquote-one\">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur</blockquote>\r\n                </div> -->\r\n                <!-- <div class=\"feature-list mt-4\">\r\n                  <div class=\"row clearfix\">\r\n                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                      <img class=\"mb-3\" src=\"/images/resource/service-d1.jpg\" alt=\"images\" />\r\n                      <p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>\r\n                    </div>\r\n                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                      <img class=\"mb-3\" src=\"/images/resource/service-d2.jpg\" alt=\"images\" />\r\n                      <p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div> -->\r\n            </div>\r\n              <!--  -->\r\n            </div>\r\n          </div>\r\n          <!--End Services Details Content-->\r\n        </div>\r\n      </div>\r\n    </section>\r\n  </template>\r\n  <script setup>\r\n  import { ref } from 'vue'\r\n  \r\n  const isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n  })\r\n  \r\n  const handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n      isActive.value.status = false\r\n    } else {\r\n      isActive.value.status = true\r\n      isActive.value.key = key\r\n    }\r\n  };\r\n  </script>",
-      "start": 1721717537340,
-      "end": 1721717537514,
+      "start": 1722340238137,
+      "end": 1722340238399,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717537514,
-      "end": 1721717537514,
+      "start": 1722340238399,
+      "end": 1722340238399,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/service-2.jpg'\n\n\nimport { ref } from 'vue'\r\n  \r\n  \nconst _sfc_main = {\n  __name: 'Graphicdesign',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n  const isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n  })\r\n  \r\n  const handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n      isActive.value.status = false\r\n    } else {\r\n      isActive.value.status = true\r\n      isActive.value.key = key\r\n    }\r\n  };\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"services-details\" }, _attrs))}><div class=\"container\"><div class=\"row\"><div class=\"col-xl-4 col-lg-4\"><div class=\"service-sidebar\"><div class=\"sidebar-widget service-sidebar-single\"><div class=\"sidebar-service-list\"><ul><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"website-development\",\n    class: \"current\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>Web Apps Development</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"Web Apps Development\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"current\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"graphic-design\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>Graphic Designing</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"Graphic Designing\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"ui-ux-design\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>UI / UX Designing</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"UI / UX Designing\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"mobile-apps-development\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>Mobile Apps Development</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"Mobile Apps Development\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div><div class=\"service-details-help\"><div class=\"help-shape-1\"></div><div class=\"help-shape-2\"></div><h2 class=\"help-title\">Contact with <br> us for any <br> advice</h2><div class=\"help-icon\"><span class=\"lnr-icon-phone-handset\"></span></div><div class=\"help-contact\"><p>Need help? Talk to an expert</p>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"tel:+46 7 35 35 34 34\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`+46735353434`)\n      } else {\n        return [\n          _createTextVNode(\"+46735353434\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div><div class=\"col-xl-8 col-lg-8\"><div class=\"services-details__content\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><h3 class=\"mt-4\">Graphic Design Services</h3><p style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> We are pleased to provide a professional graphic design services that seamlessly integrate with your brand. With our expertise, we can enhance your visual identity by creating captivating graphics and attractive visual styles. Whether you need a complete brand redesign or just minor adjustments, we are here to help improve your brand image for greater impact and engagement. Contact us today to discuss your specific needs and let us create a visual identity that sets you apart from the rest. </p><div class=\"content mt-40\"></div></div></div></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/innerpages/Graphicdesign.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537514,
-      "end": 1721717537517,
+      "start": 1722340238399,
+      "end": 1722340238410,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238410,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238410,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238410,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238410,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238410,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238410,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238410,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537517,
-      "end": 1721717537517,
+      "start": 1722340238411,
+      "end": 1722340238411,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717537517,
-      "end": 1721717537518,
+      "start": 1722340238411,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717537517,
-      "end": 1721717537518,
+      "start": 1722340238411,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537518,
-      "end": 1721717537518,
+      "start": 1722340238412,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537518,
-      "end": 1721717537518,
+      "start": 1722340238412,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537518,
-      "end": 1721717537518,
+      "start": 1722340238412,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537518,
-      "end": 1721717537518,
+      "start": 1722340238412,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1721717537518,
-      "end": 1721717537518,
+      "start": 1722340238412,
+      "end": 1722340238412,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/service-2.jpg'\n\n\nimport { ref } from 'vue'\r\n  \r\n  \nconst _sfc_main = {\n  __name: 'Graphicdesign',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n  const isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n  })\r\n  \r\n  const handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n      isActive.value.status = false\r\n    } else {\r\n      isActive.value.status = true\r\n      isActive.value.key = key\r\n    }\r\n  };\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"services-details\" }, _attrs))}><div class=\"container\"><div class=\"row\"><div class=\"col-xl-4 col-lg-4\"><div class=\"service-sidebar\"><div class=\"sidebar-widget service-sidebar-single\"><div class=\"sidebar-service-list\"><ul><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"website-development\",\n    class: \"current\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>Web Apps Development</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"Web Apps Development\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"current\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"graphic-design\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>Graphic Designing</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"Graphic Designing\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"ui-ux-design\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>UI / UX Designing</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"UI / UX Designing\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"mobile-apps-development\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-angle-right\"${\n          _scopeId\n        }></i><span${\n          _scopeId\n        }>Mobile Apps Development</span>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-angle-right\" }),\n          _createVNode(\"span\", null, \"Mobile Apps Development\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div><div class=\"service-details-help\"><div class=\"help-shape-1\"></div><div class=\"help-shape-2\"></div><h2 class=\"help-title\">Contact with <br> us for any <br> advice</h2><div class=\"help-icon\"><span class=\"lnr-icon-phone-handset\"></span></div><div class=\"help-contact\"><p>Need help? Talk to an expert</p>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"tel:+46 7 35 35 34 34\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`+46735353434`)\n      } else {\n        return [\n          _createTextVNode(\"+46735353434\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div><div class=\"col-xl-8 col-lg-8\"><div class=\"services-details__content\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><h3 class=\"mt-4\">Graphic Design Services</h3><p style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> We are pleased to provide a professional graphic design services that seamlessly integrate with your brand. With our expertise, we can enhance your visual identity by creating captivating graphics and attractive visual styles. Whether you need a complete brand redesign or just minor adjustments, we are here to help improve your brand image for greater impact and engagement. Contact us today to discuss your specific needs and let us create a visual identity that sets you apart from the rest. </p><div class=\"content mt-40\"></div></div></div></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/innerpages/Graphicdesign.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537518,
-      "end": 1721717537519,
+      "start": 1722340238412,
+      "end": 1722340238413,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717537519,
-      "end": 1721717537519,
+      "start": 1722340238413,
+      "end": 1722340238413,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717537519,
-      "end": 1721717537519,
+      "start": 1722340238413,
+      "end": 1722340238413,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717537519,
-      "end": 1721717537519,
+      "start": 1722340238413,
+      "end": 1722340238413,
       "order": "normal"
     }
   ]

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <ul class=\"navigation clearfix\">\r\n    <!--Keep This Empty / Menu will come through Javascript-->\r\n    <li @click=\"handleToggled\" class=\"dropdown\" :class=\"{ 'current': isActive.key === 1 }\">\r\n      <NuxtLink to=\"/en\">Home</NuxtLink>\r\n      <!-- <ul :class=\"{ 'd-block': isActive.key === 1 }\">\r\n        <li>\r\n          <NuxtLink to=\"/\">Home page 01</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-2\">Home page 02</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/index-3\">Home page 03</NuxtLink>\r\n        </li>\r\n      </ul> -->\r\n      <!-- <div class=\"dropdown-btn\" :class=\"{ 'active': isActive.key === 1 }\" @click=\"handleClick(1)\"><i class=\"fa fa-angle-down\"></i></div> -->\r\n    </li>\r\n    <li @click=\"handleToggled\">\r\n      <NuxtLink to=\"/en/about\">About</NuxtLink>\r\n    </li>\r\n    <li @click=\"handleToggled\"><NuxtLink to=\"/en/team\" >Team</NuxtLink></li>\r\n    <li @click=\"handleToggled\"><NuxtLink to=\"/en/services\" >Services</NuxtLink></li>\r\n    <li @click=\"handleToggled\"><NuxtLink to=\"/en/projects\">Projects</NuxtLink></li>\r\n    <li @click=\"handleToggled\"><NuxtLink to=\"/en/news\">News</NuxtLink></li>\r\n    <!-- <li class=\"dropdown\" :class=\"{ 'current': isActive.key === 2 }\">\r\n      <NuxtLink to=\"/#\">Service</NuxtLink>\r\n      <ul :class=\"{ 'd-block': isActive.key === 2 }\">\r\n        <li class=\"dropdown\">\r\n          <li>\r\n            <NuxtLink to=\"/page-service\">Service grid</NuxtLink>\r\n          </li>\r\n          <li>\r\n            <NuxtLink to=\"/page-service-details\">Service Details</NuxtLink>\r\n          </li>\r\n        </li>\r\n      </ul>\r\n      <div  class=\"dropdown-btn\" :class=\"{ 'active': isActive.key === 2 }\" @click=\"handleClick(2)\"><i class=\"fa fa-angle-down\"></i></div>\r\n    </li>\r\n    <li class=\"dropdown\" :class=\"{ 'current': isActive.key === 3 }\">\r\n      <NuxtLink to=\"/#\">Project</NuxtLink>\r\n      <ul :class=\"{ 'd-block': isActive.key === 3 }\">\r\n        <li>\r\n          <NuxtLink to=\"/page-project\">Project grid</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/page-project-details\">Project Details</NuxtLink>\r\n        </li>\r\n      </ul>\r\n      <div  class=\"dropdown-btn\" :class=\"{ 'active': isActive.key === 3 }\" @click=\"handleClick(3)\"><i class=\"fa fa-angle-down\"></i></div>\r\n    </li>\r\n    <li class=\"dropdown\" :class=\"{ 'current': isActive.key === 4 }\">\r\n      <NuxtLink to=\"/#\">News</NuxtLink>\r\n      <ul :class=\"{ 'd-block': isActive.key === 4 }\">\r\n        <li>\r\n          <NuxtLink to=\"/news-grid\">News Grid</NuxtLink>\r\n        </li>\r\n        <li>\r\n          <NuxtLink to=\"/news-details\">News Details</NuxtLink>\r\n        </li>\r\n      </ul>\r\n      <div  class=\"dropdown-btn\" :class=\"{ 'active': isActive.key === 4 }\" @click=\"handleClick(4)\"><i class=\"fa fa-angle-down\"></i></div>\r\n    </li>\r\n        <li class=\"dropdown\" :class=\"{ 'current': isActive.key === 5 }\">\r\n            <NuxtLink to=\"/#\">Team</NuxtLink>\r\n            <ul :class=\"{ 'd-block': isActive.key === 5 }\">\r\n                <li>\r\n                    <NuxtLink to=\"/page-team\">Team grid</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team-details\">Team Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n            <div  class=\"dropdown-btn\" :class=\"{ 'active': isActive.key === 5 }\" @click=\"handleClick(4)\"><i class=\"fa fa-angle-down\"></i></div>\r\n        </li> -->\r\n    <li @click=\"handleToggled\">\r\n      <NuxtLink to=\"/en/contact\">Contact</NuxtLink>\r\n    </li>\r\n\r\n    <li @click=\"handleToggled\">\r\n      <NuxtLink to=\"/\">Swedish</NuxtLink>\r\n    </li>\r\n    <li @click=\"handleToggled\">\r\n      <NuxtLink to=\"/en\">English</NuxtLink>\r\n    </li>\r\n    \r\n  </ul>\r\n</template>\r\n<script setup>\r\nimport { ref } from 'vue'\r\n\r\nconst isActive = ref({\r\n  status: false,\r\n  key: '',\r\n})\r\n\r\nconst handleClick = (key) => {\r\n  if (isActive.value.key === key) {\r\n    isActive.value.status = false\r\n  } else {\r\n    isActive.value.status = true\r\n    isActive.value.key = key\r\n  }\r\n}\r\n\r\nconst isToggled = ref(false)\r\nconst handleToggled = () => {\r\n // isToggled.value = !isToggled.value\r\n  document.body.classList.toggle(\"mobile-menu-visible\",  isToggled.value)\r\n}\r\n</script>\r\n",
-      "start": 1721717530100,
-      "end": 1721717530346,
+      "start": 1722340226379,
+      "end": 1722340226670,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717530346,
-      "end": 1721717530346,
+      "start": 1722340226670,
+      "end": 1722340226670,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"navigation clearfix\" }\n\nimport { ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'MobileMenu',\n  setup(__props) {\n\r\nconst isActive = ref({\r\n  status: false,\r\n  key: '',\r\n})\r\n\r\nconst handleClick = (key) => {\r\n  if (isActive.value.key === key) {\r\n    isActive.value.status = false\r\n  } else {\r\n    isActive.value.status = true\r\n    isActive.value.key = key\r\n  }\r\n}\r\n\r\nconst isToggled = ref(false)\r\nconst handleToggled = () => {\r\n // isToggled.value = !isToggled.value\r\n  document.body.classList.toggle(\"mobile-menu-visible\",  isToggled.value)\r\n}\r\n\nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"ul\", _hoisted_1, [\n    _createElementVNode(\"li\", {\n      onClick: handleToggled,\n      class: _normalizeClass([\"dropdown\", { 'current': isActive.value.key === 1 }])\n    }, [\n      _createVNode(_component_NuxtLink, { to: \"/en\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Home\")\n        ]),\n        _: 1\n      })\n    ], 2),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/about\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"About\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/team\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Team\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/services\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Services\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/projects\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Projects\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/news\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"News\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/contact\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Contact\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Swedish\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"English\")\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717530346,
-      "end": 1721717530348,
+      "start": 1722340226670,
+      "end": 1722340226672,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226672,
+      "end": 1722340226672,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226672,
+      "end": 1722340226672,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226672,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717530348,
-      "end": 1721717530348,
+      "start": 1722340226673,
+      "end": 1722340226673,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717530348,
-      "end": 1721717530349,
+      "start": 1722340226673,
+      "end": 1722340226675,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226675,
+      "end": 1722340226675,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226675,
+      "end": 1722340226675,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226675,
+      "end": 1722340226675,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226675,
+      "end": 1722340226675,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"navigation clearfix\" }\n\nimport { ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'MobileMenu',\n  setup(__props) {\n\r\nconst isActive = ref({\r\n  status: false,\r\n  key: '',\r\n})\r\n\r\nconst handleClick = (key) => {\r\n  if (isActive.value.key === key) {\r\n    isActive.value.status = false\r\n  } else {\r\n    isActive.value.status = true\r\n    isActive.value.key = key\r\n  }\r\n}\r\n\r\nconst isToggled = ref(false)\r\nconst handleToggled = () => {\r\n // isToggled.value = !isToggled.value\r\n  document.body.classList.toggle(\"mobile-menu-visible\",  isToggled.value)\r\n}\r\n\nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"ul\", _hoisted_1, [\n    _createElementVNode(\"li\", {\n      onClick: handleToggled,\n      class: _normalizeClass([\"dropdown\", { 'current': isActive.value.key === 1 }])\n    }, [\n      _createVNode(_component_NuxtLink, { to: \"/en\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Home\")\n        ]),\n        _: 1\n      })\n    ], 2),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/about\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"About\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/team\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Team\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/services\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Services\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/projects\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Projects\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/news\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"News\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en/contact\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Contact\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Swedish\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", { onClick: handleToggled }, [\n      _createVNode(_component_NuxtLink, { to: \"/en\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"English\")\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226675,
+      "end": 1722340226675,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226676,
+      "end": 1722340226676,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226676,
+      "end": 1722340226676,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717530349,
-      "end": 1721717530349,
+      "start": 1722340226676,
+      "end": 1722340226676,
       "order": "normal"
     }
   ]

@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"blog-details\">\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <div class=\"col-xl-8 col-lg-7\">\r\n            <div class=\"blog-details__left\">\r\n              <div class=\"blog-details__img\">\r\n                <img src=\"/images/resource/content-startegy-details.jpg\" alt=\"\" />\r\n                <div class=\"blog-details__date\">\r\n                  <span class=\"day\">28</span>\r\n                  <span class=\"month\">Aug</span>\r\n                </div>\r\n              </div>\r\n              <div class=\"blog-details__content\">\r\n                <ul class=\"list-unstyled blog-details__meta\">\r\n                  <li>\r\n                    <NuxtLink to=\"news-details\"\r\n                      ><i class=\"fas fa-user-circle\"></i>av Admin</NuxtLink\r\n                    >\r\n                  </li>\r\n                  <!-- <li>\r\n                    <NuxtLink to=\"news-details\"\r\n                      ><i class=\"fas fa-comments\"></i> 02 Comments</NuxtLink\r\n                    >\r\n                  </li> -->\r\n                </ul>\r\n                <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                    Under åren har jag skapat innehållsstrategier för företag som Google, Algolia, DocSend och många fler. Oavsett hur stort företaget är eller hur komplicerad produkten är, har innehållsstrategin alltid bottnat i att svara på tre enkla frågor. Dessa frågor är hämtade från den legendariska boken “Good Strategy Bad Strategy”, skriven av Richard Rumelt. De är utformade för att identifiera problemet som behöver lösas, ta fram alla unika styrkor du kan använda i din strategi och koppla ihop ditt problem med rätt typ av innehåll för jobbet. \r\n                </p>\r\n                <h3 class=\"blog-details__title\">\r\n                    1. Vilka utmaningar vill du övervinna?  \r\n                </h3>\r\n                <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                    De flesta företag har samma kärnproblem: de behöver fler kunder och de behöver mer pengar från dessa kunder. Men varje företag är unikt, och för att lösa det problemet krävs det vanligtvis att man övervinner en mängd mer specifika utmaningar först. Jag har listat några vanliga utmaningar nedanför.  \r\n                </p>\r\n<ul style=\"padding-left:2rem;\">\r\n    <li style=\"list-style-type:disc;\">\r\n         \r\nAtt bygga en försäljningspipeline från grunden. Många nyare företag vänder sig till innehåll för att skapa efterfrågan på sin produkt där det inte fanns någon efterfrågan tidigare.  \r\n\r\n    </li>\r\n    <li style=\"list-style-type:disc;\">\r\n    Sluta vara beroende av reklam. Det är vanligt att företag förlitar sig på reklam som sin huvudsakliga kundkälla, men vid en viss punkt börjar det bli för dyrt att underhålla.  \r\n    </li>\r\n    <li style=\"list-style-type:disc;\">\r\n    Öka försäljning utifrån redan befintlig trafik. I många fall kan företag generera mycket trafik men ha det svårt med att omvandla dessa besökare till betalande kunder.  \r\n    </li>\r\n    <li style=\"list-style-type:disc;\">\r\n        Minska kundbortfallet. Även om ett företag lyckas konvertera traffik till betalande kunder, kan de fortfarande ha det svårt med att behålla dessa kunder.  \r\n    </li>\r\n</ul>\r\n\r\n                <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                    Var och en av dessa utmaningar (och många andra) kan lösas med hjälp av rätt innehåll. En avgörande faktor att hålla i åtanke med alla dessa problem, är att ju mer specifik du är med din diagnos av dina utmaningar, desto lättare blir det att hitta en lösning. \r\n                </p>\r\n                <!-- <h3 class=\"blog-details__title\">\r\n                  What’s the difference between the Gemini apps and Gemini models?\r\n                </h3>\r\n                <p class=\"blog-details__text-2\">\r\n                  Google, proving once again that it lacks a knack for branding,\r\n                  didn’t make it clear from the outset that Gemini is separate and\r\n                  distinct from the Gemini apps on the web and mobile (formerly\r\n                  Bard). The Gemini apps are clients that connect to various\r\n                  Gemini models — Gemini Ultra (with Gemini Advanced, see below)\r\n                  and Gemini Pro so far — and layer chatbot-like interfaces on\r\n                  top. Think of them as front ends for Google’s generative AI,\r\n                  analogous to OpenAI’s ChatGPT and Anthropic’s Claude family of\r\n                  apps.\r\n                </p> -->\r\n                <h3 class=\"blog-details__title\">\r\n                    2.\tVilka styrkor kan du dra fördel av? \r\n                </h3>\r\n                <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                    De bästa innehållsstrategierna drar fördel av företagets unika styrkor. Ett hemligt vapen om du så vill kalla det. Något som gör innehåll lättare att skapa eller hjälper det att prestera bättre. Praktiskt taget alla företag har någon unikt att dra fördel av. Några exempel är: Unik data. Många \r\n                </p>\r\n\r\n\r\n\r\n                <ul style=\"padding-left:2rem;\">\r\n    <li style=\"list-style-type:square;\">\r\n         \r\nAtt bygga en försäljningspipeline från grunden. Många nyare företag vänder sig till innehåll för att skapa efterfrågan på sin produkt där det inte fanns någon efterfrågan tidigare.  \r\n\r\n    </li>\r\n    <li style=\"list-style-type:square;\">\r\n   \r\n        företag har tillgång till unik data från sina användare eller produkter.  \r\nPersonliga varumärken. Vissa företag har fördelen av välkända grundare eller teammedlemmar med många följare på sociala medier. \r\n\r\n    </li>\r\n    <li style=\"list-style-type:square;\">\r\n   \r\n        Team expertis och kompetens. Vissa team har unika upplevelser som kan omvandlas till unikt innehåll (som vår alldeles egna Patrick Stox, även känd som Mr. \r\nTechnical SEO). \r\n\r\n    </li>\r\n\r\n    <li style=\"list-style-type:square;\">\r\n   \r\n        Nätverk av experter. Om du har turen att känna många smarta och briljanta människor kan du inkludera deras erfarenheter och perspektiv genom hela ditt innehåll (som First Round Review och deras artiklar skrivna av erfarna startupgrundare).  \r\n    </li>\r\n   \r\n</ul>\r\n\r\n\r\n                <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                   \r\n                    Att känna igen och använda dina unika styrkor är nyckeln till att skapa en innehållsstrategi som inte kan kopieras av dina konkurrenter. \r\n                </p>\r\n                <h3 class=\"blog-details__title\">\r\n                    3.\tVilka typer av innehåll kan övervinna dessa utmaningar? \r\n                </h3>\r\n                <p class=\"blog-details__text-2\" style=\"text-align: justify;\">\r\n                    Det finns gott om innehållstyper, allt ifrån sökinnehåll till “sales enablement”, var och en med sina egna styrkor och svagheter. Att bygga rätt innehållsstrategi handlar om att välja rätt typ för dina specifika utmaningar. Sökoptimerat innehåll är till exempel perfekt för att bygga en förutsägbar källa för trafik till en webbplats, månad efter månad, men det kanske inte hjälper med att nå högre chefer eller grundare som inte googlar vanliga problem. Kunsapsledarskapsinnehåll, som debattartiklar eller forskningsrapporter, kan vara bra för att skapa muntliga diskussioner och bakåtlänkar, men lider vanligtvis av \"spikig\" trafik som inte växer förutsägbart varje månad. \"Sales enablement content”, som fallstudier eller såkallat \"gated content”, hjälper till att avsluta försäljningsaffärer, men det är sällan intressant för den mindre insatta läsaren och gör inte mycket för att locka nya besökare till ett företag. \r\n                </p>\r\n              </div>\r\n              <!-- <div class=\"blog-details__bottom\">\r\n                              <p class=\"blog-details__tags\">\r\n                                  <span>Tags</span>\r\n                                  <NuxtLink to=\"news-details\">Business</NuxtLink>\r\n                                  <NuxtLink to=\"#\">Agency</NuxtLink>\r\n                              </p>\r\n                              <div class=\"blog-details__social-list\">\r\n                                  <NuxtLink to=\"news-details\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n                                  <NuxtLink to=\"news-details\"><i class=\"fab fa-facebook\"></i></NuxtLink>\r\n                                  <NuxtLink to=\"news-details\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n                                  <NuxtLink to=\"news-details\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n                              </div>\r\n                          </div> -->\r\n                          <!-- <div class=\"nav-links\">\r\n                              <div class=\"prev\">\r\n                                  <NuxtLink to=\"news-details\" rel=\"prev\">Bring to the table win-win survival strategies\r\n                                  </NuxtLink>\r\n                              </div>\r\n                              <div class=\"next\">\r\n                                  <NuxtLink to=\"news-details\" rel=\"next\">How to lead a healthy &amp; well-balanced life\r\n                                  </NuxtLink>\r\n                              </div>\r\n                          </div> -->\r\n                          <!-- <div class=\"comment-one\">\r\n                              <h3 class=\"comment-one__title\">2 Comments</h3>\r\n                              <div class=\"comment-one__single\">\r\n                                  <div class=\"comment-one__image\">\r\n                                      <img src=\"/images/resource/testi-1.jpg\" alt=\"\" />\r\n                                  </div>\r\n                                  <div class=\"comment-one__content\">\r\n                                      <h3>Kevin Martin</h3>\r\n                                      <p>\r\n                                          Mauris non dignissim purus, ac commodo diam. Donec sit amet\r\n                                          lacinia nulla. Aliquam quis purus in justo pulvinar tempor.\r\n                                          Aliquam tellus nulla, sollicitudin at euismod.\r\n                                      </p>\r\n                                      <NuxtLink to=\"news-details\" class=\"theme-btn btn-style-one comment-one__btn\"><span\r\n                                              class=\"btn-title\">Reply</span></NuxtLink>\r\n                                  </div>\r\n                              </div>\r\n                              <div class=\"comment-one__single\">\r\n                                  <div class=\"comment-one__image\">\r\n                                      <img src=\"/images/resource/testi-2.jpg\" alt=\"\" />\r\n                                  </div>\r\n                                  <div class=\"comment-one__content\">\r\n                                      <h3>Sarah Albert</h3>\r\n                                      <p>\r\n                                          Mauris non dignissim purus, ac commodo diam. Donec sit amet\r\n                                          lacinia nulla. Aliquam quis purus in justo pulvinar tempor.\r\n                                          Aliquam tellus nulla, sollicitudin at euismod.\r\n                                      </p>\r\n                                      <NuxtLink to=\"news-details\" class=\"theme-btn btn-style-one comment-one__btn\"><span\r\n                                              class=\"btn-title\">Reply</span></NuxtLink>\r\n                                  </div>\r\n                              </div>\r\n                              <div class=\"comment-form\">\r\n                                  <h3 class=\"comment-form__title\">Leave a Comment</h3>\r\n                                  <form id=\"contact_form\" name=\"contact_form\" class=\"\" action=\"includes/sendmail.php\"\r\n                                      method=\"post\">\r\n                                      <div class=\"row\">\r\n                                          <div class=\"col-sm-6\">\r\n                                              <div class=\"mb-3\">\r\n                                                  <input name=\"form_name\" class=\"form-control\" type=\"text\"\r\n                                                      placeholder=\"Enter Name\" />\r\n                                              </div>\r\n                                          </div>\r\n                                          <div class=\"col-sm-6\">\r\n                                              <div class=\"mb-3\">\r\n                                                  <input name=\"form_email\" class=\"form-control required email\"\r\n                                                      type=\"email\" placeholder=\"Enter Email\" />\r\n                                              </div>\r\n                                          </div>\r\n                                      </div>\r\n                                      <div class=\"mb-3\">\r\n                                          <textarea name=\"form_message\" class=\"form-control required\" rows=\"5\"\r\n                                              placeholder=\"Enter Message\"></textarea>\r\n                                      </div>\r\n                                      <div class=\"mb-3\">\r\n                                          <input name=\"form_botcheck\" class=\"form-control\" type=\"hidden\" value=\"\" />\r\n                                          <button type=\"submit\" class=\"theme-btn btn-style-one\"\r\n                                              data-loading-text=\"Please wait...\">\r\n                                              <span class=\"btn-title\">Submit Comment</span>\r\n                                          </button>\r\n                                      </div>\r\n                                  </form>\r\n                              </div>\r\n                          </div> -->\r\n                      </div>\r\n                  </div>\r\n                  <div class=\"col-xl-4 col-lg-5\">\r\n                      <div class=\"sidebar\">\r\n                          <div class=\"sidebar__single sidebar__search\">\r\n                              <!-- <form action=\"#\" class=\"sidebar__search-form\">\r\n                                  <input type=\"search\" placeholder=\"Search here\" />\r\n                                  <button type=\"submit\"><i class=\"lnr-icon-search\"></i></button>\r\n                              </form> -->\r\n                          </div>\r\n                          <div class=\"sidebar__single sidebar__post\">\r\n                              <h3 class=\"sidebar__title\">Latest Posts</h3>\r\n                              <ul class=\"sidebar__post-list list-unstyled\">\r\n                                  <li>\r\n                                      <div class=\"sidebar__post-image\">\r\n                                          <img src=\"/images/resource/news-1.jpg\" alt=\"\" />\r\n                                      </div>\r\n                                      <div class=\"sidebar__post-content\">\r\n                                          <h3>\r\n                                              <span class=\"sidebar__post-content-meta\"><i\r\n                                                      class=\"fas fa-user-circle\"></i>av Admin</span>\r\n                                              <NuxtLink to=\"what-is-google-gemini-ai\">Vad är Google Gemini Ai?</NuxtLink>\r\n                                          </h3>\r\n                                      </div>\r\n                                  </li>\r\n                                  <li>\r\n                                      <div class=\"sidebar__post-image\">\r\n                                          <img src=\"/images/resource/news-2.jpg\" alt=\"\" />\r\n                                      </div>\r\n                                      <div class=\"sidebar__post-content\">\r\n                                          <h3>\r\n                                              <span class=\"sidebar__post-content-meta\"><i\r\n                                                      class=\"fas fa-user-circle\"></i>av Admin</span>\r\n                                              <NuxtLink to=\"content-strategy-examples\">Väx ditt företag med rätt innehållsstrategi</NuxtLink>\r\n                                          </h3>\r\n                                      </div>\r\n                                  </li>\r\n                                  <li>\r\n                                      <div class=\"sidebar__post-image\">\r\n                                          <img src=\"/images/resource/news-3.jpg\" alt=\"\" />\r\n                                      </div>\r\n                                      <div class=\"sidebar__post-content\">\r\n                                          <h3>\r\n                                              <span class=\"sidebar__post-content-meta\"><i\r\n                                                      class=\"fas fa-user-circle\"></i>av Admin</span>\r\n                                              <NuxtLink to=\"what-are-keywords\">Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?</NuxtLink>\r\n                                          </h3>\r\n                                      </div>\r\n                                  </li>\r\n                              </ul>\r\n                          </div>\r\n                          <!-- <div class=\"sidebar__single sidebar__category\">\r\n                              <h3 class=\"sidebar__title\">Categories</h3>\r\n                              <ul class=\"sidebar__category-list list-unstyled\">\r\n                                  <li>\r\n                                      <NuxtLink to=\"news-details\">Business<span class=\"icon-right-arrow\"></span>\r\n                                      </NuxtLink>\r\n                                  </li>\r\n                                  <li class=\"active\">\r\n                                      <NuxtLink to=\"news-details\">Digital Agency<span class=\"icon-right-arrow\"></span>\r\n                                      </NuxtLink>\r\n                                  </li>\r\n                                  <li>\r\n                                      <NuxtLink to=\"news-details\">Introductions<span class=\"icon-right-arrow\"></span>\r\n                                      </NuxtLink>\r\n                                  </li>\r\n                                  <li>\r\n                                      <NuxtLink to=\"news-details\">New Technologies<span class=\"icon-right-arrow\"></span>\r\n                                      </NuxtLink>\r\n                                  </li>\r\n                                  <li>\r\n                                      <NuxtLink to=\"news-details\">Parallax Effects<span class=\"icon-right-arrow\"></span>\r\n                                      </NuxtLink>\r\n                                  </li>\r\n                                  <li>\r\n                                      <NuxtLink to=\"news-details\">Web Development<span class=\"icon-right-arrow\"></span>\r\n                                      </NuxtLink>\r\n                                  </li>\r\n                              </ul>\r\n                          </div> -->\r\n                          <!-- <div class=\"sidebar__single sidebar__tags\">\r\n                              <h3 class=\"sidebar__title\">Tags</h3>\r\n                              <div class=\"sidebar__tags-list\">\r\n                                  <NuxtLink to=\"#\">Consulting</NuxtLink>\r\n                                  <NuxtLink to=\"#\">Agency</NuxtLink>\r\n                                  <NuxtLink to=\"#\">Business</NuxtLink>\r\n                                  <NuxtLink to=\"#\">Digital</NuxtLink>\r\n                                  <NuxtLink to=\"#\">Experience</NuxtLink>\r\n                                  <NuxtLink to=\"#\">Technology</NuxtLink>\r\n                              </div>\r\n                          </div> -->\r\n                          <!-- <div class=\"sidebar__single sidebar__comments\">\r\n                              <h3 class=\"sidebar__title\">Recent Comments</h3>\r\n                              <ul class=\"sidebar__comments-list list-unstyled\">\r\n                                  <li>\r\n                                      <div class=\"sidebar__comments-icon\">\r\n                                          <i class=\"fas fa-comments\"></i>\r\n                                      </div>\r\n                                      <div class=\"sidebar__comments-text-box\">\r\n                                          <p>\r\n                                              A wordpress commenter on <br />\r\n                                              launch new mobile app\r\n                                          </p>\r\n                                      </div>\r\n                                  </li>\r\n                                  <li>\r\n                                      <div class=\"sidebar__comments-icon\">\r\n                                          <i class=\"fas fa-comments\"></i>\r\n                                      </div>\r\n                                      <div class=\"sidebar__comments-text-box\">\r\n                                          <p><span>John Doe</span> on template:</p>\r\n                                          <h5>comments</h5>\r\n                                      </div>\r\n                                  </li>\r\n                                  <li>\r\n                                      <div class=\"sidebar__comments-icon\">\r\n                                          <i class=\"fas fa-comments\"></i>\r\n                                      </div>\r\n                                      <div class=\"sidebar__comments-text-box\">\r\n                                          <p>\r\n                                              A wordpress commenter on <br />\r\n                                              launch new mobile app\r\n                                          </p>\r\n                                      </div>\r\n                                  </li>\r\n                                  <li>\r\n                                      <div class=\"sidebar__comments-icon\">\r\n                                          <i class=\"fas fa-comments\"></i>\r\n                                      </div>\r\n                                      <div class=\"sidebar__comments-text-box\">\r\n                                          <p><span>John Doe</span> on template:</p>\r\n                                          <h5>comments</h5>\r\n                                      </div>\r\n                                  </li>\r\n                              </ul>\r\n                          </div> -->\r\n                      </div>\r\n                  </div>\r\n              </div>\r\n          </div>\r\n      </section>\r\n  </template>",
-      "start": 1721717537246,
-      "end": 1721717537416,
+      "start": 1722340238009,
+      "end": 1722340238280,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717537416,
-      "end": 1721717537416,
+      "start": 1722340238280,
+      "end": 1722340238280,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/content-startegy-details.jpg'\nimport _imports_1 from '/images/resource/news-1.jpg'\nimport _imports_2 from '/images/resource/news-2.jpg'\nimport _imports_3 from '/images/resource/news-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"blog-details\" }, _attrs))\n  }><div class=\"container\"><div class=\"row\"><div class=\"col-xl-8 col-lg-7\"><div class=\"blog-details__left\"><div class=\"blog-details__img\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><div class=\"blog-details__date\"><span class=\"day\">28</span><span class=\"month\">Aug</span></div></div><div class=\"blog-details__content\"><ul class=\"list-unstyled blog-details__meta\"><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-user-circle\"${_scopeId}></i>av Admin`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-user-circle\" }),\n          _createTextVNode(\"av Admin\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Under åren har jag skapat innehållsstrategier för företag som Google, Algolia, DocSend och många fler. Oavsett hur stort företaget är eller hur komplicerad produkten är, har innehållsstrategin alltid bottnat i att svara på tre enkla frågor. Dessa frågor är hämtade från den legendariska boken “Good Strategy Bad Strategy”, skriven av Richard Rumelt. De är utformade för att identifiera problemet som behöver lösas, ta fram alla unika styrkor du kan använda i din strategi och koppla ihop ditt problem med rätt typ av innehåll för jobbet. </p><h3 class=\"blog-details__title\"> 1. Vilka utmaningar vill du övervinna? </h3><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> De flesta företag har samma kärnproblem: de behöver fler kunder och de behöver mer pengar från dessa kunder. Men varje företag är unikt, och för att lösa det problemet krävs det vanligtvis att man övervinner en mängd mer specifika utmaningar först. Jag har listat några vanliga utmaningar nedanför. </p><ul style=\"${\n    _ssrRenderStyle({\"padding-left\":\"2rem\"})\n  }\"><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Att bygga en försäljningspipeline från grunden. Många nyare företag vänder sig till innehåll för att skapa efterfrågan på sin produkt där det inte fanns någon efterfrågan tidigare. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Sluta vara beroende av reklam. Det är vanligt att företag förlitar sig på reklam som sin huvudsakliga kundkälla, men vid en viss punkt börjar det bli för dyrt att underhålla. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Öka försäljning utifrån redan befintlig trafik. I många fall kan företag generera mycket trafik men ha det svårt med att omvandla dessa besökare till betalande kunder. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Minska kundbortfallet. Även om ett företag lyckas konvertera traffik till betalande kunder, kan de fortfarande ha det svårt med att behålla dessa kunder. </li></ul><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Var och en av dessa utmaningar (och många andra) kan lösas med hjälp av rätt innehåll. En avgörande faktor att hålla i åtanke med alla dessa problem, är att ju mer specifik du är med din diagnos av dina utmaningar, desto lättare blir det att hitta en lösning. </p><h3 class=\"blog-details__title\"> 2. Vilka styrkor kan du dra fördel av? </h3><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> De bästa innehållsstrategierna drar fördel av företagets unika styrkor. Ett hemligt vapen om du så vill kalla det. Något som gör innehåll lättare att skapa eller hjälper det att prestera bättre. Praktiskt taget alla företag har någon unikt att dra fördel av. Några exempel är: Unik data. Många </p><ul style=\"${\n    _ssrRenderStyle({\"padding-left\":\"2rem\"})\n  }\"><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> Att bygga en försäljningspipeline från grunden. Många nyare företag vänder sig till innehåll för att skapa efterfrågan på sin produkt där det inte fanns någon efterfrågan tidigare. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> företag har tillgång till unik data från sina användare eller produkter. Personliga varumärken. Vissa företag har fördelen av välkända grundare eller teammedlemmar med många följare på sociala medier. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> Team expertis och kompetens. Vissa team har unika upplevelser som kan omvandlas till unikt innehåll (som vår alldeles egna Patrick Stox, även känd som Mr. Technical SEO). </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> Nätverk av experter. Om du har turen att känna många smarta och briljanta människor kan du inkludera deras erfarenheter och perspektiv genom hela ditt innehåll (som First Round Review och deras artiklar skrivna av erfarna startupgrundare). </li></ul><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Att känna igen och använda dina unika styrkor är nyckeln till att skapa en innehållsstrategi som inte kan kopieras av dina konkurrenter. </p><h3 class=\"blog-details__title\"> 3. Vilka typer av innehåll kan övervinna dessa utmaningar? </h3><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Det finns gott om innehållstyper, allt ifrån sökinnehåll till “sales enablement”, var och en med sina egna styrkor och svagheter. Att bygga rätt innehållsstrategi handlar om att välja rätt typ för dina specifika utmaningar. Sökoptimerat innehåll är till exempel perfekt för att bygga en förutsägbar källa för trafik till en webbplats, månad efter månad, men det kanske inte hjälper med att nå högre chefer eller grundare som inte googlar vanliga problem. Kunsapsledarskapsinnehåll, som debattartiklar eller forskningsrapporter, kan vara bra för att skapa muntliga diskussioner och bakåtlänkar, men lider vanligtvis av &quot;spikig&quot; trafik som inte växer förutsägbart varje månad. &quot;Sales enablement content”, som fallstudier eller såkallat &quot;gated content”, hjälper till att avsluta försäljningsaffärer, men det är sällan intressant för den mindre insatta läsaren och gör inte mycket för att locka nya besökare till ett företag. </p></div></div></div><div class=\"col-xl-4 col-lg-5\"><div class=\"sidebar\"><div class=\"sidebar__single sidebar__search\"></div><div class=\"sidebar__single sidebar__post\"><h3 class=\"sidebar__title\">Latest Posts</h3><ul class=\"sidebar__post-list list-unstyled\"><li><div class=\"sidebar__post-image\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"\"></div><div class=\"sidebar__post-content\"><h3><span class=\"sidebar__post-content-meta\"><i class=\"fas fa-user-circle\"></i>av Admin</span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"what-is-google-gemini-ai\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Vad är Google Gemini Ai?`)\n      } else {\n        return [\n          _createTextVNode(\"Vad är Google Gemini Ai?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3></div></li><li><div class=\"sidebar__post-image\"><img${_ssrRenderAttr(\"src\", _imports_2)} alt=\"\"></div><div class=\"sidebar__post-content\"><h3><span class=\"sidebar__post-content-meta\"><i class=\"fas fa-user-circle\"></i>av Admin</span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"content-strategy-examples\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Väx ditt företag med rätt innehållsstrategi`)\n      } else {\n        return [\n          _createTextVNode(\"Väx ditt företag med rätt innehållsstrategi\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3></div></li><li><div class=\"sidebar__post-image\"><img${_ssrRenderAttr(\"src\", _imports_3)} alt=\"\"></div><div class=\"sidebar__post-content\"><h3><span class=\"sidebar__post-content-meta\"><i class=\"fas fa-user-circle\"></i>av Admin</span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"what-are-keywords\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?`)\n      } else {\n        return [\n          _createTextVNode(\"Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3></div></li></ul></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/innerpages/ContentStrategyExamplesSE.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1721717537416,
-      "end": 1721717537421,
+      "start": 1722340238280,
+      "end": 1722340238291,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537421,
-      "end": 1721717537421,
+      "start": 1722340238291,
+      "end": 1722340238291,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717537421,
-      "end": 1721717537422,
+      "start": 1722340238291,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238292,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238293,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537422,
-      "end": 1721717537422,
+      "start": 1722340238292,
+      "end": 1722340238293,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717537422,
-      "end": 1721717537424,
+      "start": 1722340238293,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717537422,
-      "end": 1721717537424,
+      "start": 1722340238293,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537424,
-      "end": 1721717537424,
+      "start": 1722340238294,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537424,
-      "end": 1721717537424,
+      "start": 1722340238294,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537424,
-      "end": 1721717537424,
+      "start": 1722340238294,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537424,
-      "end": 1721717537424,
+      "start": 1722340238294,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1721717537424,
-      "end": 1721717537424,
+      "start": 1722340238294,
+      "end": 1722340238294,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/content-startegy-details.jpg'\nimport _imports_1 from '/images/resource/news-1.jpg'\nimport _imports_2 from '/images/resource/news-2.jpg'\nimport _imports_3 from '/images/resource/news-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"blog-details\" }, _attrs))\n  }><div class=\"container\"><div class=\"row\"><div class=\"col-xl-8 col-lg-7\"><div class=\"blog-details__left\"><div class=\"blog-details__img\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><div class=\"blog-details__date\"><span class=\"day\">28</span><span class=\"month\">Aug</span></div></div><div class=\"blog-details__content\"><ul class=\"list-unstyled blog-details__meta\"><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fas fa-user-circle\"${_scopeId}></i>av Admin`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fas fa-user-circle\" }),\n          _createTextVNode(\"av Admin\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Under åren har jag skapat innehållsstrategier för företag som Google, Algolia, DocSend och många fler. Oavsett hur stort företaget är eller hur komplicerad produkten är, har innehållsstrategin alltid bottnat i att svara på tre enkla frågor. Dessa frågor är hämtade från den legendariska boken “Good Strategy Bad Strategy”, skriven av Richard Rumelt. De är utformade för att identifiera problemet som behöver lösas, ta fram alla unika styrkor du kan använda i din strategi och koppla ihop ditt problem med rätt typ av innehåll för jobbet. </p><h3 class=\"blog-details__title\"> 1. Vilka utmaningar vill du övervinna? </h3><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> De flesta företag har samma kärnproblem: de behöver fler kunder och de behöver mer pengar från dessa kunder. Men varje företag är unikt, och för att lösa det problemet krävs det vanligtvis att man övervinner en mängd mer specifika utmaningar först. Jag har listat några vanliga utmaningar nedanför. </p><ul style=\"${\n    _ssrRenderStyle({\"padding-left\":\"2rem\"})\n  }\"><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Att bygga en försäljningspipeline från grunden. Många nyare företag vänder sig till innehåll för att skapa efterfrågan på sin produkt där det inte fanns någon efterfrågan tidigare. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Sluta vara beroende av reklam. Det är vanligt att företag förlitar sig på reklam som sin huvudsakliga kundkälla, men vid en viss punkt börjar det bli för dyrt att underhålla. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Öka försäljning utifrån redan befintlig trafik. I många fall kan företag generera mycket trafik men ha det svårt med att omvandla dessa besökare till betalande kunder. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"disc\"})\n  }\"> Minska kundbortfallet. Även om ett företag lyckas konvertera traffik till betalande kunder, kan de fortfarande ha det svårt med att behålla dessa kunder. </li></ul><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Var och en av dessa utmaningar (och många andra) kan lösas med hjälp av rätt innehåll. En avgörande faktor att hålla i åtanke med alla dessa problem, är att ju mer specifik du är med din diagnos av dina utmaningar, desto lättare blir det att hitta en lösning. </p><h3 class=\"blog-details__title\"> 2. Vilka styrkor kan du dra fördel av? </h3><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> De bästa innehållsstrategierna drar fördel av företagets unika styrkor. Ett hemligt vapen om du så vill kalla det. Något som gör innehåll lättare att skapa eller hjälper det att prestera bättre. Praktiskt taget alla företag har någon unikt att dra fördel av. Några exempel är: Unik data. Många </p><ul style=\"${\n    _ssrRenderStyle({\"padding-left\":\"2rem\"})\n  }\"><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> Att bygga en försäljningspipeline från grunden. Många nyare företag vänder sig till innehåll för att skapa efterfrågan på sin produkt där det inte fanns någon efterfrågan tidigare. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> företag har tillgång till unik data från sina användare eller produkter. Personliga varumärken. Vissa företag har fördelen av välkända grundare eller teammedlemmar med många följare på sociala medier. </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> Team expertis och kompetens. Vissa team har unika upplevelser som kan omvandlas till unikt innehåll (som vår alldeles egna Patrick Stox, även känd som Mr. Technical SEO). </li><li style=\"${\n    _ssrRenderStyle({\"list-style-type\":\"square\"})\n  }\"> Nätverk av experter. Om du har turen att känna många smarta och briljanta människor kan du inkludera deras erfarenheter och perspektiv genom hela ditt innehåll (som First Round Review och deras artiklar skrivna av erfarna startupgrundare). </li></ul><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Att känna igen och använda dina unika styrkor är nyckeln till att skapa en innehållsstrategi som inte kan kopieras av dina konkurrenter. </p><h3 class=\"blog-details__title\"> 3. Vilka typer av innehåll kan övervinna dessa utmaningar? </h3><p class=\"blog-details__text-2\" style=\"${\n    _ssrRenderStyle({\"text-align\":\"justify\"})\n  }\"> Det finns gott om innehållstyper, allt ifrån sökinnehåll till “sales enablement”, var och en med sina egna styrkor och svagheter. Att bygga rätt innehållsstrategi handlar om att välja rätt typ för dina specifika utmaningar. Sökoptimerat innehåll är till exempel perfekt för att bygga en förutsägbar källa för trafik till en webbplats, månad efter månad, men det kanske inte hjälper med att nå högre chefer eller grundare som inte googlar vanliga problem. Kunsapsledarskapsinnehåll, som debattartiklar eller forskningsrapporter, kan vara bra för att skapa muntliga diskussioner och bakåtlänkar, men lider vanligtvis av &quot;spikig&quot; trafik som inte växer förutsägbart varje månad. &quot;Sales enablement content”, som fallstudier eller såkallat &quot;gated content”, hjälper till att avsluta försäljningsaffärer, men det är sällan intressant för den mindre insatta läsaren och gör inte mycket för att locka nya besökare till ett företag. </p></div></div></div><div class=\"col-xl-4 col-lg-5\"><div class=\"sidebar\"><div class=\"sidebar__single sidebar__search\"></div><div class=\"sidebar__single sidebar__post\"><h3 class=\"sidebar__title\">Latest Posts</h3><ul class=\"sidebar__post-list list-unstyled\"><li><div class=\"sidebar__post-image\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"\"></div><div class=\"sidebar__post-content\"><h3><span class=\"sidebar__post-content-meta\"><i class=\"fas fa-user-circle\"></i>av Admin</span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"what-is-google-gemini-ai\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Vad är Google Gemini Ai?`)\n      } else {\n        return [\n          _createTextVNode(\"Vad är Google Gemini Ai?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3></div></li><li><div class=\"sidebar__post-image\"><img${_ssrRenderAttr(\"src\", _imports_2)} alt=\"\"></div><div class=\"sidebar__post-content\"><h3><span class=\"sidebar__post-content-meta\"><i class=\"fas fa-user-circle\"></i>av Admin</span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"content-strategy-examples\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Väx ditt företag med rätt innehållsstrategi`)\n      } else {\n        return [\n          _createTextVNode(\"Väx ditt företag med rätt innehållsstrategi\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3></div></li><li><div class=\"sidebar__post-image\"><img${_ssrRenderAttr(\"src\", _imports_3)} alt=\"\"></div><div class=\"sidebar__post-content\"><h3><span class=\"sidebar__post-content-meta\"><i class=\"fas fa-user-circle\"></i>av Admin</span>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"what-are-keywords\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?`)\n      } else {\n        return [\n          _createTextVNode(\"Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h3></div></li></ul></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/innerpages/ContentStrategyExamplesSE.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1721717537424,
-      "end": 1721717537426,
+      "start": 1722340238294,
+      "end": 1722340238296,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717537426,
-      "end": 1721717537426,
+      "start": 1722340238296,
+      "end": 1722340238296,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717537426,
-      "end": 1721717537426,
+      "start": 1722340238296,
+      "end": 1722340238296,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717537426,
-      "end": 1721717537426,
+      "start": 1722340238297,
+      "end": 1722340238297,
       "order": "normal"
     }
   ]

@@ -1,1 +1,0 @@
-import{_ as n}from"./PageTitle.neMdx7uE.js";import{_}from"./Servicesdetails.Cb80W2_w.js";import{c as a,b as e,F as c,o as r}from"./entry.noroYABu.js";import"./nuxt-link.fn2VZHbw.js";const d={__name:"page-service-details",setup(s){return(m,p)=>{const t=n,o=_;return r(),a(c,null,[e(t,{title:"Service Details"}),e(o)],64)}}};export{d as default};

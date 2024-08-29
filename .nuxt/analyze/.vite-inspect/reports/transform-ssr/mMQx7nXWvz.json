@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<section class=\"news-section\">\r\n\t\t<div class=\"auto-container\">\r\n\t\t\t<div class=\"sec-title text-center\">\r\n\t\t\t\t<span class=\"sub-title\">From the Blog</span>\r\n\t\t\t\t<h2>Checkout latest news <br> updates & articles</h2>\r\n\t\t\t</div>\r\n\t\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<!-- News Block -->\r\n\t\t\t\t<div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/en/what-is-google-gemini-ai\"><img src=\"/images/resource/news-1.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"date\">30 June</span>\r\n\t\t\t\t\t\t\t<ul class=\"post-info\">\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-user-circle\"></i> by Admin</li>\r\n\t\t\t\t\t\t\t\t<!-- <li><i class=\"fa fa-comments\"></i> 2 Comments</li> -->\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/en/what-is-google-gemini-ai\">what is google gemini ai</NuxtLink></h4>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"what-is-google-gemini-ai\" class=\"read-more\">Read More <i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- News Block -->\r\n\t\t\t\t<div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"300ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/en/content-strategy-examples\"><img src=\"/images/resource/content-strategy.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"date\">30 June</span>\r\n\t\t\t\t\t\t\t<ul class=\"post-info\">\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-user-circle\"></i> by Admin</li>\r\n\t\t\t\t\t\t\t\t<!-- <li><i class=\"fa fa-comments\"></i> 2 Comments</li> -->\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/en/content-strategy-examples\">Content strategy examples</NuxtLink></h4>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"content-strategy-examples\" class=\"read-more\">Read More <i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- News Block -->\r\n\t\t\t\t<div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/en/what-are-keywords\"><img src=\"/images/resource/news-3.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"date\">30 June</span>\r\n\t\t\t\t\t\t\t<ul class=\"post-info\">\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-user-circle\"></i> by Admin</li>\r\n\t\t\t\t\t\t\t\t<!-- <li><i class=\"fa fa-comments\"></i> 2 Comments</li> -->\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/en/what-are-keywords\">What are keywords?</NuxtLink></h4>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"what-are-keywords\" class=\"read-more\">Read More <i class=\"fa fa-long-arrow-alt-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n</template>",
-      "start": 1721717537380,
-      "end": 1721717537635,
+      "start": 1722340238208,
+      "end": 1722340238609,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238609,
+      "end": 1722340238609,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238610,
+      "end": 1722340238610,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717537635,
-      "end": 1721717537635,
+      "start": 1722340238610,
+      "end": 1722340238610,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/news-1.jpg'\nimport _imports_1 from '/images/resource/content-strategy.jpg'\nimport _imports_2 from '/images/resource/news-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"news-section\" }, _attrs))}><div class=\"auto-container\"><div class=\"sec-title text-center\"><span class=\"sub-title\">From the Blog</span><h2>Checkout latest news <br> updates &amp; articles</h2></div><div class=\"row\"><div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-is-google-gemini-ai\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div><div class=\"content-box\"><span class=\"date\">30 June</span><ul class=\"post-info\"><li><i class=\"fa fa-user-circle\"></i> by Admin</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-is-google-gemini-ai\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`what is google gemini ai`)\n      } else {\n        return [\n          _createTextVNode(\"what is google gemini ai\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"what-is-google-gemini-ai\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-long-arrow-alt-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"300ms\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/content-strategy-examples\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div><div class=\"content-box\"><span class=\"date\">30 June</span><ul class=\"post-info\"><li><i class=\"fa fa-user-circle\"></i> by Admin</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/content-strategy-examples\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Content strategy examples`)\n      } else {\n        return [\n          _createTextVNode(\"Content strategy examples\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"content-strategy-examples\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-long-arrow-alt-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-are-keywords\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div><div class=\"content-box\"><span class=\"date\">30 June</span><ul class=\"post-info\"><li><i class=\"fa fa-user-circle\"></i> by Admin</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-are-keywords\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`What are keywords?`)\n      } else {\n        return [\n          _createTextVNode(\"What are keywords?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"what-are-keywords\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-long-arrow-alt-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/Blog.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1721717537635,
-      "end": 1721717537638,
+      "start": 1722340238610,
+      "end": 1722340238614,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238615,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238615,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537638,
-      "end": 1721717537638,
+      "start": 1722340238616,
+      "end": 1722340238616,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717537638,
-      "end": 1721717537639,
+      "start": 1722340238616,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717537638,
-      "end": 1721717537639,
+      "start": 1722340238616,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537639,
-      "end": 1721717537639,
+      "start": 1722340238618,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537639,
-      "end": 1721717537639,
+      "start": 1722340238618,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537639,
-      "end": 1721717537639,
+      "start": 1722340238618,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537639,
-      "end": 1721717537639,
+      "start": 1722340238618,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1721717537639,
-      "end": 1721717537639,
+      "start": 1722340238618,
+      "end": 1722340238618,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/news-1.jpg'\nimport _imports_1 from '/images/resource/content-strategy.jpg'\nimport _imports_2 from '/images/resource/news-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"news-section\" }, _attrs))}><div class=\"auto-container\"><div class=\"sec-title text-center\"><span class=\"sub-title\">From the Blog</span><h2>Checkout latest news <br> updates &amp; articles</h2></div><div class=\"row\"><div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-is-google-gemini-ai\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div><div class=\"content-box\"><span class=\"date\">30 June</span><ul class=\"post-info\"><li><i class=\"fa fa-user-circle\"></i> by Admin</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-is-google-gemini-ai\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`what is google gemini ai`)\n      } else {\n        return [\n          _createTextVNode(\"what is google gemini ai\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"what-is-google-gemini-ai\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-long-arrow-alt-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"300ms\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/content-strategy-examples\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div><div class=\"content-box\"><span class=\"date\">30 June</span><ul class=\"post-info\"><li><i class=\"fa fa-user-circle\"></i> by Admin</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/content-strategy-examples\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Content strategy examples`)\n      } else {\n        return [\n          _createTextVNode(\"Content strategy examples\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"content-strategy-examples\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-long-arrow-alt-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-are-keywords\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div><div class=\"content-box\"><span class=\"date\">30 June</span><ul class=\"post-info\"><li><i class=\"fa fa-user-circle\"></i> by Admin</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/en/what-are-keywords\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`What are keywords?`)\n      } else {\n        return [\n          _createTextVNode(\"What are keywords?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"what-are-keywords\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-long-arrow-alt-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-long-arrow-alt-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/Blog.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1721717537639,
-      "end": 1721717537640,
+      "start": 1722340238618,
+      "end": 1722340238619,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717537640,
-      "end": 1721717537640,
+      "start": 1722340238619,
+      "end": 1722340238619,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717537640,
-      "end": 1721717537640,
+      "start": 1722340238619,
+      "end": 1722340238619,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717537640,
-      "end": 1721717537640,
+      "start": 1722340238619,
+      "end": 1722340238619,
       "order": "normal"
     }
   ]

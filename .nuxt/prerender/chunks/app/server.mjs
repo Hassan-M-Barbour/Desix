@@ -652,7 +652,7 @@ const _routes = [
     meta: __nuxt_page_meta$z || {},
     alias: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.alias) || [],
     redirect: __nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.redirect,
-    component: () => import('./_nuxt/about-kTpmoOkq.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/about-X0VAUvy5.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.name) ?? "contact",
@@ -828,7 +828,7 @@ const _routes = [
     meta: __nuxt_page_meta$d || {},
     alias: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.alias) || [],
     redirect: __nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.redirect,
-    component: () => import('./_nuxt/index-4O4Ny69L.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-lR1xWdXt.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.name) ?? "mobile-apps-development",

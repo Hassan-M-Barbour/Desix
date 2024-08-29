@@ -20,7 +20,7 @@ import { dirname, resolve } from 'file://C:/projects/desix/node_modules/pathe/di
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "7252ff7b-b61d-4610-b48c-1ce39c545d12"
+    "buildId": "67cc04f2-622e-4e64-8ce7-de185b68fefd"
   }
 };
 

@@ -1,1 +1,0 @@
-import{_ as n}from"./PageTitleSE.vQnKv19q.js";import{_}from"./BlogSE.UocO-ta9.js";import{c as r,b as o,F as m,o as c}from"./entry.noroYABu.js";import"./nuxt-link.fn2VZHbw.js";import"./news-3.Q1IzGeBb.js";import"./content-strategy.xnhvKSC-.js";const B={__name:"news",setup(a){return(p,s)=>{const t=n,e=_;return c(),r(m,null,[o(t,{title:"Nyheter"}),o(e)],64)}}};export{B as default};

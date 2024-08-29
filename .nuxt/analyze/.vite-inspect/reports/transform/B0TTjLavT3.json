@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <LayoutPageTitleSE title=\"Om Oss\" />\r\n  <!-- <SectionsInnerpagesAbout/> -->\r\n   \r\n  <SectionsHome1AboutSE/>\r\n  <SectionsHome1ServiceSE/>\r\n  <SectionsInnerpagesTeam2SE/>\r\n  <!-- <SectionsHome4Clients/> -->\r\n</template>\r\n<script setup>\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n</script>",
-      "start": 1721717529183,
-      "end": 1721717529263,
+      "start": 1722340224747,
+      "end": 1722340224905,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224905,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  setup(__props) {\n\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n\nreturn (_ctx, _cache) => {\n  const _component_LayoutPageTitleSE = _resolveComponent(\"LayoutPageTitleSE\")\n  const _component_SectionsHome1AboutSE = _resolveComponent(\"SectionsHome1AboutSE\")\n  const _component_SectionsHome1ServiceSE = _resolveComponent(\"SectionsHome1ServiceSE\")\n  const _component_SectionsInnerpagesTeam2SE = _resolveComponent(\"SectionsInnerpagesTeam2SE\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_LayoutPageTitleSE, { title: \"Om Oss\" }),\n    _createVNode(_component_SectionsHome1AboutSE),\n    _createVNode(_component_SectionsHome1ServiceSE),\n    _createVNode(_component_SectionsInnerpagesTeam2SE)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224905,
+      "end": 1722340224906,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,105 +62,105 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529263,
-      "end": 1721717529263,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224906,
+      "end": 1722340224906,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224907,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  setup(__props) {\n\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n\nreturn (_ctx, _cache) => {\n  const _component_LayoutPageTitleSE = _resolveComponent(\"LayoutPageTitleSE\")\n  const _component_SectionsHome1AboutSE = _resolveComponent(\"SectionsHome1AboutSE\")\n  const _component_SectionsHome1ServiceSE = _resolveComponent(\"SectionsHome1ServiceSE\")\n  const _component_SectionsInnerpagesTeam2SE = _resolveComponent(\"SectionsInnerpagesTeam2SE\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_LayoutPageTitleSE, { title: \"Om Oss\" }),\n    _createVNode(_component_SectionsHome1AboutSE),\n    _createVNode(_component_SectionsHome1ServiceSE),\n    _createVNode(_component_SectionsInnerpagesTeam2SE)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224907,
+      "end": 1722340224908,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -173,52 +173,52 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224908,
+      "end": 1722340224908,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224908,
+      "end": 1722340224908,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224908,
+      "end": 1722340224908,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529264,
-      "end": 1721717529264,
+      "start": 1722340224908,
+      "end": 1722340224908,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/components/layout/PageTitleSE.vue\";\nimport { default as __nuxt_component_1 } from \"C:/projects/desix/components/sections/home1/AboutSE.vue\";\nimport { default as __nuxt_component_2 } from \"C:/projects/desix/components/sections/home1/ServiceSE.vue\";\nimport { default as __nuxt_component_3 } from \"C:/projects/desix/components/sections/innerpages/Team2SE.vue\";\nimport { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  setup(__props) {\n\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n\nreturn (_ctx, _cache) => {\n  const _component_LayoutPageTitleSE = __nuxt_component_0\n  const _component_SectionsHome1AboutSE = __nuxt_component_1\n  const _component_SectionsHome1ServiceSE = __nuxt_component_2\n  const _component_SectionsInnerpagesTeam2SE = __nuxt_component_3\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_LayoutPageTitleSE, { title: \"Om Oss\" }),\n    _createVNode(_component_SectionsHome1AboutSE),\n    _createVNode(_component_SectionsHome1ServiceSE),\n    _createVNode(_component_SectionsInnerpagesTeam2SE)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529264,
-      "end": 1721717529265,
+      "start": 1722340224908,
+      "end": 1722340224909,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/components/layout/PageTitleSE.vue\";\nimport { default as __nuxt_component_1 } from \"C:/projects/desix/components/sections/home1/AboutSE.vue\";\nimport { default as __nuxt_component_2 } from \"C:/projects/desix/components/sections/home1/ServiceSE.vue\";\nimport { default as __nuxt_component_3 } from \"C:/projects/desix/components/sections/innerpages/Team2SE.vue\";\nimport { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  setup(__props) {\n\r\n false && /*@__PURE__*/ definePageMeta({\r\n  layout: 'se'\r\n})\r\n\nreturn (_ctx, _cache) => {\n  const _component_LayoutPageTitleSE = __nuxt_component_0\n  const _component_SectionsHome1AboutSE = __nuxt_component_1\n  const _component_SectionsHome1ServiceSE = __nuxt_component_2\n  const _component_SectionsInnerpagesTeam2SE = __nuxt_component_3\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_LayoutPageTitleSE, { title: \"Om Oss\" }),\n    _createVNode(_component_SectionsHome1AboutSE),\n    _createVNode(_component_SectionsHome1ServiceSE),\n    _createVNode(_component_SectionsInnerpagesTeam2SE)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529265,
-      "end": 1721717529265,
+      "start": 1722340224909,
+      "end": 1722340224909,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529265,
-      "end": 1721717529265,
+      "start": 1722340224909,
+      "end": 1722340224909,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529265,
-      "end": 1721717529265,
+      "start": 1722340224909,
+      "end": 1722340224910,
       "order": "normal"
     }
   ]

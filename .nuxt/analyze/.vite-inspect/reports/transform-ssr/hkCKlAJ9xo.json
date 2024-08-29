@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <LayoutPageTitle title=\"About\" />\r\n    <!-- <SectionsInnerpagesAbout/> -->\r\n     \r\n    <SectionsHome1About/>\r\n    <SectionsHome1Service/>\r\n    <SectionsInnerpagesTeam2/>\r\n    <!-- <SectionsHome4Clients/> -->\r\n  </template>\r\n  <script setup>\r\n  definePageMeta({\r\n    layout: 'default'\r\n  })\r\n  </script>",
-      "start": 1721717537005,
-      "end": 1721717537114,
+      "start": 1722340237631,
+      "end": 1722340237786,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237786,
+      "end": 1722340237786,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237786,
+      "end": 1722340237786,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237786,
+      "end": 1722340237787,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237786,
+      "end": 1722340237787,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n  definePageMeta({\r\n    layout: 'default'\r\n  })\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_LayoutPageTitle = _resolveComponent(\"LayoutPageTitle\")\n  const _component_SectionsHome1About = _resolveComponent(\"SectionsHome1About\")\n  const _component_SectionsHome1Service = _resolveComponent(\"SectionsHome1Service\")\n  const _component_SectionsInnerpagesTeam2 = _resolveComponent(\"SectionsInnerpagesTeam2\")\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_LayoutPageTitle, { title: \"About\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1About, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1Service, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsInnerpagesTeam2, null, null, _parent))\n  _push(`<!--]-->`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/en/about.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537114,
-      "end": 1721717537114,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,117 +82,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717537114,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237787,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237788,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237787,
+      "end": 1722340237788,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n  definePageMeta({\r\n    layout: 'default'\r\n  })\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_LayoutPageTitle = _resolveComponent(\"LayoutPageTitle\")\n  const _component_SectionsHome1About = _resolveComponent(\"SectionsHome1About\")\n  const _component_SectionsHome1Service = _resolveComponent(\"SectionsHome1Service\")\n  const _component_SectionsInnerpagesTeam2 = _resolveComponent(\"SectionsInnerpagesTeam2\")\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_LayoutPageTitle, { title: \"About\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1About, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1Service, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsInnerpagesTeam2, null, null, _parent))\n  _push(`<!--]-->`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/en/about.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237788,
+      "end": 1722340237789,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -206,8 +206,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n  definePageMeta({\r\n    layout: 'default'\r\n  })\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_LayoutPageTitle = _resolveComponent(\"LayoutPageTitle\")\n  const _component_SectionsHome1About = _resolveComponent(\"SectionsHome1About\")\n  const _component_SectionsHome1Service = _resolveComponent(\"SectionsHome1Service\")\n  const _component_SectionsInnerpagesTeam2 = _resolveComponent(\"SectionsInnerpagesTeam2\")\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_LayoutPageTitle, { title: \"About\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1About, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1Service, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsInnerpagesTeam2, null, null, _parent))\n  _push(`<!--]-->`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/en/about.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537115,
-      "end": 1721717537115,
+      "start": 1722340237788,
+      "end": 1722340237789,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -220,39 +220,39 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537115,
-      "end": 1721717537116,
+      "start": 1722340237789,
+      "end": 1722340237789,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537115,
-      "end": 1721717537116,
+      "start": 1722340237789,
+      "end": 1722340237789,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537116,
-      "end": 1721717537116,
+      "start": 1722340237789,
+      "end": 1722340237789,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537116,
-      "end": 1721717537116,
+      "start": 1722340237789,
+      "end": 1722340237789,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1721717537116,
-      "end": 1721717537116,
+      "start": 1722340237789,
+      "end": 1722340237790,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/components/layout/PageTitle.vue\";\nimport { default as __nuxt_component_1 } from \"C:/projects/desix/components/sections/home1/About.vue\";\nimport { default as __nuxt_component_2 } from \"C:/projects/desix/components/sections/home1/Service.vue\";\nimport { default as __nuxt_component_3 } from \"C:/projects/desix/components/sections/innerpages/Team2.vue\";\nimport { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n  definePageMeta({\r\n    layout: 'default'\r\n  })\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_LayoutPageTitle = __nuxt_component_0\n  const _component_SectionsHome1About = __nuxt_component_1\n  const _component_SectionsHome1Service = __nuxt_component_2\n  const _component_SectionsInnerpagesTeam2 = __nuxt_component_3\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_LayoutPageTitle, { title: \"About\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1About, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1Service, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsInnerpagesTeam2, null, null, _parent))\n  _push(`<!--]-->`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/en/about.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537116,
-      "end": 1721717537116,
+      "start": 1722340237790,
+      "end": 1722340237790,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -266,8 +266,8 @@
     {
       "name": "nuxt:tree-shake-composables:transform",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/components/layout/PageTitle.vue\";\nimport { default as __nuxt_component_1 } from \"C:/projects/desix/components/sections/home1/About.vue\";\nimport { default as __nuxt_component_2 } from \"C:/projects/desix/components/sections/home1/Service.vue\";\nimport { default as __nuxt_component_3 } from \"C:/projects/desix/components/sections/innerpages/Team2.vue\";\nimport { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'about',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n   false && /*@__PURE__*/ definePageMeta({\r\n    layout: 'default'\r\n  })\r\n  \nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_LayoutPageTitle = __nuxt_component_0\n  const _component_SectionsHome1About = __nuxt_component_1\n  const _component_SectionsHome1Service = __nuxt_component_2\n  const _component_SectionsInnerpagesTeam2 = __nuxt_component_3\n\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(_component_LayoutPageTitle, { title: \"About\" }, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1About, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsHome1Service, null, null, _parent))\n  _push(_ssrRenderComponent(_component_SectionsInnerpagesTeam2, null, null, _parent))\n  _push(`<!--]-->`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/en/about.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537116,
-      "end": 1721717537116,
+      "start": 1722340237790,
+      "end": 1722340237791,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -280,14 +280,14 @@
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717537117,
-      "end": 1721717537117,
+      "start": 1722340237791,
+      "end": 1722340237791,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717537117,
-      "end": 1721717537117,
+      "start": 1722340237791,
+      "end": 1722340237791,
       "order": "normal"
     }
   ]

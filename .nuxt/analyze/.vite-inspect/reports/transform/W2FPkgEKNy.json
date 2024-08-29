@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <section class=\"main-slider\">\r\n    <swiper :slides-per-view=\"1\" :space-between=\"30\" :loop=\"true\" :autoplay=\"{\r\n      delay: 3000,\r\n      disableOnInteraction: true,\r\n      }\" :pagination=\"{\r\n          el: '.swiper-pagination',\r\n          clickable: true,\r\n      }\" :navigation=\"{\r\n          nextEl: '.h1n',\r\n          prevEl: '.h1p',\r\n      }\" :modules=\"modules\" class=\"banner-slider\">\r\n      <!-- Slide Item -->\r\n      <swiper-slide class=\"banner-slide slide-item\">\r\n        <div class=\"banner-slide\"> <img src=\"/images/main-slider/1.jpg\" alt=\"\">\r\n          <div class=\"outer-box\">\r\n            <div class=\"auto-container\">\r\n              <div class=\"content-box\">\r\n                <h1 data-animation-in=\"fadeInLeft\" data-delay-in=\"0.2\"> <span class=\"selected\">New</span> Generation <br> for Technology and Design</h1>\r\n                <NuxtLink to=\"/about\" data-animation-in=\"fadeInUp\" data-delay-in=\"0.4\" class=\"theme-btn btn-style-one hover-light mt-20\">Discover More</NuxtLink>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </swiper-slide>\r\n\r\n      <!-- Slide Item -->\r\n      <swiper-slide class=\"banner-slide slide-item\">\r\n        <div class=\"banner-slide\"> <img src=\"/images/main-slider/2.jpg\" alt=\"\">\r\n          <div class=\"outer-box\">\r\n            <div class=\"auto-container\">\r\n              <div class=\"content-box\">\r\n                <h1 data-animation-in=\"fadeInLeft\" data-delay-in=\"0.2\"> <span class=\"selected\">Tech</span>  Development <br>for the Future</h1>\r\n                <NuxtLink to=\"/about\" data-animation-in=\"fadeInUp\" data-delay-in=\"0.4\" class=\"theme-btn btn-style-one hover-light mt-20\">Discover More</NuxtLink>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </swiper-slide>\r\n    </swiper>\r\n  </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n  components: {\r\n    Swiper,\r\n    SwiperSlide,\r\n  },\r\n  setup() {\r\n    return {\r\n      modules: [Autoplay, Pagination, Navigation],\r\n    }\r\n  },\r\n}\r\n</script>",
-      "start": 1721717529498,
-      "end": 1721717529714,
+      "start": 1722340225241,
+      "end": 1722340225578,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529714,
-      "end": 1721717529714,
+      "start": 1722340225578,
+      "end": 1722340225578,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n  components: {\r\n    Swiper,\r\n    SwiperSlide,\r\n  },\r\n  setup() {\r\n    return {\r\n      modules: [Autoplay, Pagination, Navigation],\r\n    }\r\n  },\r\n}\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/main-slider/1.jpg'\nimport _imports_1 from '/images/main-slider/2.jpg'\n\n\nconst _hoisted_1 = { class: \"main-slider\" }\nconst _hoisted_2 = { class: \"banner-slide\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_4 = { class: \"outer-box\" }\nconst _hoisted_5 = { class: \"auto-container\" }\nconst _hoisted_6 = { class: \"content-box\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"h1\", {\n  \"data-animation-in\": \"fadeInLeft\",\n  \"data-delay-in\": \"0.2\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"selected\" }, \"New\"),\n  /*#__PURE__*/_createTextVNode(\" Generation \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\" for Technology and Design\")\n], -1)\nconst _hoisted_8 = { class: \"banner-slide\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_10 = { class: \"outer-box\" }\nconst _hoisted_11 = { class: \"auto-container\" }\nconst _hoisted_12 = { class: \"content-box\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"h1\", {\n  \"data-animation-in\": \"fadeInLeft\",\n  \"data-delay-in\": \"0.2\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"selected\" }, \"Tech\"),\n  /*#__PURE__*/_createTextVNode(\" Development \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"for the Future\")\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createVNode(_component_swiper, {\n      \"slides-per-view\": 1,\n      \"space-between\": 30,\n      loop: true,\n      autoplay: {\r\n      delay: 3000,\r\n      disableOnInteraction: true,\r\n      },\n      pagination: {\r\n          el: '.swiper-pagination',\r\n          clickable: true,\r\n      },\n      navigation: {\r\n          nextEl: '.h1n',\r\n          prevEl: '.h1p',\r\n      },\n      modules: $setup.modules,\n      class: \"banner-slider\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_swiper_slide, { class: \"banner-slide slide-item\" }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"div\", _hoisted_2, [\n              _hoisted_3,\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"div\", _hoisted_5, [\n                  _createElementVNode(\"div\", _hoisted_6, [\n                    _hoisted_7,\n                    _createVNode(_component_NuxtLink, {\n                      to: \"/about\",\n                      \"data-animation-in\": \"fadeInUp\",\n                      \"data-delay-in\": \"0.4\",\n                      class: \"theme-btn btn-style-one hover-light mt-20\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createTextVNode(\"Discover More\")\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_swiper_slide, { class: \"banner-slide slide-item\" }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"div\", _hoisted_8, [\n              _hoisted_9,\n              _createElementVNode(\"div\", _hoisted_10, [\n                _createElementVNode(\"div\", _hoisted_11, [\n                  _createElementVNode(\"div\", _hoisted_12, [\n                    _hoisted_13,\n                    _createVNode(_component_NuxtLink, {\n                      to: \"/about\",\n                      \"data-animation-in\": \"fadeInUp\",\n                      \"data-delay-in\": \"0.4\",\n                      class: \"theme-btn btn-style-one hover-light mt-20\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createTextVNode(\"Discover More\")\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }, 8, [\"pagination\", \"navigation\", \"modules\"])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529714,
-      "end": 1721717529717,
+      "start": 1722340225578,
+      "end": 1722340225582,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529717,
-      "end": 1721717529717,
+      "start": 1722340225582,
+      "end": 1722340225582,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529717,
-      "end": 1721717529717,
+      "start": 1722340225582,
+      "end": 1722340225582,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529717,
-      "end": 1721717529717,
+      "start": 1722340225582,
+      "end": 1722340225582,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225582,
+      "end": 1722340225582,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225582,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529718,
-      "end": 1721717529718,
+      "start": 1722340225583,
+      "end": 1722340225583,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717529718,
-      "end": 1721717529719,
+      "start": 1722340225583,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\n\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n  components: {\r\n    Swiper,\r\n    SwiperSlide,\r\n  },\r\n  setup() {\r\n    return {\r\n      modules: [Autoplay, Pagination, Navigation],\r\n    }\r\n  },\r\n}\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/main-slider/1.jpg'\nimport _imports_1 from '/images/main-slider/2.jpg'\n\n\nconst _hoisted_1 = { class: \"main-slider\" }\nconst _hoisted_2 = { class: \"banner-slide\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_4 = { class: \"outer-box\" }\nconst _hoisted_5 = { class: \"auto-container\" }\nconst _hoisted_6 = { class: \"content-box\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"h1\", {\n  \"data-animation-in\": \"fadeInLeft\",\n  \"data-delay-in\": \"0.2\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"selected\" }, \"New\"),\n  /*#__PURE__*/_createTextVNode(\" Generation \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\" for Technology and Design\")\n], -1)\nconst _hoisted_8 = { class: \"banner-slide\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_10 = { class: \"outer-box\" }\nconst _hoisted_11 = { class: \"auto-container\" }\nconst _hoisted_12 = { class: \"content-box\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"h1\", {\n  \"data-animation-in\": \"fadeInLeft\",\n  \"data-delay-in\": \"0.2\"\n}, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"selected\" }, \"Tech\"),\n  /*#__PURE__*/_createTextVNode(\" Development \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"for the Future\")\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createVNode(_component_swiper, {\n      \"slides-per-view\": 1,\n      \"space-between\": 30,\n      loop: true,\n      autoplay: {\r\n      delay: 3000,\r\n      disableOnInteraction: true,\r\n      },\n      pagination: {\r\n          el: '.swiper-pagination',\r\n          clickable: true,\r\n      },\n      navigation: {\r\n          nextEl: '.h1n',\r\n          prevEl: '.h1p',\r\n      },\n      modules: $setup.modules,\n      class: \"banner-slider\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_swiper_slide, { class: \"banner-slide slide-item\" }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"div\", _hoisted_2, [\n              _hoisted_3,\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"div\", _hoisted_5, [\n                  _createElementVNode(\"div\", _hoisted_6, [\n                    _hoisted_7,\n                    _createVNode(_component_NuxtLink, {\n                      to: \"/about\",\n                      \"data-animation-in\": \"fadeInUp\",\n                      \"data-delay-in\": \"0.4\",\n                      class: \"theme-btn btn-style-one hover-light mt-20\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createTextVNode(\"Discover More\")\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_swiper_slide, { class: \"banner-slide slide-item\" }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"div\", _hoisted_8, [\n              _hoisted_9,\n              _createElementVNode(\"div\", _hoisted_10, [\n                _createElementVNode(\"div\", _hoisted_11, [\n                  _createElementVNode(\"div\", _hoisted_12, [\n                    _hoisted_13,\n                    _createVNode(_component_NuxtLink, {\n                      to: \"/about\",\n                      \"data-animation-in\": \"fadeInUp\",\n                      \"data-delay-in\": \"0.4\",\n                      class: \"theme-btn btn-style-one hover-light mt-20\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createTextVNode(\"Discover More\")\n                      ]),\n                      _: 1\n                    })\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }, 8, [\"pagination\", \"navigation\", \"modules\"])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529719,
-      "end": 1721717529719,
+      "start": 1722340225584,
+      "end": 1722340225584,
       "order": "normal"
     }
   ]

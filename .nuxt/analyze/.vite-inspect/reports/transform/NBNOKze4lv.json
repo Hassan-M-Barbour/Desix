@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <SectionsHome1SliderSE/>\r\n  <!-- <SectionsHome1Service/> -->\r\n  <SectionsHome1AboutSE/>\r\n  <SectionsHome1MarqueeSE/>\r\n  <SectionsHome1CalltoactionSE/>\r\n  <!-- <SectionsHome1Faq/>\r\n  <SectionsHome1Testimonial/> -->\r\n  <SectionsHome1WhychoseusSE/>\r\n  <!-- <SectionsHome1Project/> -->\r\n  <!-- <SectionsHome1Funfact/> -->\r\n  <SectionsHome1BlogSE/>\r\n  <!-- <SectionsHome1Clients/> -->\r\n  <SectionsHome1ContactSE/>\r\n  <SectionsHome1ContactForm></SectionsHome1ContactForm>\r\n</template>\r\n<script setup>\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n</script>",
-      "start": 1721717529096,
-      "end": 1721717529205,
+      "start": 1722340224665,
+      "end": 1722340224842,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224842,
+      "end": 1722340224842,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224842,
+      "end": 1722340224842,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224842,
+      "end": 1722340224842,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224843,
+      "end": 1722340224843,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224843,
+      "end": 1722340224843,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224843,
+      "end": 1722340224843,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529205,
-      "end": 1721717529205,
+      "start": 1722340224843,
+      "end": 1722340224843,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\n\nconst _sfc_main = {\n  __name: 'index',\n  setup(__props) {\n\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n\nreturn (_ctx, _cache) => {\n  const _component_SectionsHome1SliderSE = _resolveComponent(\"SectionsHome1SliderSE\")\n  const _component_SectionsHome1AboutSE = _resolveComponent(\"SectionsHome1AboutSE\")\n  const _component_SectionsHome1MarqueeSE = _resolveComponent(\"SectionsHome1MarqueeSE\")\n  const _component_SectionsHome1CalltoactionSE = _resolveComponent(\"SectionsHome1CalltoactionSE\")\n  const _component_SectionsHome1WhychoseusSE = _resolveComponent(\"SectionsHome1WhychoseusSE\")\n  const _component_SectionsHome1BlogSE = _resolveComponent(\"SectionsHome1BlogSE\")\n  const _component_SectionsHome1ContactSE = _resolveComponent(\"SectionsHome1ContactSE\")\n  const _component_SectionsHome1ContactForm = _resolveComponent(\"SectionsHome1ContactForm\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_SectionsHome1SliderSE),\n    _createVNode(_component_SectionsHome1AboutSE),\n    _createVNode(_component_SectionsHome1MarqueeSE),\n    _createVNode(_component_SectionsHome1CalltoactionSE),\n    _createVNode(_component_SectionsHome1WhychoseusSE),\n    _createVNode(_component_SectionsHome1BlogSE),\n    _createVNode(_component_SectionsHome1ContactSE),\n    _createVNode(_component_SectionsHome1ContactForm)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529205,
-      "end": 1721717529206,
+      "start": 1722340224843,
+      "end": 1722340224844,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,105 +62,105 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224844,
+      "end": 1722340224844,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224844,
+      "end": 1722340224844,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224844,
+      "end": 1722340224844,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224844,
+      "end": 1722340224844,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224844,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529206,
-      "end": 1721717529206,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529207,
-      "end": 1721717529207,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { definePageMeta } from 'C:/projects/desix/node_modules/nuxt/dist/pages/runtime/composables';\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\n\nconst _sfc_main = {\n  __name: 'index',\n  setup(__props) {\n\r\ndefinePageMeta({\r\n  layout: 'se'\r\n})\r\n\nreturn (_ctx, _cache) => {\n  const _component_SectionsHome1SliderSE = _resolveComponent(\"SectionsHome1SliderSE\")\n  const _component_SectionsHome1AboutSE = _resolveComponent(\"SectionsHome1AboutSE\")\n  const _component_SectionsHome1MarqueeSE = _resolveComponent(\"SectionsHome1MarqueeSE\")\n  const _component_SectionsHome1CalltoactionSE = _resolveComponent(\"SectionsHome1CalltoactionSE\")\n  const _component_SectionsHome1WhychoseusSE = _resolveComponent(\"SectionsHome1WhychoseusSE\")\n  const _component_SectionsHome1BlogSE = _resolveComponent(\"SectionsHome1BlogSE\")\n  const _component_SectionsHome1ContactSE = _resolveComponent(\"SectionsHome1ContactSE\")\n  const _component_SectionsHome1ContactForm = _resolveComponent(\"SectionsHome1ContactForm\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_SectionsHome1SliderSE),\n    _createVNode(_component_SectionsHome1AboutSE),\n    _createVNode(_component_SectionsHome1MarqueeSE),\n    _createVNode(_component_SectionsHome1CalltoactionSE),\n    _createVNode(_component_SectionsHome1WhychoseusSE),\n    _createVNode(_component_SectionsHome1BlogSE),\n    _createVNode(_component_SectionsHome1ContactSE),\n    _createVNode(_component_SectionsHome1ContactForm)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
-      "start": 1721717529207,
-      "end": 1721717529207,
+      "start": 1722340224845,
+      "end": 1722340224845,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -173,15 +173,15 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529207,
-      "end": 1721717529207,
+      "start": 1722340224845,
+      "end": 1722340224846,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "const __nuxt_page_meta = {\r\n  layout: 'se'\r\n}\nexport default __nuxt_page_meta",
-      "start": 1721717529207,
-      "end": 1721717529208,
+      "start": 1722340224846,
+      "end": 1722340224847,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -194,38 +194,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529208,
-      "end": 1721717529208,
+      "start": 1722340224847,
+      "end": 1722340224847,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529208,
-      "end": 1721717529208,
+      "start": 1722340224847,
+      "end": 1722340224847,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1721717529208,
-      "end": 1721717529208,
+      "start": 1722340224847,
+      "end": 1722340224847,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529208,
-      "end": 1721717529208,
+      "start": 1722340224847,
+      "end": 1722340224847,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529208,
-      "end": 1721717529208,
+      "start": 1722340224847,
+      "end": 1722340224847,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529208,
-      "end": 1721717529208,
+      "start": 1722340224847,
+      "end": 1722340224847,
       "order": "normal"
     }
   ]

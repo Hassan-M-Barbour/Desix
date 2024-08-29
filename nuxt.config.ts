@@ -19,9 +19,9 @@ export default defineNuxtConfig({
         "public/css/bootstrap.min.css",
         "public/css/style.css"
     ],
-    modules: [
-        'nuxt-resend'
-      ] ,
+    modules: ['nuxt-resend', "nuxt-gtag"] ,
       
-     
+    gtag: {
+        id: 'G-J9F6ZT1H5X'
+      } 
 })

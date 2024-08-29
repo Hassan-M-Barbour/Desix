@@ -1,1 +1,0 @@
-import{_ as a}from"./PageTitle.neMdx7uE.js";import{_ as n}from"./Teamdetails.jb_34RaN.js";import{c as _,b as e,F as m,o as s}from"./entry.noroYABu.js";import"./nuxt-link.fn2VZHbw.js";const d={__name:"page-team-details",setup(c){return(r,p)=>{const t=a,o=n;return s(),_(m,null,[e(t,{title:"Team Details"}),e(o)],64)}}};export{d as default};

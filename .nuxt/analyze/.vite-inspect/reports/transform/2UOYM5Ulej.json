@@ -4,135 +4,135 @@
     {
       "name": "vite:load-fallback",
       "result": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.getInstance = exports.load = void 0;\nvar ReCaptchaInstance_1 = require(\"./ReCaptchaInstance\");\nvar ELoadingState;\n(function (ELoadingState) {\n    ELoadingState[ELoadingState[\"NOT_LOADED\"] = 0] = \"NOT_LOADED\";\n    ELoadingState[ELoadingState[\"LOADING\"] = 1] = \"LOADING\";\n    ELoadingState[ELoadingState[\"LOADED\"] = 2] = \"LOADED\";\n})(ELoadingState || (ELoadingState = {}));\nvar ReCaptchaLoader = (function () {\n    function ReCaptchaLoader() {\n    }\n    ReCaptchaLoader.load = function (siteKey, options) {\n        if (options === void 0) { options = {}; }\n        if (typeof document === 'undefined') {\n            return Promise.reject(new Error('This is a library for the browser!'));\n        }\n        if (ReCaptchaLoader.getLoadingState() === ELoadingState.LOADED) {\n            if (ReCaptchaLoader.instance.getSiteKey() === siteKey) {\n                return Promise.resolve(ReCaptchaLoader.instance);\n            }\n            else {\n                return Promise.reject(new Error('reCAPTCHA already loaded with different site key!'));\n            }\n        }\n        if (ReCaptchaLoader.getLoadingState() === ELoadingState.LOADING) {\n            if (siteKey !== ReCaptchaLoader.instanceSiteKey) {\n                return Promise.reject(new Error('reCAPTCHA already loaded with different site key!'));\n            }\n            return new Promise(function (resolve, reject) {\n                ReCaptchaLoader.successfulLoadingConsumers.push(function (instance) { return resolve(instance); });\n                ReCaptchaLoader.errorLoadingRunnable.push(function (reason) { return reject(reason); });\n            });\n        }\n        ReCaptchaLoader.instanceSiteKey = siteKey;\n        ReCaptchaLoader.setLoadingState(ELoadingState.LOADING);\n        var loader = new ReCaptchaLoader();\n        return new Promise(function (resolve, reject) {\n            loader.loadScript(siteKey, options.useRecaptchaNet || false, options.useEnterprise || false, options.renderParameters ? options.renderParameters : {}, options.customUrl).then(function () {\n                ReCaptchaLoader.setLoadingState(ELoadingState.LOADED);\n                var widgetID = loader.doExplicitRender(grecaptcha, siteKey, options.explicitRenderParameters ? options.explicitRenderParameters : {}, options.useEnterprise || false);\n                var instance = new ReCaptchaInstance_1.ReCaptchaInstance(siteKey, widgetID, grecaptcha);\n                ReCaptchaLoader.successfulLoadingConsumers.forEach(function (v) { return v(instance); });\n                ReCaptchaLoader.successfulLoadingConsumers = [];\n                if (options.autoHideBadge) {\n                    instance.hideBadge();\n                }\n                ReCaptchaLoader.instance = instance;\n                resolve(instance);\n            }).catch(function (error) {\n                ReCaptchaLoader.errorLoadingRunnable.forEach(function (v) { return v(error); });\n                ReCaptchaLoader.errorLoadingRunnable = [];\n                reject(error);\n            });\n        });\n    };\n    ReCaptchaLoader.getInstance = function () {\n        return ReCaptchaLoader.instance;\n    };\n    ReCaptchaLoader.setLoadingState = function (state) {\n        ReCaptchaLoader.loadingState = state;\n    };\n    ReCaptchaLoader.getLoadingState = function () {\n        if (ReCaptchaLoader.loadingState === null) {\n            return ELoadingState.NOT_LOADED;\n        }\n        else {\n            return ReCaptchaLoader.loadingState;\n        }\n    };\n    ReCaptchaLoader.prototype.loadScript = function (siteKey, useRecaptchaNet, useEnterprise, renderParameters, customUrl) {\n        var _this = this;\n        if (useRecaptchaNet === void 0) { useRecaptchaNet = false; }\n        if (useEnterprise === void 0) { useEnterprise = false; }\n        if (renderParameters === void 0) { renderParameters = {}; }\n        if (customUrl === void 0) { customUrl = ''; }\n        var scriptElement = document.createElement('script');\n        scriptElement.setAttribute('recaptcha-v3-script', '');\n        var scriptBase = 'https://www.google.com/recaptcha/api.js';\n        if (useRecaptchaNet) {\n            if (useEnterprise) {\n                scriptBase = 'https://recaptcha.net/recaptcha/enterprise.js';\n            }\n            else {\n                scriptBase = 'https://recaptcha.net/recaptcha/api.js';\n            }\n        }\n        if (useEnterprise) {\n            scriptBase = 'https://www.google.com/recaptcha/enterprise.js';\n        }\n        if (customUrl) {\n            scriptBase = customUrl;\n        }\n        if (renderParameters.render) {\n            renderParameters.render = undefined;\n        }\n        var parametersQuery = this.buildQueryString(renderParameters);\n        scriptElement.src = scriptBase + '?render=explicit' + parametersQuery;\n        return new Promise(function (resolve, reject) {\n            scriptElement.addEventListener('load', _this.waitForScriptToLoad(function () {\n                resolve(scriptElement);\n            }, useEnterprise), false);\n            scriptElement.onerror = function (error) {\n                ReCaptchaLoader.setLoadingState(ELoadingState.NOT_LOADED);\n                reject(error);\n            };\n            document.head.appendChild(scriptElement);\n        });\n    };\n    ReCaptchaLoader.prototype.buildQueryString = function (parameters) {\n        var parameterKeys = Object.keys(parameters);\n        if (parameterKeys.length < 1) {\n            return '';\n        }\n        return '&' + Object.keys(parameters)\n            .filter(function (parameterKey) {\n            return !!parameters[parameterKey];\n        })\n            .map(function (parameterKey) {\n            return parameterKey + '=' + parameters[parameterKey];\n        }).join('&');\n    };\n    ReCaptchaLoader.prototype.waitForScriptToLoad = function (callback, useEnterprise) {\n        var _this = this;\n        return function () {\n            if (window.grecaptcha === undefined) {\n                setTimeout(function () {\n                    _this.waitForScriptToLoad(callback, useEnterprise);\n                }, ReCaptchaLoader.SCRIPT_LOAD_DELAY);\n            }\n            else {\n                if (useEnterprise) {\n                    window.grecaptcha.enterprise.ready(function () {\n                        callback();\n                    });\n                }\n                else {\n                    window.grecaptcha.ready(function () {\n                        callback();\n                    });\n                }\n            }\n        };\n    };\n    ReCaptchaLoader.prototype.doExplicitRender = function (grecaptcha, siteKey, parameters, isEnterprise) {\n        var augmentedParameters = {\n            sitekey: siteKey,\n            badge: parameters.badge,\n            size: parameters.size,\n            tabindex: parameters.tabindex\n        };\n        if (parameters.container) {\n            if (isEnterprise) {\n                return grecaptcha.enterprise.render(parameters.container, augmentedParameters);\n            }\n            else {\n                return grecaptcha.render(parameters.container, augmentedParameters);\n            }\n        }\n        else {\n            if (isEnterprise) {\n                return grecaptcha.enterprise.render(augmentedParameters);\n            }\n            else {\n                return grecaptcha.render(augmentedParameters);\n            }\n        }\n    };\n    ReCaptchaLoader.loadingState = null;\n    ReCaptchaLoader.instance = null;\n    ReCaptchaLoader.instanceSiteKey = null;\n    ReCaptchaLoader.successfulLoadingConsumers = [];\n    ReCaptchaLoader.errorLoadingRunnable = [];\n    ReCaptchaLoader.SCRIPT_LOAD_DELAY = 25;\n    return ReCaptchaLoader;\n}());\nexports.load = ReCaptchaLoader.load;\nexports.getInstance = ReCaptchaLoader.getInstance;\n",
-      "start": 1721717530097,
-      "end": 1721717530355,
+      "start": 1722340226375,
+      "end": 1722340226663,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717530355,
-      "end": 1721717530355,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717530355,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717530356,
-      "end": 1721717530356,
+      "start": 1722340226663,
+      "end": 1722340226663,
       "order": "normal"
     },
     {
       "name": "commonjs",
       "result": "import * as commonjsHelpers from \"\u0000commonjsHelpers.js\";\nimport { __exports as ReCaptchaLoader_1 } from \"\\u0000C:/projects/desix/node_modules/recaptcha-v3/dist/ReCaptchaLoader.js?commonjs-exports\";\nimport require$$0 from \"\\u0000C:/projects/desix/node_modules/recaptcha-v3/dist/ReCaptchaInstance.js?commonjs-proxy\";\n\n\"use strict\";\nObject.defineProperty(ReCaptchaLoader_1, \"__esModule\", { value: true });\nvar getInstance = ReCaptchaLoader_1.getInstance = load = ReCaptchaLoader_1.load = void 0;\nvar ReCaptchaInstance_1 = require$$0;\nvar ELoadingState;\n(function (ELoadingState) {\n    ELoadingState[ELoadingState[\"NOT_LOADED\"] = 0] = \"NOT_LOADED\";\n    ELoadingState[ELoadingState[\"LOADING\"] = 1] = \"LOADING\";\n    ELoadingState[ELoadingState[\"LOADED\"] = 2] = \"LOADED\";\n})(ELoadingState || (ELoadingState = {}));\nvar ReCaptchaLoader = (function () {\n    function ReCaptchaLoader() {\n    }\n    ReCaptchaLoader.load = function (siteKey, options) {\n        if (options === void 0) { options = {}; }\n        if (typeof document === 'undefined') {\n            return Promise.reject(new Error('This is a library for the browser!'));\n        }\n        if (ReCaptchaLoader.getLoadingState() === ELoadingState.LOADED) {\n            if (ReCaptchaLoader.instance.getSiteKey() === siteKey) {\n                return Promise.resolve(ReCaptchaLoader.instance);\n            }\n            else {\n                return Promise.reject(new Error('reCAPTCHA already loaded with different site key!'));\n            }\n        }\n        if (ReCaptchaLoader.getLoadingState() === ELoadingState.LOADING) {\n            if (siteKey !== ReCaptchaLoader.instanceSiteKey) {\n                return Promise.reject(new Error('reCAPTCHA already loaded with different site key!'));\n            }\n            return new Promise(function (resolve, reject) {\n                ReCaptchaLoader.successfulLoadingConsumers.push(function (instance) { return resolve(instance); });\n                ReCaptchaLoader.errorLoadingRunnable.push(function (reason) { return reject(reason); });\n            });\n        }\n        ReCaptchaLoader.instanceSiteKey = siteKey;\n        ReCaptchaLoader.setLoadingState(ELoadingState.LOADING);\n        var loader = new ReCaptchaLoader();\n        return new Promise(function (resolve, reject) {\n            loader.loadScript(siteKey, options.useRecaptchaNet || false, options.useEnterprise || false, options.renderParameters ? options.renderParameters : {}, options.customUrl).then(function () {\n                ReCaptchaLoader.setLoadingState(ELoadingState.LOADED);\n                var widgetID = loader.doExplicitRender(grecaptcha, siteKey, options.explicitRenderParameters ? options.explicitRenderParameters : {}, options.useEnterprise || false);\n                var instance = new ReCaptchaInstance_1.ReCaptchaInstance(siteKey, widgetID, grecaptcha);\n                ReCaptchaLoader.successfulLoadingConsumers.forEach(function (v) { return v(instance); });\n                ReCaptchaLoader.successfulLoadingConsumers = [];\n                if (options.autoHideBadge) {\n                    instance.hideBadge();\n                }\n                ReCaptchaLoader.instance = instance;\n                resolve(instance);\n            }).catch(function (error) {\n                ReCaptchaLoader.errorLoadingRunnable.forEach(function (v) { return v(error); });\n                ReCaptchaLoader.errorLoadingRunnable = [];\n                reject(error);\n            });\n        });\n    };\n    ReCaptchaLoader.getInstance = function () {\n        return ReCaptchaLoader.instance;\n    };\n    ReCaptchaLoader.setLoadingState = function (state) {\n        ReCaptchaLoader.loadingState = state;\n    };\n    ReCaptchaLoader.getLoadingState = function () {\n        if (ReCaptchaLoader.loadingState === null) {\n            return ELoadingState.NOT_LOADED;\n        }\n        else {\n            return ReCaptchaLoader.loadingState;\n        }\n    };\n    ReCaptchaLoader.prototype.loadScript = function (siteKey, useRecaptchaNet, useEnterprise, renderParameters, customUrl) {\n        var _this = this;\n        if (useRecaptchaNet === void 0) { useRecaptchaNet = false; }\n        if (useEnterprise === void 0) { useEnterprise = false; }\n        if (renderParameters === void 0) { renderParameters = {}; }\n        if (customUrl === void 0) { customUrl = ''; }\n        var scriptElement = document.createElement('script');\n        scriptElement.setAttribute('recaptcha-v3-script', '');\n        var scriptBase = 'https://www.google.com/recaptcha/api.js';\n        if (useRecaptchaNet) {\n            if (useEnterprise) {\n                scriptBase = 'https://recaptcha.net/recaptcha/enterprise.js';\n            }\n            else {\n                scriptBase = 'https://recaptcha.net/recaptcha/api.js';\n            }\n        }\n        if (useEnterprise) {\n            scriptBase = 'https://www.google.com/recaptcha/enterprise.js';\n        }\n        if (customUrl) {\n            scriptBase = customUrl;\n        }\n        if (renderParameters.render) {\n            renderParameters.render = undefined;\n        }\n        var parametersQuery = this.buildQueryString(renderParameters);\n        scriptElement.src = scriptBase + '?render=explicit' + parametersQuery;\n        return new Promise(function (resolve, reject) {\n            scriptElement.addEventListener('load', _this.waitForScriptToLoad(function () {\n                resolve(scriptElement);\n            }, useEnterprise), false);\n            scriptElement.onerror = function (error) {\n                ReCaptchaLoader.setLoadingState(ELoadingState.NOT_LOADED);\n                reject(error);\n            };\n            document.head.appendChild(scriptElement);\n        });\n    };\n    ReCaptchaLoader.prototype.buildQueryString = function (parameters) {\n        var parameterKeys = Object.keys(parameters);\n        if (parameterKeys.length < 1) {\n            return '';\n        }\n        return '&' + Object.keys(parameters)\n            .filter(function (parameterKey) {\n            return !!parameters[parameterKey];\n        })\n            .map(function (parameterKey) {\n            return parameterKey + '=' + parameters[parameterKey];\n        }).join('&');\n    };\n    ReCaptchaLoader.prototype.waitForScriptToLoad = function (callback, useEnterprise) {\n        var _this = this;\n        return function () {\n            if (window.grecaptcha === undefined) {\n                setTimeout(function () {\n                    _this.waitForScriptToLoad(callback, useEnterprise);\n                }, ReCaptchaLoader.SCRIPT_LOAD_DELAY);\n            }\n            else {\n                if (useEnterprise) {\n                    window.grecaptcha.enterprise.ready(function () {\n                        callback();\n                    });\n                }\n                else {\n                    window.grecaptcha.ready(function () {\n                        callback();\n                    });\n                }\n            }\n        };\n    };\n    ReCaptchaLoader.prototype.doExplicitRender = function (grecaptcha, siteKey, parameters, isEnterprise) {\n        var augmentedParameters = {\n            sitekey: siteKey,\n            badge: parameters.badge,\n            size: parameters.size,\n            tabindex: parameters.tabindex\n        };\n        if (parameters.container) {\n            if (isEnterprise) {\n                return grecaptcha.enterprise.render(parameters.container, augmentedParameters);\n            }\n            else {\n                return grecaptcha.render(parameters.container, augmentedParameters);\n            }\n        }\n        else {\n            if (isEnterprise) {\n                return grecaptcha.enterprise.render(augmentedParameters);\n            }\n            else {\n                return grecaptcha.render(augmentedParameters);\n            }\n        }\n    };\n    ReCaptchaLoader.loadingState = null;\n    ReCaptchaLoader.instance = null;\n    ReCaptchaLoader.instanceSiteKey = null;\n    ReCaptchaLoader.successfulLoadingConsumers = [];\n    ReCaptchaLoader.errorLoadingRunnable = [];\n    ReCaptchaLoader.SCRIPT_LOAD_DELAY = 25;\n    return ReCaptchaLoader;\n}());\nvar load = ReCaptchaLoader_1.load = ReCaptchaLoader.load;\ngetInstance = ReCaptchaLoader_1.getInstance = ReCaptchaLoader.getInstance;\n\nexport { ReCaptchaLoader_1 as __moduleExports, getInstance, load, ReCaptchaLoader_1 as default };",
-      "start": 1721717530356,
-      "end": 1721717530382,
+      "start": 1722340226663,
+      "end": 1722340226728,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -145,74 +145,74 @@
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717530382,
-      "end": 1721717530382,
+      "start": 1722340226728,
+      "end": 1722340226728,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717530382,
-      "end": 1721717530382,
+      "start": 1722340226728,
+      "end": 1722340226728,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717530382,
-      "end": 1721717530382,
+      "start": 1722340226728,
+      "end": 1722340226728,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717530382,
-      "end": 1721717530382,
+      "start": 1722340226728,
+      "end": 1722340226728,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717530382,
-      "end": 1721717530383,
+      "start": 1722340226728,
+      "end": 1722340226728,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226728,
+      "end": 1722340226728,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226728,
+      "end": 1722340226729,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226729,
+      "end": 1722340226729,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226729,
+      "end": 1722340226729,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226729,
+      "end": 1722340226729,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226729,
+      "end": 1722340226729,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717530383,
-      "end": 1721717530383,
+      "start": 1722340226729,
+      "end": 1722340226729,
       "order": "normal"
     }
   ]

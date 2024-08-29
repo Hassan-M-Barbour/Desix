@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"blog-details\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-xl-8 col-lg-7\">\r\n                    <div class=\"blog-details__left\">\r\n                        <div class=\"blog-details__img\">\r\n                            <img src=\"/images/resource/keywords.jpg\" alt=\"\" />\r\n                            <div class=\"blog-details__date\">\r\n                                <span class=\"day\">28</span>\r\n                                <span class=\"month\">Aug</span>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"blog-details__content\">\r\n                            <ul class=\"list-unstyled blog-details__meta\">\r\n                                <li>\r\n                                    <NuxtLink to=\"news-details\"><i class=\"fas fa-user-circle\"></i>av Admin</NuxtLink>\r\n                                </li>\r\n                                <!-- <li>\r\n                                    <NuxtLink to=\"news-details\"><i class=\"fas fa-comments\"></i> 02 Comments</NuxtLink>\r\n                                </li> -->\r\n                            </ul>\r\n                            <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                                \r\n\r\n                                Nyckelord är de ord och fraser som folk skriver in i sökmotorer för att hitta det de letar efter. Om du till exempel funderar på att köpa en ny jacka kan du skriva något som \"läderjacka för herr\" på Google. Även om den frasen består av mer än ett ord, är det fortfarande ett nyckelord. Naturligtvis är det ingen utanför SEO-branschen som brukar använda denna terminologi. De flesta skulle kalla dem Google-sökningar eller frågor. Tänk bara på att nyckelord är synonyma med båda dessa saker. I den här guiden får du lära dig: Varför sökord är viktiga <br> Hur du dyker upp i Google för sökord<br> Hur hittar du sökord<br> Hur väljer du sökord <br>Hur optimerar du för sökord Vad är sökord med lång svans\r\n                            </p>\r\n                            <h3 class=\"blog-details__title\">Hur man visas i Google för sökord</h3>\r\n                            <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                                Nyckelord är viktiga eftersom din webbplats kan dyka upp när folk skriver in dem i sökmotorer. Att dyka upp högst upp på Google för ett relevant sökord kan skicka mycket trafik till dig, men hur gör du det? Det finns två sätt. <br>PPC (Pay Per Click) annonsering<br> SEO (sökmotoroptimering)\r\n                            </p>\r\n                            <h5>Betala per klick (PPC)</h5>\r\n                            <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                                PPC är där du betalar Google för att visa din webbsida i resultaten för specifika sökord. Om du till exempel säljer programvara för e-postmarknadsföring kan du bjuda på den termen och visas högst upp i Googles sökresultat när folk söker efter den. Detta är känt som PPC-annonsering (Pay Per Click). Google har en plattform där du kan välja sökord att bjuda på. Google visar sedan din annons i sökresultaten. Varje gång någon klickar på den annonsen och landar på din webbplats debiterar Google dig pengar. Du kan skilja betalda resultat från organiska (icke-betalda) resultat eftersom de är markerade som annonser.\r\n                            </p>\r\n                            <h5>Sökmotoroptimering (SEO)</h5>\r\n                            <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                                SEO är processen att optimera dina webbsidor för att rankas i Googles organiska resultat. Och Googles jobb är att rangordna de bästa och mest relevanta resultaten för varje sökfråga. Om Google anser att din sida är det \"bästa\" resultatet för rätt termer, får du en konsekvent ström av \"gratis\" besök på din webbplats. Ahrefs blogg får till exempel uppskattningsvis 383 000 organiska besök från Google varje månad.\r\n\r\n                            </p>\r\n                            <h3 class=\"blog-details__title\">Hur man hittar sökord</h3>\r\n                            <p class=\"blog-details__text-2\" style=\"text-align:justify;\">\r\n                                De flesta har en uppfattning om vilka sökord de vill ranka för i Google. Men det är omöjligt att veta allt folk söker efter. Det är därför det lönar sig att göra en del efterforskningar för att hitta fler sökordsidéer. Det finns många sätt att göra detta på, men den enklaste metoden är att använda ett sökordsforskningsverktyg. De flesta av dessa verktyg fungerar på samma sätt. Du anger några breda sökord som är relaterade till din bransch som kallas frösökord, och verktyget tar tillbaka några relaterade sökordsidéer. Säg till exempel att du säljer hörlurar på nätet. Dina första nyckelord kan vara \"hörlurar\", \"hörlurar\", \"hörlurar\" och \"beats\".\r\n                            </p>\r\n                           \r\n                        </div>\r\n                        <!-- <div class=\"blog-details__bottom\">\r\n                            <p class=\"blog-details__tags\">\r\n                                <span>Tags</span>\r\n                                <NuxtLink to=\"news-details\">Business</NuxtLink>\r\n                                <NuxtLink to=\"news-details\">Agency</NuxtLink>\r\n                            </p>\r\n                            <div class=\"blog-details__social-list\">\r\n                                <NuxtLink to=\"news-details\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n                                <NuxtLink to=\"news-details\"><i class=\"fab fa-facebook\"></i></NuxtLink>\r\n                                <NuxtLink to=\"news-details\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n                                <NuxtLink to=\"news-details\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"nav-links\">\r\n                            <div class=\"prev\">\r\n                                <NuxtLink to=\"news-details\" rel=\"prev\">Bring to the table win-win survival strategies\r\n                                </NuxtLink>\r\n                            </div>\r\n                            <div class=\"next\">\r\n                                <NuxtLink to=\"news-details\" rel=\"next\">How to lead a healthy &amp; well-balanced life\r\n                                </NuxtLink>\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"comment-one\">\r\n                            <h3 class=\"comment-one__title\">2 Comments</h3>\r\n                            <div class=\"comment-one__single\">\r\n                                <div class=\"comment-one__image\">\r\n                                    <img src=\"/images/resource/testi-1.jpg\" alt=\"\" />\r\n                                </div>\r\n                                <div class=\"comment-one__content\">\r\n                                    <h3>Kevin Martin</h3>\r\n                                    <p>\r\n                                        Mauris non dignissim purus, ac commodo diam. Donec sit amet\r\n                                        lacinia nulla. Aliquam quis purus in justo pulvinar tempor.\r\n                                        Aliquam tellus nulla, sollicitudin at euismod.\r\n                                    </p>\r\n                                    <NuxtLink to=\"news-details\" class=\"theme-btn btn-style-one comment-one__btn\"><span\r\n                                            class=\"btn-title\">Reply</span></NuxtLink>\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"comment-one__single\">\r\n                                <div class=\"comment-one__image\">\r\n                                    <img src=\"/images/resource/testi-2.jpg\" alt=\"\" />\r\n                                </div>\r\n                                <div class=\"comment-one__content\">\r\n                                    <h3>Sarah Albert</h3>\r\n                                    <p>\r\n                                        Mauris non dignissim purus, ac commodo diam. Donec sit amet\r\n                                        lacinia nulla. Aliquam quis purus in justo pulvinar tempor.\r\n                                        Aliquam tellus nulla, sollicitudin at euismod.\r\n                                    </p>\r\n                                    <NuxtLink to=\"news-details\" class=\"theme-btn btn-style-one comment-one__btn\"><span\r\n                                            class=\"btn-title\">Reply</span></NuxtLink>\r\n                                </div>\r\n                            </div>\r\n                            <div class=\"comment-form\">\r\n                                <h3 class=\"comment-form__title\">Leave a Comment</h3>\r\n                                <form id=\"contact_form\" name=\"contact_form\" class=\"\" action=\"includes/sendmail.php\"\r\n                                    method=\"post\">\r\n                                    <div class=\"row\">\r\n                                        <div class=\"col-sm-6\">\r\n                                            <div class=\"mb-3\">\r\n                                                <input name=\"form_name\" class=\"form-control\" type=\"text\"\r\n                                                    placeholder=\"Enter Name\" />\r\n                                            </div>\r\n                                        </div>\r\n                                        <div class=\"col-sm-6\">\r\n                                            <div class=\"mb-3\">\r\n                                                <input name=\"form_email\" class=\"form-control required email\"\r\n                                                    type=\"email\" placeholder=\"Enter Email\" />\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"mb-3\">\r\n                                        <textarea name=\"form_message\" class=\"form-control required\" rows=\"5\"\r\n                                            placeholder=\"Enter Message\"></textarea>\r\n                                    </div>\r\n                                    <div class=\"mb-3\">\r\n                                        <input name=\"form_botcheck\" class=\"form-control\" type=\"hidden\" value=\"\" />\r\n                                        <button type=\"submit\" class=\"theme-btn btn-style-one\"\r\n                                            data-loading-text=\"Please wait...\">\r\n                                            <span class=\"btn-title\">Submit Comment</span>\r\n                                        </button>\r\n                                    </div>\r\n                                </form>\r\n                            </div>\r\n                        </div> -->\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-xl-4 col-lg-5\">\r\n                    <div class=\"sidebar\">\r\n                        <div class=\"sidebar__single sidebar__search\">\r\n                            <!-- <form action=\"#\" class=\"sidebar__search-form\">\r\n                                <input type=\"search\" placeholder=\"Search here\" />\r\n                                <button type=\"submit\"><i class=\"lnr-icon-search\"></i></button>\r\n                            </form> -->\r\n                        </div>\r\n                        <div class=\"sidebar__single sidebar__post\">\r\n                            <h3 class=\"sidebar__title\">Latest Posts</h3>\r\n                            <ul class=\"sidebar__post-list list-unstyled\">\r\n                                <li>\r\n                                    <div class=\"sidebar__post-image\">\r\n                                        <img src=\"/images/resource/news-1.jpg\" alt=\"\" />\r\n                                    </div>\r\n                                    <div class=\"sidebar__post-content\">\r\n                                        <h3>\r\n                                            <span class=\"sidebar__post-content-meta\"><i\r\n                                                    class=\"fas fa-user-circle\"></i>av Admin</span>\r\n                                            <NuxtLink to=\"what-is-google-gemini-ai\">Vad är Google Gemini Ai?</NuxtLink>\r\n                                        </h3>\r\n                                    </div>\r\n                                </li>\r\n                                <li>\r\n                                    <div class=\"sidebar__post-image\">\r\n                                        <img src=\"/images/resource/news-2.jpg\" alt=\"\" />\r\n                                    </div>\r\n                                    <div class=\"sidebar__post-content\">\r\n                                        <h3>\r\n                                            <span class=\"sidebar__post-content-meta\"><i\r\n                                                    class=\"fas fa-user-circle\"></i>av Admin</span>\r\n                                            <NuxtLink to=\"content-strategy-examples\">Väx ditt företag med rätt innehållsstrategi</NuxtLink>\r\n                                        </h3>\r\n                                    </div>\r\n                                </li>\r\n                                <li>\r\n                                    <div class=\"sidebar__post-image\">\r\n                                        <img src=\"/images/resource/news-3.jpg\" alt=\"\" />\r\n                                    </div>\r\n                                    <div class=\"sidebar__post-content\">\r\n                                        <h3>\r\n                                            <span class=\"sidebar__post-content-meta\"><i\r\n                                                    class=\"fas fa-user-circle\"></i>av Admin</span>\r\n                                            <NuxtLink to=\"what-are-keywords\">Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?</NuxtLink>\r\n                                        </h3>\r\n                                    </div>\r\n                                </li>\r\n                            </ul>\r\n                        </div>\r\n                        <!-- <div class=\"sidebar__single sidebar__category\">\r\n                            <h3 class=\"sidebar__title\">Categories</h3>\r\n                            <ul class=\"sidebar__category-list list-unstyled\">\r\n                                <li>\r\n                                    <NuxtLink to=\"news-details\">Business<span class=\"icon-right-arrow\"></span>\r\n                                    </NuxtLink>\r\n                                </li>\r\n                                <li class=\"active\">\r\n                                    <NuxtLink to=\"news-details\">Digital Agency<span class=\"icon-right-arrow\"></span>\r\n                                    </NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"news-details\">Introductions<span class=\"icon-right-arrow\"></span>\r\n                                    </NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"news-details\">New Technologies<span class=\"icon-right-arrow\"></span>\r\n                                    </NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"news-details\">Parallax Effects<span class=\"icon-right-arrow\"></span>\r\n                                    </NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"news-details\">Web Development<span class=\"icon-right-arrow\"></span>\r\n                                    </NuxtLink>\r\n                                </li>\r\n                            </ul>\r\n                        </div> -->\r\n                        <!-- <div class=\"sidebar__single sidebar__tags\">\r\n                            <h3 class=\"sidebar__title\">Tags</h3>\r\n                            <div class=\"sidebar__tags-list\">\r\n                                <NuxtLink to=\"#\">Consulting</NuxtLink>\r\n                                <NuxtLink to=\"#\">Agency</NuxtLink>\r\n                                <NuxtLink to=\"#\">Business</NuxtLink>\r\n                                <NuxtLink to=\"#\">Digital</NuxtLink>\r\n                                <NuxtLink to=\"#\">Experience</NuxtLink>\r\n                                <NuxtLink to=\"#\">Technology</NuxtLink>\r\n                            </div>\r\n                        </div> -->\r\n                        <!-- <div class=\"sidebar__single sidebar__comments\">\r\n                            <h3 class=\"sidebar__title\">Recent Comments</h3>\r\n                            <ul class=\"sidebar__comments-list list-unstyled\">\r\n                                <li>\r\n                                    <div class=\"sidebar__comments-icon\">\r\n                                        <i class=\"fas fa-comments\"></i>\r\n                                    </div>\r\n                                    <div class=\"sidebar__comments-text-box\">\r\n                                        <p>\r\n                                            A wordpress commenter on <br />\r\n                                            launch new mobile app\r\n                                        </p>\r\n                                    </div>\r\n                                </li>\r\n                                <li>\r\n                                    <div class=\"sidebar__comments-icon\">\r\n                                        <i class=\"fas fa-comments\"></i>\r\n                                    </div>\r\n                                    <div class=\"sidebar__comments-text-box\">\r\n                                        <p><span>John Doe</span> on template:</p>\r\n                                        <h5>comments</h5>\r\n                                    </div>\r\n                                </li>\r\n                                <li>\r\n                                    <div class=\"sidebar__comments-icon\">\r\n                                        <i class=\"fas fa-comments\"></i>\r\n                                    </div>\r\n                                    <div class=\"sidebar__comments-text-box\">\r\n                                        <p>\r\n                                            A wordpress commenter on <br />\r\n                                            launch new mobile app\r\n                                        </p>\r\n                                    </div>\r\n                                </li>\r\n                                <li>\r\n                                    <div class=\"sidebar__comments-icon\">\r\n                                        <i class=\"fas fa-comments\"></i>\r\n                                    </div>\r\n                                    <div class=\"sidebar__comments-text-box\">\r\n                                        <p><span>John Doe</span> on template:</p>\r\n                                        <h5>comments</h5>\r\n                                    </div>\r\n                                </li>\r\n                            </ul>\r\n                        </div> -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1721717529810,
-      "end": 1721717529978,
+      "start": 1722340225800,
+      "end": 1722340226087,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529978,
-      "end": 1721717529978,
+      "start": 1722340226087,
+      "end": 1722340226087,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/keywords.jpg'\nimport _imports_1 from '/images/resource/news-1.jpg'\nimport _imports_2 from '/images/resource/news-2.jpg'\nimport _imports_3 from '/images/resource/news-3.jpg'\n\n\nconst _hoisted_1 = { class: \"blog-details\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-xl-8 col-lg-7\" }\nconst _hoisted_5 = { class: \"blog-details__left\" }\nconst _hoisted_6 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"blog-details__img\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><div class=\\\"blog-details__date\\\"><span class=\\\"day\\\">28</span><span class=\\\"month\\\">Aug</span></div></div>\", 1)\nconst _hoisted_7 = { class: \"blog-details__content\" }\nconst _hoisted_8 = { class: \"list-unstyled blog-details__meta\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }, null, -1)\nconst _hoisted_10 = /*#__PURE__*/_createStaticVNode(\"<p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> Nyckelord är de ord och fraser som folk skriver in i sökmotorer för att hitta det de letar efter. Om du till exempel funderar på att köpa en ny jacka kan du skriva något som &quot;läderjacka för herr&quot; på Google. Även om den frasen består av mer än ett ord, är det fortfarande ett nyckelord. Naturligtvis är det ingen utanför SEO-branschen som brukar använda denna terminologi. De flesta skulle kalla dem Google-sökningar eller frågor. Tänk bara på att nyckelord är synonyma med båda dessa saker. I den här guiden får du lära dig: Varför sökord är viktiga <br> Hur du dyker upp i Google för sökord<br> Hur hittar du sökord<br> Hur väljer du sökord <br>Hur optimerar du för sökord Vad är sökord med lång svans </p><h3 class=\\\"blog-details__title\\\">Hur man visas i Google för sökord</h3><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> Nyckelord är viktiga eftersom din webbplats kan dyka upp när folk skriver in dem i sökmotorer. Att dyka upp högst upp på Google för ett relevant sökord kan skicka mycket trafik till dig, men hur gör du det? Det finns två sätt. <br>PPC (Pay Per Click) annonsering<br> SEO (sökmotoroptimering) </p><h5>Betala per klick (PPC)</h5><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> PPC är där du betalar Google för att visa din webbsida i resultaten för specifika sökord. Om du till exempel säljer programvara för e-postmarknadsföring kan du bjuda på den termen och visas högst upp i Googles sökresultat när folk söker efter den. Detta är känt som PPC-annonsering (Pay Per Click). Google har en plattform där du kan välja sökord att bjuda på. Google visar sedan din annons i sökresultaten. Varje gång någon klickar på den annonsen och landar på din webbplats debiterar Google dig pengar. Du kan skilja betalda resultat från organiska (icke-betalda) resultat eftersom de är markerade som annonser. </p><h5>Sökmotoroptimering (SEO)</h5><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> SEO är processen att optimera dina webbsidor för att rankas i Googles organiska resultat. Och Googles jobb är att rangordna de bästa och mest relevanta resultaten för varje sökfråga. Om Google anser att din sida är det &quot;bästa&quot; resultatet för rätt termer, får du en konsekvent ström av &quot;gratis&quot; besök på din webbplats. Ahrefs blogg får till exempel uppskattningsvis 383 000 organiska besök från Google varje månad. </p><h3 class=\\\"blog-details__title\\\">Hur man hittar sökord</h3><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> De flesta har en uppfattning om vilka sökord de vill ranka för i Google. Men det är omöjligt att veta allt folk söker efter. Det är därför det lönar sig att göra en del efterforskningar för att hitta fler sökordsidéer. Det finns många sätt att göra detta på, men den enklaste metoden är att använda ett sökordsforskningsverktyg. De flesta av dessa verktyg fungerar på samma sätt. Du anger några breda sökord som är relaterade till din bransch som kallas frösökord, och verktyget tar tillbaka några relaterade sökordsidéer. Säg till exempel att du säljer hörlurar på nätet. Dina första nyckelord kan vara &quot;hörlurar&quot;, &quot;hörlurar&quot;, &quot;hörlurar&quot; och &quot;beats&quot;. </p>\", 9)\nconst _hoisted_19 = { class: \"col-xl-4 col-lg-5\" }\nconst _hoisted_20 = { class: \"sidebar\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__single sidebar__search\" }, null, -1)\nconst _hoisted_22 = { class: \"sidebar__single sidebar__post\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"h3\", { class: \"sidebar__title\" }, \"Latest Posts\", -1)\nconst _hoisted_24 = { class: \"sidebar__post-list list-unstyled\" }\nconst _hoisted_25 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__post-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_1,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_26 = { class: \"sidebar__post-content\" }\nconst _hoisted_27 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sidebar__post-content-meta\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }),\n  /*#__PURE__*/_createTextVNode(\"av Admin\")\n], -1)\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__post-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_2,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_29 = { class: \"sidebar__post-content\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sidebar__post-content-meta\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }),\n  /*#__PURE__*/_createTextVNode(\"av Admin\")\n], -1)\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__post-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_3,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_32 = { class: \"sidebar__post-content\" }\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sidebar__post-content-meta\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }),\n  /*#__PURE__*/_createTextVNode(\"av Admin\")\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"ul\", _hoisted_8, [\n                _createElementVNode(\"li\", null, [\n                  _createVNode(_component_NuxtLink, { to: \"news-details\" }, {\n                    default: _withCtx(() => [\n                      _hoisted_9,\n                      _createTextVNode(\"av Admin\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _hoisted_10\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_19, [\n          _createElementVNode(\"div\", _hoisted_20, [\n            _hoisted_21,\n            _createElementVNode(\"div\", _hoisted_22, [\n              _hoisted_23,\n              _createElementVNode(\"ul\", _hoisted_24, [\n                _createElementVNode(\"li\", null, [\n                  _hoisted_25,\n                  _createElementVNode(\"div\", _hoisted_26, [\n                    _createElementVNode(\"h3\", null, [\n                      _hoisted_27,\n                      _createVNode(_component_NuxtLink, { to: \"what-is-google-gemini-ai\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Vad är Google Gemini Ai?\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"li\", null, [\n                  _hoisted_28,\n                  _createElementVNode(\"div\", _hoisted_29, [\n                    _createElementVNode(\"h3\", null, [\n                      _hoisted_30,\n                      _createVNode(_component_NuxtLink, { to: \"content-strategy-examples\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Väx ditt företag med rätt innehållsstrategi\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"li\", null, [\n                  _hoisted_31,\n                  _createElementVNode(\"div\", _hoisted_32, [\n                    _createElementVNode(\"h3\", null, [\n                      _hoisted_33,\n                      _createVNode(_component_NuxtLink, { to: \"what-are-keywords\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529978,
-      "end": 1721717529980,
+      "start": 1722340226087,
+      "end": 1722340226090,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226090,
+      "end": 1722340226090,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226090,
+      "end": 1722340226090,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226090,
+      "end": 1722340226090,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529980,
-      "end": 1721717529980,
+      "start": 1722340226091,
+      "end": 1722340226091,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717529980,
-      "end": 1721717529981,
+      "start": 1722340226091,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/keywords.jpg'\nimport _imports_1 from '/images/resource/news-1.jpg'\nimport _imports_2 from '/images/resource/news-2.jpg'\nimport _imports_3 from '/images/resource/news-3.jpg'\n\n\nconst _hoisted_1 = { class: \"blog-details\" }\nconst _hoisted_2 = { class: \"container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"col-xl-8 col-lg-7\" }\nconst _hoisted_5 = { class: \"blog-details__left\" }\nconst _hoisted_6 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"blog-details__img\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><div class=\\\"blog-details__date\\\"><span class=\\\"day\\\">28</span><span class=\\\"month\\\">Aug</span></div></div>\", 1)\nconst _hoisted_7 = { class: \"blog-details__content\" }\nconst _hoisted_8 = { class: \"list-unstyled blog-details__meta\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }, null, -1)\nconst _hoisted_10 = /*#__PURE__*/_createStaticVNode(\"<p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> Nyckelord är de ord och fraser som folk skriver in i sökmotorer för att hitta det de letar efter. Om du till exempel funderar på att köpa en ny jacka kan du skriva något som &quot;läderjacka för herr&quot; på Google. Även om den frasen består av mer än ett ord, är det fortfarande ett nyckelord. Naturligtvis är det ingen utanför SEO-branschen som brukar använda denna terminologi. De flesta skulle kalla dem Google-sökningar eller frågor. Tänk bara på att nyckelord är synonyma med båda dessa saker. I den här guiden får du lära dig: Varför sökord är viktiga <br> Hur du dyker upp i Google för sökord<br> Hur hittar du sökord<br> Hur väljer du sökord <br>Hur optimerar du för sökord Vad är sökord med lång svans </p><h3 class=\\\"blog-details__title\\\">Hur man visas i Google för sökord</h3><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> Nyckelord är viktiga eftersom din webbplats kan dyka upp när folk skriver in dem i sökmotorer. Att dyka upp högst upp på Google för ett relevant sökord kan skicka mycket trafik till dig, men hur gör du det? Det finns två sätt. <br>PPC (Pay Per Click) annonsering<br> SEO (sökmotoroptimering) </p><h5>Betala per klick (PPC)</h5><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> PPC är där du betalar Google för att visa din webbsida i resultaten för specifika sökord. Om du till exempel säljer programvara för e-postmarknadsföring kan du bjuda på den termen och visas högst upp i Googles sökresultat när folk söker efter den. Detta är känt som PPC-annonsering (Pay Per Click). Google har en plattform där du kan välja sökord att bjuda på. Google visar sedan din annons i sökresultaten. Varje gång någon klickar på den annonsen och landar på din webbplats debiterar Google dig pengar. Du kan skilja betalda resultat från organiska (icke-betalda) resultat eftersom de är markerade som annonser. </p><h5>Sökmotoroptimering (SEO)</h5><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> SEO är processen att optimera dina webbsidor för att rankas i Googles organiska resultat. Och Googles jobb är att rangordna de bästa och mest relevanta resultaten för varje sökfråga. Om Google anser att din sida är det &quot;bästa&quot; resultatet för rätt termer, får du en konsekvent ström av &quot;gratis&quot; besök på din webbplats. Ahrefs blogg får till exempel uppskattningsvis 383 000 organiska besök från Google varje månad. </p><h3 class=\\\"blog-details__title\\\">Hur man hittar sökord</h3><p class=\\\"blog-details__text-2\\\" style=\\\"text-align:justify;\\\"> De flesta har en uppfattning om vilka sökord de vill ranka för i Google. Men det är omöjligt att veta allt folk söker efter. Det är därför det lönar sig att göra en del efterforskningar för att hitta fler sökordsidéer. Det finns många sätt att göra detta på, men den enklaste metoden är att använda ett sökordsforskningsverktyg. De flesta av dessa verktyg fungerar på samma sätt. Du anger några breda sökord som är relaterade till din bransch som kallas frösökord, och verktyget tar tillbaka några relaterade sökordsidéer. Säg till exempel att du säljer hörlurar på nätet. Dina första nyckelord kan vara &quot;hörlurar&quot;, &quot;hörlurar&quot;, &quot;hörlurar&quot; och &quot;beats&quot;. </p>\", 9)\nconst _hoisted_19 = { class: \"col-xl-4 col-lg-5\" }\nconst _hoisted_20 = { class: \"sidebar\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__single sidebar__search\" }, null, -1)\nconst _hoisted_22 = { class: \"sidebar__single sidebar__post\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"h3\", { class: \"sidebar__title\" }, \"Latest Posts\", -1)\nconst _hoisted_24 = { class: \"sidebar__post-list list-unstyled\" }\nconst _hoisted_25 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__post-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_1,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_26 = { class: \"sidebar__post-content\" }\nconst _hoisted_27 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sidebar__post-content-meta\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }),\n  /*#__PURE__*/_createTextVNode(\"av Admin\")\n], -1)\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__post-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_2,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_29 = { class: \"sidebar__post-content\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sidebar__post-content-meta\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }),\n  /*#__PURE__*/_createTextVNode(\"av Admin\")\n], -1)\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sidebar__post-image\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_3,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_32 = { class: \"sidebar__post-content\" }\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sidebar__post-content-meta\" }, [\n  /*#__PURE__*/_createElementVNode(\"i\", { class: \"fas fa-user-circle\" }),\n  /*#__PURE__*/_createTextVNode(\"av Admin\")\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"ul\", _hoisted_8, [\n                _createElementVNode(\"li\", null, [\n                  _createVNode(_component_NuxtLink, { to: \"news-details\" }, {\n                    default: _withCtx(() => [\n                      _hoisted_9,\n                      _createTextVNode(\"av Admin\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ]),\n              _hoisted_10\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_19, [\n          _createElementVNode(\"div\", _hoisted_20, [\n            _hoisted_21,\n            _createElementVNode(\"div\", _hoisted_22, [\n              _hoisted_23,\n              _createElementVNode(\"ul\", _hoisted_24, [\n                _createElementVNode(\"li\", null, [\n                  _hoisted_25,\n                  _createElementVNode(\"div\", _hoisted_26, [\n                    _createElementVNode(\"h3\", null, [\n                      _hoisted_27,\n                      _createVNode(_component_NuxtLink, { to: \"what-is-google-gemini-ai\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Vad är Google Gemini Ai?\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"li\", null, [\n                  _hoisted_28,\n                  _createElementVNode(\"div\", _hoisted_29, [\n                    _createElementVNode(\"h3\", null, [\n                      _hoisted_30,\n                      _createVNode(_component_NuxtLink, { to: \"content-strategy-examples\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Väx ditt företag med rätt innehållsstrategi\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"li\", null, [\n                  _hoisted_31,\n                  _createElementVNode(\"div\", _hoisted_32, [\n                    _createElementVNode(\"h3\", null, [\n                      _hoisted_33,\n                      _createVNode(_component_NuxtLink, { to: \"what-are-keywords\" }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\"Vad är nyckelord och hur kan de hjälpa din webbsida att få mer trafik?\")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529981,
-      "end": 1721717529981,
+      "start": 1722340226094,
+      "end": 1722340226094,
       "order": "normal"
     }
   ]

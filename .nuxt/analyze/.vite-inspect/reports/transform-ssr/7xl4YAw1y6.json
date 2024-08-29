@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<script setup>\r\n\r\n\r\n  const name = ref('')\r\n  const email = ref('')\r\n  const message = ref('')\r\n  \r\n  async function onSubmit(){\r\n    const emailValid = validateEmail(email.value)\r\n    \r\n    // While in the category of validations, let's also make sure the user will not send us an empty email\r\n    const messageValid = message.value.length > 8\r\n    \r\n    if(emailValid && messageValid){\r\n       \r\n        await $fetch('/api/send', {\r\n        method:\"post\",\r\n        // The need to stringify objects to JSON when sending it to an server API\r\n        body: JSON.stringify({\r\n          name: name.value,\r\n          mail: email.value,\r\n          message: message.value\r\n        }),\r\n       \r\n      }).then(() => {\r\n        alert('Thanks for contacting us , our team will Respond to you ASAP!')\r\n        name.value = '',\r\n        email.value = '',\r\n        message.value = '',\r\n        console.log('email sent!')\r\n      })\r\n    \r\n    }\r\n  }\r\n</script>\r\n\r\n<template>\r\n    <section class=\"contact-section\">\r\n      <div class=\"anim-icons\">\r\n        <span class=\"icon icon-line3\"></span>\r\n        <span class=\"icon icon-arrow1\"></span>\r\n        <span class=\"icon icon-arrow2\"></span>\r\n      </div>\r\n      <div class=\"auto-container\">\r\n        <div class=\"outer-box\">\r\n          <div class=\"bg bg-pattern-5\"></div>\r\n  \r\n          <div class=\"sec-title\">\r\n            <span class=\"sub-title\">HÖR AV DIG</span>\r\n            <h2>Vi vill jobba med dig!</h2>\r\n          </div>\r\n          \r\n          <!-- Contact Form -->\r\n          <div class=\"contact-form wow fadeInLeft\">\r\n            <!--Contact Form-->\r\n            <form @submit.prevent=\"onSubmit\" id=\"contact-form\">\r\n              <!-- <form @submit.prevent=\"handleSubmit\" id=\"contact-form\"> -->\r\n              <div class=\"row\">\r\n  \r\n               \r\n                <div class=\"form-group col-lg-6 col-md-12 col-sm-12\">\r\n                  <input type=\"text\"  v-model=\"name\" name=\"name\" placeholder=\"Namn\" required>\r\n                </div>\r\n                <div class=\"form-group col-lg-6 col-md-12 col-sm-12\">\r\n                  <input type=\"email\" v-model=\"email\" name=\"Email\" placeholder=\"E-postadress\" required>\r\n                </div>\r\n                <div class=\"form-group col-lg-12\">\r\n                  <textarea name=\"message\" v-model=\"message\"  placeholder=\"Meddelande\"  required minlength=\"8\"></textarea>\r\n                </div>\r\n                <div class=\"form-group col-lg-12\">\r\n                  <button class=\"theme-btn btn-style-one\" type=\"submit\" name=\"submit-form\"><span class=\"btn-title\"  >Skicka</span></button>\r\n                </div>\r\n              </div>\r\n            </form>\r\n             <!-- </form> -->\r\n          </div>\r\n          <!--End Contact Form -->\r\n          <figure class=\"image\"><img src=\"/images/resource/girl.png\" alt=\"\"></figure>\r\n        </div>\r\n      </div>\r\n    </section>\r\n  </template>\r\n\r\n",
-      "start": 1721717537532,
-      "end": 1721717537876,
+      "start": 1722340238452,
+      "end": 1722340239046,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717537876,
-      "end": 1721717537876,
+      "start": 1722340239046,
+      "end": 1722340239046,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/girl.png'\n\n\n\nconst _sfc_main = {\n  __name: 'ContactSE',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n\r\n\r\n  const name = ref('')\r\n  const email = ref('')\r\n  const message = ref('')\r\n  \r\n  async function onSubmit(){\r\n    const emailValid = validateEmail(email.value)\r\n    \r\n    // While in the category of validations, let's also make sure the user will not send us an empty email\r\n    const messageValid = message.value.length > 8\r\n    \r\n    if(emailValid && messageValid){\r\n       \r\n        await $fetch('/api/send', {\r\n        method:\"post\",\r\n        // The need to stringify objects to JSON when sending it to an server API\r\n        body: JSON.stringify({\r\n          name: name.value,\r\n          mail: email.value,\r\n          message: message.value\r\n        }),\r\n       \r\n      }).then(() => {\r\n        alert('Thanks for contacting us , our team will Respond to you ASAP!')\r\n        name.value = '',\r\n        email.value = '',\r\n        message.value = '',\r\n        console.log('email sent!')\r\n      })\r\n    \r\n    }\r\n  }\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"contact-section\" }, _attrs))\n  }><div class=\"anim-icons\"><span class=\"icon icon-line3\"></span><span class=\"icon icon-arrow1\"></span><span class=\"icon icon-arrow2\"></span></div><div class=\"auto-container\"><div class=\"outer-box\"><div class=\"bg bg-pattern-5\"></div><div class=\"sec-title\"><span class=\"sub-title\">HÖR AV DIG</span><h2>Vi vill jobba med dig!</h2></div><div class=\"contact-form wow fadeInLeft\"><form id=\"contact-form\"><div class=\"row\"><div class=\"form-group col-lg-6 col-md-12 col-sm-12\"><input type=\"text\"${\n    _ssrRenderAttr(\"value\", _unref(name))\n  } name=\"name\" placeholder=\"Namn\" required></div><div class=\"form-group col-lg-6 col-md-12 col-sm-12\"><input type=\"email\"${\n    _ssrRenderAttr(\"value\", _unref(email))\n  } name=\"Email\" placeholder=\"E-postadress\" required></div><div class=\"form-group col-lg-12\"><textarea name=\"message\" placeholder=\"Meddelande\" required minlength=\"8\">${\n    _ssrInterpolate(_unref(message))\n  }</textarea></div><div class=\"form-group col-lg-12\"><button class=\"theme-btn btn-style-one\" type=\"submit\" name=\"submit-form\"><span class=\"btn-title\">Skicka</span></button></div></div></form></div><figure class=\"image\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></figure></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/ContactSE.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537876,
-      "end": 1721717537878,
+      "start": 1722340239046,
+      "end": 1722340239048,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,117 +82,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239048,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239048,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717537878,
-      "end": 1721717537878,
+      "start": 1722340239049,
+      "end": 1722340239049,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { validateEmail } from 'C:/projects/desix/utils/validate.email.js';\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/girl.png'\n\n\n\nconst _sfc_main = {\n  __name: 'ContactSE',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n\r\n\r\n  const name = ref('')\r\n  const email = ref('')\r\n  const message = ref('')\r\n  \r\n  async function onSubmit(){\r\n    const emailValid = validateEmail(email.value)\r\n    \r\n    // While in the category of validations, let's also make sure the user will not send us an empty email\r\n    const messageValid = message.value.length > 8\r\n    \r\n    if(emailValid && messageValid){\r\n       \r\n        await $fetch('/api/send', {\r\n        method:\"post\",\r\n        // The need to stringify objects to JSON when sending it to an server API\r\n        body: JSON.stringify({\r\n          name: name.value,\r\n          mail: email.value,\r\n          message: message.value\r\n        }),\r\n       \r\n      }).then(() => {\r\n        alert('Thanks for contacting us , our team will Respond to you ASAP!')\r\n        name.value = '',\r\n        email.value = '',\r\n        message.value = '',\r\n        console.log('email sent!')\r\n      })\r\n    \r\n    }\r\n  }\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"contact-section\" }, _attrs))\n  }><div class=\"anim-icons\"><span class=\"icon icon-line3\"></span><span class=\"icon icon-arrow1\"></span><span class=\"icon icon-arrow2\"></span></div><div class=\"auto-container\"><div class=\"outer-box\"><div class=\"bg bg-pattern-5\"></div><div class=\"sec-title\"><span class=\"sub-title\">HÖR AV DIG</span><h2>Vi vill jobba med dig!</h2></div><div class=\"contact-form wow fadeInLeft\"><form id=\"contact-form\"><div class=\"row\"><div class=\"form-group col-lg-6 col-md-12 col-sm-12\"><input type=\"text\"${\n    _ssrRenderAttr(\"value\", _unref(name))\n  } name=\"name\" placeholder=\"Namn\" required></div><div class=\"form-group col-lg-6 col-md-12 col-sm-12\"><input type=\"email\"${\n    _ssrRenderAttr(\"value\", _unref(email))\n  } name=\"Email\" placeholder=\"E-postadress\" required></div><div class=\"form-group col-lg-12\"><textarea name=\"message\" placeholder=\"Meddelande\" required minlength=\"8\">${\n    _ssrInterpolate(_unref(message))\n  }</textarea></div><div class=\"form-group col-lg-12\"><button class=\"theme-btn btn-style-one\" type=\"submit\" name=\"submit-form\"><span class=\"btn-title\">Skicka</span></button></div></div></form></div><figure class=\"image\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></figure></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/ContactSE.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537878,
-      "end": 1721717537879,
+      "start": 1722340239049,
+      "end": 1722340239050,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -206,8 +206,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { validateEmail } from 'C:/projects/desix/utils/validate.email.js';\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/girl.png'\n\n\n\nconst _sfc_main = {\n  __name: 'ContactSE',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n\r\n\r\n  const name = ref('')\r\n  const email = ref('')\r\n  const message = ref('')\r\n  \r\n  async function onSubmit(){\r\n    const emailValid = validateEmail(email.value)\r\n    \r\n    // While in the category of validations, let's also make sure the user will not send us an empty email\r\n    const messageValid = message.value.length > 8\r\n    \r\n    if(emailValid && messageValid){\r\n       \r\n        await $fetch('/api/send', {\r\n        method:\"post\",\r\n        // The need to stringify objects to JSON when sending it to an server API\r\n        body: JSON.stringify({\r\n          name: name.value,\r\n          mail: email.value,\r\n          message: message.value\r\n        }),\r\n       \r\n      }).then(() => {\r\n        alert('Thanks for contacting us , our team will Respond to you ASAP!')\r\n        name.value = '',\r\n        email.value = '',\r\n        message.value = '',\r\n        console.log('email sent!')\r\n      })\r\n    \r\n    }\r\n  }\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"contact-section\" }, _attrs))\n  }><div class=\"anim-icons\"><span class=\"icon icon-line3\"></span><span class=\"icon icon-arrow1\"></span><span class=\"icon icon-arrow2\"></span></div><div class=\"auto-container\"><div class=\"outer-box\"><div class=\"bg bg-pattern-5\"></div><div class=\"sec-title\"><span class=\"sub-title\">HÖR AV DIG</span><h2>Vi vill jobba med dig!</h2></div><div class=\"contact-form wow fadeInLeft\"><form id=\"contact-form\"><div class=\"row\"><div class=\"form-group col-lg-6 col-md-12 col-sm-12\"><input type=\"text\"${\n    _ssrRenderAttr(\"value\", _unref(name))\n  } name=\"name\" placeholder=\"Namn\" required></div><div class=\"form-group col-lg-6 col-md-12 col-sm-12\"><input type=\"email\"${\n    _ssrRenderAttr(\"value\", _unref(email))\n  } name=\"Email\" placeholder=\"E-postadress\" required></div><div class=\"form-group col-lg-12\"><textarea name=\"message\" placeholder=\"Meddelande\" required minlength=\"8\">${\n    _ssrInterpolate(_unref(message))\n  }</textarea></div><div class=\"form-group col-lg-12\"><button class=\"theme-btn btn-style-one\" type=\"submit\" name=\"submit-form\"><span class=\"btn-title\">Skicka</span></button></div></div></form></div><figure class=\"image\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></figure></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/ContactSE.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1721717537878,
-      "end": 1721717537879,
+      "start": 1722340239049,
+      "end": 1722340239050,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -220,56 +220,56 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717537879,
-      "end": 1721717537879,
+      "start": 1722340239050,
+      "end": 1722340239050,
       "order": "normal"
     }
   ]

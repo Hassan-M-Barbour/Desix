@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<section class=\"team-section pt-0 pb-0\">    \r\n\t\t<div class=\"auto-container\">\r\n\t\t\t<div class=\"sec-title text-center\">\r\n\t\t\t\t<span class=\"sub-title\">TRÄFFA VÅRA TEAMMEDLEMMAR</span>\r\n\t\t\t\t<h2>Träffa vårt professionella team <br>bakom succén</h2>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"row\">\r\n\r\n\t\t\t\t<!-- Team block -->\r\n\t\t\t\t<div class=\"team-block-two col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"400ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<h4 class=\"name\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\tHassan M Barbour\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<span class=\"designation\">Medgrundare <br> IT-chef</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\t<img src=\"/images/resource/hassan.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\t\t<!-- <div class=\"social-links\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-facebook-f\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t</div> -->\r\n\t\t\t\t\t\t\t<!-- <span class=\"share-icon fa fa-plus\"></span> -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!-- Team block -->\r\n\t\t\t\t<div class=\"team-block-two col-lg-4 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<h4 class=\"name\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\tIbrahim Abdulaziz\r\n\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<span class=\"designation\">Grundare <br>VD</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t<img src=\"/images/resource/ibrahim.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</figure> \r\n\t\t\t\t\t\t\t<!-- <div class=\"social-links\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-facebook-f\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t</div> -->\r\n\t\t\t\t\t\t\t<!-- <span class=\"share-icon fa fa-share-alt\"></span> -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t\r\n\r\n\t\t\t\t<!-- Team block -->\r\n\t\t\t\t<div class=\"team-block-two col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"800ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<h4 class=\"name\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\tMohammad H Taresh\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<span class=\"designation\">Medgrundare<br> &nbsp;</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\t<img src=\"/images/resource/mohamad.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\t\t<!-- <div class=\"social-links\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-facebook-f\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t</div> -->\r\n\t\t\t\t\t\t\t<!-- <span class=\"share-icon fa fa-plus\"></span> -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\r\n\t\t\t\t<div class=\"team-block-two col-lg-4 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<h4 class=\"name\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\tGhadir Alshomari\r\n\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<span class=\"designation\">Senior Webbutvecklare</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/page-team-details\"><img src=\"/images/resource/ghadeer.jpg\" alt=\"\"></NuxtLink></figure> \r\n\t\t\t\t\t\t\t<!-- <div class=\"social-links\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-facebook-f\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t</div> -->\r\n\t\t\t\t\t\t\t<!-- <span class=\"share-icon fa fa-share-alt\"></span> -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Team block -->\r\n\t\t\t\t<div class=\"team-block-two col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"400ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<h4 class=\"name\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\tAya Al Halabi\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<span class=\"designation\">Senior Webbutvecklare</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t<img src=\"/images/resource/aya.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\t\t<!-- <div class=\"social-links\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-facebook-f\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t</div> -->\r\n\t\t\t\t\t\t\t<!-- <span class=\"share-icon fa fa-plus\"></span> -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Team block -->\r\n\t\t\t\t<div class=\"team-block-two col-lg-4 col-md-6 wow fadeInUp\" data-wow-delay=\"800ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"info-box\">\r\n\t\t\t\t\t\t\t<h4 class=\"name\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\tLayal Ballan\r\n\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</h4>\r\n\t\t\t\t\t\t\t<span class=\"designation\">Grafisk Formgivare</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\">\r\n\t\t\t\t\t\t\t\t<!-- <NuxtLink to=\"/page-team-details\"> -->\r\n\t\t\t\t\t\t\t\t\t<img src=\"/images/resource/layal.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t\t<!-- </NuxtLink> -->\r\n\t\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\t\t<!-- <div class=\"social-links\">\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-facebook-f\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-pinterest-p\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t\t<NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n\t\t\t\t\t\t\t</div> -->\r\n\t\t\t\t\t\t\t<!-- <span class=\"share-icon fa fa-plus\"></span> -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n</template>",
-      "start": 1721717529446,
-      "end": 1721717529578,
+      "start": 1722340225194,
+      "end": 1722340225383,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529578,
-      "end": 1721717529578,
+      "start": 1722340225383,
+      "end": 1722340225383,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/hassan.jpg'\nimport _imports_1 from '/images/resource/ibrahim.jpg'\nimport _imports_2 from '/images/resource/mohamad.jpg'\nimport _imports_3 from '/images/resource/ghadeer.jpg'\nimport _imports_4 from '/images/resource/aya.jpg'\nimport _imports_5 from '/images/resource/layal.jpg'\n\n\nconst _hoisted_1 = { class: \"team-section pt-0 pb-0\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"TRÄFFA VÅRA TEAMMEDLEMMAR\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, [\n    /*#__PURE__*/_createTextVNode(\"Träffa vårt professionella team \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"bakom succén\")\n  ])\n], -1)\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"400ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Hassan M Barbour </h4><span class=\\\"designation\\\">Medgrundare <br> IT-chef</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure></div></div></div><div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Ibrahim Abdulaziz </h4><span class=\\\"designation\\\">Grundare <br>VD</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure></div></div></div><div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"800ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Mohammad H Taresh </h4><span class=\\\"designation\\\">Medgrundare<br>  </span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure></div></div></div>\", 3)\nconst _hoisted_8 = { class: \"team-block-two col-lg-4 col-md-6 wow fadeInUp\" }\nconst _hoisted_9 = { class: \"inner-box\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"info-box\" }, [\n  /*#__PURE__*/_createElementVNode(\"h4\", { class: \"name\" }, \" Ghadir Alshomari \"),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"designation\" }, \"Senior Webbutvecklare\")\n], -1)\nconst _hoisted_11 = { class: \"image-box\" }\nconst _hoisted_12 = { class: \"image\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_3,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"400ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Aya Al Halabi </h4><span class=\\\"designation\\\">Senior Webbutvecklare</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_4 + \"\\\" alt=\\\"\\\"></figure></div></div></div><div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"800ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Layal Ballan </h4><span class=\\\"designation\\\">Grafisk Formgivare</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_5 + \"\\\" alt=\\\"\\\"></figure></div></div></div>\", 2)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _hoisted_5,\n        _createElementVNode(\"div\", _hoisted_8, [\n          _createElementVNode(\"div\", _hoisted_9, [\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"figure\", _hoisted_12, [\n                _createVNode(_component_NuxtLink, { to: \"/page-team-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_13\n                  ]),\n                  _: 1\n                })\n              ])\n            ])\n          ])\n        ]),\n        _hoisted_14\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529578,
-      "end": 1721717529581,
+      "start": 1722340225383,
+      "end": 1722340225402,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529581,
-      "end": 1721717529581,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529581,
-      "end": 1721717529581,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529581,
-      "end": 1721717529581,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529581,
-      "end": 1721717529581,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529581,
-      "end": 1721717529581,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225402,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529582,
-      "end": 1721717529582,
+      "start": 1722340225402,
+      "end": 1722340225403,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717529582,
-      "end": 1721717529583,
+      "start": 1722340225403,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/hassan.jpg'\nimport _imports_1 from '/images/resource/ibrahim.jpg'\nimport _imports_2 from '/images/resource/mohamad.jpg'\nimport _imports_3 from '/images/resource/ghadeer.jpg'\nimport _imports_4 from '/images/resource/aya.jpg'\nimport _imports_5 from '/images/resource/layal.jpg'\n\n\nconst _hoisted_1 = { class: \"team-section pt-0 pb-0\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"TRÄFFA VÅRA TEAMMEDLEMMAR\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, [\n    /*#__PURE__*/_createTextVNode(\"Träffa vårt professionella team \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"bakom succén\")\n  ])\n], -1)\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"400ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Hassan M Barbour </h4><span class=\\\"designation\\\">Medgrundare <br> IT-chef</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure></div></div></div><div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Ibrahim Abdulaziz </h4><span class=\\\"designation\\\">Grundare <br>VD</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure></div></div></div><div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"800ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Mohammad H Taresh </h4><span class=\\\"designation\\\">Medgrundare<br>  </span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure></div></div></div>\", 3)\nconst _hoisted_8 = { class: \"team-block-two col-lg-4 col-md-6 wow fadeInUp\" }\nconst _hoisted_9 = { class: \"inner-box\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"info-box\" }, [\n  /*#__PURE__*/_createElementVNode(\"h4\", { class: \"name\" }, \" Ghadir Alshomari \"),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"designation\" }, \"Senior Webbutvecklare\")\n], -1)\nconst _hoisted_11 = { class: \"image-box\" }\nconst _hoisted_12 = { class: \"image\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_3,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_14 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"400ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Aya Al Halabi </h4><span class=\\\"designation\\\">Senior Webbutvecklare</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_4 + \"\\\" alt=\\\"\\\"></figure></div></div></div><div class=\\\"team-block-two col-lg-4 col-md-6 wow fadeInUp\\\" data-wow-delay=\\\"800ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"info-box\\\"><h4 class=\\\"name\\\"> Layal Ballan </h4><span class=\\\"designation\\\">Grafisk Formgivare</span></div><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_5 + \"\\\" alt=\\\"\\\"></figure></div></div></div>\", 2)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _hoisted_5,\n        _createElementVNode(\"div\", _hoisted_8, [\n          _createElementVNode(\"div\", _hoisted_9, [\n            _hoisted_10,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _createElementVNode(\"figure\", _hoisted_12, [\n                _createVNode(_component_NuxtLink, { to: \"/page-team-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_13\n                  ]),\n                  _: 1\n                })\n              ])\n            ])\n          ])\n        ]),\n        _hoisted_14\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529583,
-      "end": 1721717529583,
+      "start": 1722340225404,
+      "end": 1722340225404,
       "order": "normal"
     }
   ]

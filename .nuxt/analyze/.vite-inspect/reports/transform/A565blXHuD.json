@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<!-- service section -->\r\n\t<section class=\"services-section\">\r\n\t\t<div class=\"bg-shape\"></div>\r\n\t\t<div class=\"bg bg-pattern-1\"></div>\r\n\r\n\t\t<div class=\"auto-container\">\r\n\t\t\t<div class=\"sec-title light\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col-lg-7\">\r\n\t\t\t\t\t\t<span class=\"sub-title\">VÅRA TJÄNSTER</span>\r\n\t\t\t\t\t\t<h2>Tillsammans Bygger Vi Framtiden</h2>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"col-lg-5\">\r\n\t\t\t\t\t\t<div class=\"text\">Utforska våra tjänster</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<!-- Service Block -->\r\n\t\t\t\t<div class=\"service-block col-lg-3 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><img src=\"/images/resource/service-1.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-web-development\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\">Webbutveckling <br> &nbsp;</h5>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"hover-content\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-web-development\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\"><NuxtLink to=\"website-development\">Webbutveckling <br> &nbsp;</NuxtLink></h5>\r\n\t\t\t\t\t\t\t<div class=\"text\">Upptäck våra omfattande webbapputvecklingstjänster...</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Service Block -->\r\n\t\t\t\t<div class=\"service-block col-lg-3 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><img src=\"/images/resource/service-2.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-design\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\">Grafisk <br>Design</h5>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"hover-content\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-design\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\"><NuxtLink to=\"graphic-design\">Grafisk <br>Design</NuxtLink></h5>\r\n\t\t\t\t\t\t\t<div class=\"text\">Vi är glada att kunna tillhandahålla en professionell grafisk designtjänster som sömlöst...</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Service Block -->\r\n\t\t\t\t<div class=\"service-block col-lg-3 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><img src=\"/images/resource/service-3.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-megaphone\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\">UI / UX <br>Design</h5>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"hover-content\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-megaphone\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\"><NuxtLink to=\"ui-ux-design\">UI / UX <br>Design</NuxtLink></h5>\r\n\t\t\t\t\t\t\t<div class=\"text\">Påbörja er resa med våra professionella UI / UX tjänster där användaren är i fokus...</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Service Block -->\r\n\t\t\t\t<div class=\"service-block col-lg-3 col-md-6 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><img src=\"/images/resource/service-4.jpg\" alt=\"\"></figure>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-visitor\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\">Mobilapplikationer <br>&nbsp;</h5>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"hover-content\">\r\n\t\t\t\t\t\t\t<i class=\"icon flaticon-visitor\"></i>\r\n\t\t\t\t\t\t\t<h5 class=\"title\"><NuxtLink to=\"mobile-apps-development\">Mobilapplikationer <br>&nbsp;</NuxtLink></h5>\r\n\t\t\t\t\t\t\t<div class=\"text\">Förvandla er mobila upplevelse med våra sömlösa mobilapputvecklingstjänster...</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!-- End service section -->\r\n</template>",
-      "start": 1721717529437,
-      "end": 1721717529563,
+      "start": 1722340225192,
+      "end": 1722340225361,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1721717529563,
-      "end": 1721717529563,
+      "start": 1722340225361,
+      "end": 1722340225361,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-1.jpg'\nimport _imports_1 from '/images/resource/service-2.jpg'\nimport _imports_2 from '/images/resource/service-3.jpg'\nimport _imports_3 from '/images/resource/service-4.jpg'\n\n\nconst _hoisted_1 = { class: \"services-section\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"bg-shape\" }, null, -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"bg bg-pattern-1\" }, null, -1)\nconst _hoisted_4 = { class: \"auto-container\" }\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"sec-title light\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-7\\\"><span class=\\\"sub-title\\\">VÅRA TJÄNSTER</span><h2>Tillsammans Bygger Vi Framtiden</h2></div><div class=\\\"col-lg-5\\\"><div class=\\\"text\\\">Utforska våra tjänster</div></div></div></div>\", 1)\nconst _hoisted_6 = { class: \"row\" }\nconst _hoisted_7 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_8 = { class: \"inner-box\" }\nconst _hoisted_9 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-web-development\\\"></i><h5 class=\\\"title\\\">Webbutveckling <br>  </h5></div>\", 2)\nconst _hoisted_11 = { class: \"hover-content\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-web-development\" }, null, -1)\nconst _hoisted_13 = { class: \"title\" }\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Upptäck våra omfattande webbapputvecklingstjänster...\", -1)\nconst _hoisted_16 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_17 = { class: \"inner-box\" }\nconst _hoisted_18 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-design\\\"></i><h5 class=\\\"title\\\">Grafisk <br>Design</h5></div>\", 2)\nconst _hoisted_20 = { class: \"hover-content\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-design\" }, null, -1)\nconst _hoisted_22 = { class: \"title\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Vi är glada att kunna tillhandahålla en professionell grafisk designtjänster som sömlöst...\", -1)\nconst _hoisted_25 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_26 = { class: \"inner-box\" }\nconst _hoisted_27 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-megaphone\\\"></i><h5 class=\\\"title\\\">UI / UX <br>Design</h5></div>\", 2)\nconst _hoisted_29 = { class: \"hover-content\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-megaphone\" }, null, -1)\nconst _hoisted_31 = { class: \"title\" }\nconst _hoisted_32 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Påbörja er resa med våra professionella UI / UX tjänster där användaren är i fokus...\", -1)\nconst _hoisted_34 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_35 = { class: \"inner-box\" }\nconst _hoisted_36 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_3 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-visitor\\\"></i><h5 class=\\\"title\\\">Mobilapplikationer <br> </h5></div>\", 2)\nconst _hoisted_38 = { class: \"hover-content\" }\nconst _hoisted_39 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-visitor\" }, null, -1)\nconst _hoisted_40 = { class: \"title\" }\nconst _hoisted_41 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_42 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Förvandla er mobila upplevelse med våra sömlösa mobilapputvecklingstjänster...\", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _hoisted_2,\n    _hoisted_3,\n    _createElementVNode(\"div\", _hoisted_4, [\n      _hoisted_5,\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"div\", _hoisted_8, [\n            _hoisted_9,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _hoisted_12,\n              _createElementVNode(\"h5\", _hoisted_13, [\n                _createVNode(_component_NuxtLink, { to: \"website-development\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Webbutveckling \"),\n                    _hoisted_14,\n                    _createTextVNode(\"  \")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_15\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_16, [\n          _createElementVNode(\"div\", _hoisted_17, [\n            _hoisted_18,\n            _createElementVNode(\"div\", _hoisted_20, [\n              _hoisted_21,\n              _createElementVNode(\"h5\", _hoisted_22, [\n                _createVNode(_component_NuxtLink, { to: \"graphic-design\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Grafisk \"),\n                    _hoisted_23,\n                    _createTextVNode(\"Design\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_24\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_25, [\n          _createElementVNode(\"div\", _hoisted_26, [\n            _hoisted_27,\n            _createElementVNode(\"div\", _hoisted_29, [\n              _hoisted_30,\n              _createElementVNode(\"h5\", _hoisted_31, [\n                _createVNode(_component_NuxtLink, { to: \"ui-ux-design\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"UI / UX \"),\n                    _hoisted_32,\n                    _createTextVNode(\"Design\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_33\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_34, [\n          _createElementVNode(\"div\", _hoisted_35, [\n            _hoisted_36,\n            _createElementVNode(\"div\", _hoisted_38, [\n              _hoisted_39,\n              _createElementVNode(\"h5\", _hoisted_40, [\n                _createVNode(_component_NuxtLink, { to: \"mobile-apps-development\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Mobilapplikationer \"),\n                    _hoisted_41,\n                    _createTextVNode(\" \")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_42\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529563,
-      "end": 1721717529567,
+      "start": 1722340225361,
+      "end": 1722340225374,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1721717529567,
-      "end": 1721717529567,
+      "start": 1722340225374,
+      "end": 1722340225374,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529567,
-      "end": 1721717529567,
+      "start": 1722340225374,
+      "end": 1722340225374,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1721717529567,
-      "end": 1721717529567,
+      "start": 1722340225374,
+      "end": 1722340225374,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1721717529567,
-      "end": 1721717529567,
+      "start": 1722340225374,
+      "end": 1722340225374,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1721717529567,
-      "end": 1721717529567,
+      "start": 1722340225374,
+      "end": 1722340225374,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1721717529567,
-      "end": 1721717529567,
+      "start": 1722340225374,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1721717529567,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1721717529568,
-      "end": 1721717529568,
+      "start": 1722340225375,
+      "end": 1722340225375,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1721717529568,
-      "end": 1721717529570,
+      "start": 1722340225375,
+      "end": 1722340225381,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1721717529570,
-      "end": 1721717529570,
+      "start": 1722340225381,
+      "end": 1722340225381,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225381,
+      "end": 1722340225381,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225381,
+      "end": 1722340225381,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225382,
+      "end": 1722340225382,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/projects/desix/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-1.jpg'\nimport _imports_1 from '/images/resource/service-2.jpg'\nimport _imports_2 from '/images/resource/service-3.jpg'\nimport _imports_3 from '/images/resource/service-4.jpg'\n\n\nconst _hoisted_1 = { class: \"services-section\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"bg-shape\" }, null, -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"bg bg-pattern-1\" }, null, -1)\nconst _hoisted_4 = { class: \"auto-container\" }\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"sec-title light\\\"><div class=\\\"row\\\"><div class=\\\"col-lg-7\\\"><span class=\\\"sub-title\\\">VÅRA TJÄNSTER</span><h2>Tillsammans Bygger Vi Framtiden</h2></div><div class=\\\"col-lg-5\\\"><div class=\\\"text\\\">Utforska våra tjänster</div></div></div></div>\", 1)\nconst _hoisted_6 = { class: \"row\" }\nconst _hoisted_7 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_8 = { class: \"inner-box\" }\nconst _hoisted_9 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-web-development\\\"></i><h5 class=\\\"title\\\">Webbutveckling <br>  </h5></div>\", 2)\nconst _hoisted_11 = { class: \"hover-content\" }\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-web-development\" }, null, -1)\nconst _hoisted_13 = { class: \"title\" }\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Upptäck våra omfattande webbapputvecklingstjänster...\", -1)\nconst _hoisted_16 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_17 = { class: \"inner-box\" }\nconst _hoisted_18 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-design\\\"></i><h5 class=\\\"title\\\">Grafisk <br>Design</h5></div>\", 2)\nconst _hoisted_20 = { class: \"hover-content\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-design\" }, null, -1)\nconst _hoisted_22 = { class: \"title\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Vi är glada att kunna tillhandahålla en professionell grafisk designtjänster som sömlöst...\", -1)\nconst _hoisted_25 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_26 = { class: \"inner-box\" }\nconst _hoisted_27 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-megaphone\\\"></i><h5 class=\\\"title\\\">UI / UX <br>Design</h5></div>\", 2)\nconst _hoisted_29 = { class: \"hover-content\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-megaphone\" }, null, -1)\nconst _hoisted_31 = { class: \"title\" }\nconst _hoisted_32 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Påbörja er resa med våra professionella UI / UX tjänster där användaren är i fokus...\", -1)\nconst _hoisted_34 = { class: \"service-block col-lg-3 col-md-6 wow fadeInUp\" }\nconst _hoisted_35 = { class: \"inner-box\" }\nconst _hoisted_36 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img src=\\\"\" + _imports_3 + \"\\\" alt=\\\"\\\"></figure></div><div class=\\\"content-box\\\"><i class=\\\"icon flaticon-visitor\\\"></i><h5 class=\\\"title\\\">Mobilapplikationer <br> </h5></div>\", 2)\nconst _hoisted_38 = { class: \"hover-content\" }\nconst _hoisted_39 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-visitor\" }, null, -1)\nconst _hoisted_40 = { class: \"title\" }\nconst _hoisted_41 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_42 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Förvandla er mobila upplevelse med våra sömlösa mobilapputvecklingstjänster...\", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _hoisted_2,\n    _hoisted_3,\n    _createElementVNode(\"div\", _hoisted_4, [\n      _hoisted_5,\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"div\", _hoisted_8, [\n            _hoisted_9,\n            _createElementVNode(\"div\", _hoisted_11, [\n              _hoisted_12,\n              _createElementVNode(\"h5\", _hoisted_13, [\n                _createVNode(_component_NuxtLink, { to: \"website-development\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Webbutveckling \"),\n                    _hoisted_14,\n                    _createTextVNode(\"  \")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_15\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_16, [\n          _createElementVNode(\"div\", _hoisted_17, [\n            _hoisted_18,\n            _createElementVNode(\"div\", _hoisted_20, [\n              _hoisted_21,\n              _createElementVNode(\"h5\", _hoisted_22, [\n                _createVNode(_component_NuxtLink, { to: \"graphic-design\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Grafisk \"),\n                    _hoisted_23,\n                    _createTextVNode(\"Design\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_24\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_25, [\n          _createElementVNode(\"div\", _hoisted_26, [\n            _hoisted_27,\n            _createElementVNode(\"div\", _hoisted_29, [\n              _hoisted_30,\n              _createElementVNode(\"h5\", _hoisted_31, [\n                _createVNode(_component_NuxtLink, { to: \"ui-ux-design\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"UI / UX \"),\n                    _hoisted_32,\n                    _createTextVNode(\"Design\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_33\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_34, [\n          _createElementVNode(\"div\", _hoisted_35, [\n            _hoisted_36,\n            _createElementVNode(\"div\", _hoisted_38, [\n              _hoisted_39,\n              _createElementVNode(\"h5\", _hoisted_40, [\n                _createVNode(_component_NuxtLink, { to: \"mobile-apps-development\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Mobilapplikationer \"),\n                    _hoisted_41,\n                    _createTextVNode(\" \")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_42\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225382,
+      "end": 1722340225382,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225382,
+      "end": 1722340225382,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225382,
+      "end": 1722340225382,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1721717529571,
-      "end": 1721717529571,
+      "start": 1722340225382,
+      "end": 1722340225382,
       "order": "normal"
     }
   ]
