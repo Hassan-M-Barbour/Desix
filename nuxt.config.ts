@@ -17,7 +17,8 @@ export default defineNuxtConfig({
         'swiper/css/navigation',
         'swiper/css/pagination',
         "public/css/bootstrap.min.css",
-        "public/css/style.css"
+        "public/css/style.css",
+         "public/css/styleAr.css"
     ],
     modules: ['nuxt-resend', "nuxt-gtag"] ,
       

@@ -1,0 +1,105 @@
+<template>
+  <footer class="main-footerAr">
+    <div class="bg bg-pattern-6"></div>
+    <!-- Footer Uppper -->
+    <div class="footer-upper">
+      <div class="auto-container">
+        <div class="row">
+          <!-- Contact info Block -->
+          <div class="contact-info-blockAr col-lg-4 col-md-6">
+            <div class="inner">
+              <i class="icon fa fa-phone-square"></i>
+              <span class="sub-title">اتصل في أي وقت</span>
+              <div class="text"><NuxtLink to="tel:+46 7 35 35 34 34">+46 7 35 35 34 34</NuxtLink></div>
+            </div>
+          </div>
+          <!-- Contact info Block -->
+          <div class="contact-info-blockAr col-lg-4 col-md-6">
+            <div class="inner">
+              <i class="icon fa fa-envelope"></i>
+              <span class="sub-title">إرسال بريد إلكتروني</span>
+              <div class="text"><NuxtLink to="mailto:info@rosetech.se">info@rosetech.se</NuxtLink></div>
+            </div>
+          </div>
+          <!-- Contact info Block -->
+          <div class="contact-info-blockAr col-lg-4 col-md-6">
+            <div class="inner">
+              <i class="icon fa fa-map-marker"></i>
+              <span class="sub-title">العنوان</span>
+              <div class="text">RoseTech AB, Företagsvägen 10, P.O. 227 61 Lund</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Widgets Section -->
+    <div class="widgets-section">
+      <div class="auto-container">
+        <div class="row">
+          
+          <!-- Footer COlumn -->
+          <div class="footer-column col-xl-6 col-lg-6 col-md-12 ">
+            <div class="widget links-widget">
+              <h5 class="widget-title">يستكشف</h5>
+              <div class="widget-content">
+                <ul class="user-linksAr two-column">
+                  <li><NuxtLink to="/team">تعرف على فريقنا</NuxtLink></li>
+                  <li><NuxtLink to="/about">عن</NuxtLink></li>
+                  <li><NuxtLink to="/services">ما نقوم به</NuxtLink></li>
+                  <li><NuxtLink to="/contact">يدعم</NuxtLink></li>
+                  <li><NuxtLink to="/news">أحدث الأخبار</NuxtLink></li>
+                  <li><NuxtLink to="/projects">مشاريع جديدة</NuxtLink></li>
+                  <li><NuxtLink to="/contact">اتصال</NuxtLink></li>
+                  <!-- <li><NuxtLink to="#">Shop</NuxtLink></li>
+                  <li><NuxtLink to="#">Faqs</NuxtLink></li> -->
+                </ul>                                
+              </div>
+            </div>
+          </div>
+        <!-- Footer COlumn -->
+        <div class="footer-column col-xl-6 col-lg-6">
+            <div class="footer-widget about-widget">
+              <div class="widget-content">
+                <div class="logo"><NuxtLink to="/"> <img src="/images/logo.png" alt=""></NuxtLink></div>
+                <div class="text">مرحباً بكم في شركتنا. مع ROSETECH يمكنك تمكين عملك.</div>
+                <ul class="social-icon-twoAr">
+                  <!-- <li><NuxtLink to="#"><i class="fab fa-twitter"></i></NuxtLink></li> -->
+                  <li><NuxtLink to="https://www.facebook.com/profile.php?id=61558032923218" target="_blank"><i class="fab fa-facebook"></i></NuxtLink></li>
+                  <li><NuxtLink to="https://www.instagram.com/ROSETECH2/" target="_blank"><i class="fab fa-instagram"></i></NuxtLink></li>
+                  <li><NuxtLink to="https://www.linkedin.com/in/rosetech-solutions-71b814301/" target="_blank"><i class="fab fa-linkedin"></i></NuxtLink></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Footer COlumn -->
+          <!-- <div class="footer-column col-xl-3 col-lg-4 col-md-6">
+            <div class="widget newsletter-widget">
+              <h5 class="widget-title">Newsletter</h5>
+              <div class="widget-content">
+                <div class="text">Subsrcibe for our latest resources</div>
+                <div class="subscribe-form">
+                  <form method="post" action="#">
+                    <div class="form-group">
+                      <input type="email" name="email" class="email" value="" placeholder="Email Address" required="">
+                    </div>
+                    <div class="form-group">
+                      <button type="button" class="theme-btn btn-style-one hover-light"><span class="btn-title">Subscribe</span></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!--  Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="auto-container">
+        <div class="copyright-text">© حقوق الطبع والنشر {{new Date().getFullYear()}} محجوزة بواسطة ROSETECH</div>
+      </div>
+    </div>
+  </footer>
+</template>
