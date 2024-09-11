@@ -63,10 +63,10 @@
                 <input type="text" v-model="name" name="full_name" placeholder="اسمك" required>
               </div>
               <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                <input type="email" name="Email" v-model="email" placeholder="عنوان البريد الإلكتروني" required>
+                <input type="email" name="Email" v-model="email" placeholder="بريدك الإلكتروني" required>
               </div>
               <div class="form-group col-lg-12">
-                <textarea name="message" v-model="message" placeholder="اكتب رسالة" required minlength="8"></textarea>
+                <textarea name="message" v-model="message" placeholder=" الرسالة" required minlength="8"></textarea>
               </div>
               <div class="form-group col-lg-12">
                 <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">أرسل رسالة</span></button>

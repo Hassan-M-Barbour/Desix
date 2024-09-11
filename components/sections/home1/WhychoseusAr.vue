@@ -10,7 +10,7 @@
           <div class="inner-column wow fadeInRight">
             <div class="sec-titleAr">
               <i class="sub-title"></i>
-              <h2>لماذا يجب عليك اختيار شركتنا؟</h2>
+              <h2>لماذا نحن؟</h2>
               <!-- <h4 class="other-title">Proin est lacus, sagittis lobortis iaculise get.</h4>
               <div class="text">There are many variations of passages of available but the majority have suffered. Alteration in some form, lipsum is simply free text by injected humou or randomised words even believable.</div> -->
               <span class="icon icon-arrow3"></span>
@@ -26,7 +26,7 @@
                       </div>
                     </i>
                    
-                    <h5 class="title">رائد في تطوير البرمجيات</h5>
+                    <h5 class="title">رواد في تطوير البرمجيات</h5>
                   </div>
                 </div>
                 <div class="info-box col-md-4">
@@ -48,7 +48,7 @@
                         <img src="/public/images/icons/3.jpeg" width="50" />
                       </div>
                     </i>
-                    <h5 class="title">الحلول الذكية</h5>
+                    <h5 class="title">نقدم حلول ذكية</h5>
                   </div>
                 </div>
 
@@ -60,7 +60,7 @@
                         <img src="/public/images/icons/6.jpeg" width="50" />
                       </div>
                     </i>
-                    <h5 class="title">نهج يركز على العميل</h5>
+                    <h5 class="title">نهج يركز على متطلبات العميل</h5>
                   </div>
                 </div>
                 <div class="info-box col-md-4">
@@ -82,7 +82,7 @@
                     </i>
                      <!-- <img src="/public/images/icons/1.jpeg" width="50" /> -->
                       
-                    <h5 class="title">الأمن والامتثال</h5>
+                    <h5 class="title"> حلول آمنه</h5>
                   </div>
                 </div>
                 <div class="info-box col-md-4">

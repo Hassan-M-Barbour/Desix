@@ -43,7 +43,7 @@ export default {
 						<div class="sec-title">
 							<span class="sub-title">تعرف علينا</span>
 							<h2>ارتقِ بتجربتك الرقمية مع حلول البرمجيات المتطورة. </h2>
-							<div class="text">في ROSETECH، لا نعتبر أنفسنا مجرد شركة تطوير برمجيات؛ بل نحن مهندسون للإبداع، ومحركون للتقدم، ومبتكرون في مجال التميز الرقمي. نحن ندرك أنه في البيئة الرقمية المتغيرة بسرعة اليوم، يعتمد نجاحك على جودة وكفاءة الحلول البرمجية التي تقدمها. وهنا نتدخل - لنقوم بتحويل أفكارك إلى تجارب رقمية سلسة، قوية، وبديهية.</div>
+							<div class="text">في ROSETECH، لا نعتبر أنفسنا مجرد شركة تطوير برمجيات؛ بل نحن مهندسو الإبداع، ومحركو التقدم، ومبتكرون في مجال التميز الرقمي. نحن ندرك أنه في البيئة الرقمية المتغيرة بسرعة اليوم، يعتمد نجاحك على جودة وكفاءة الحلول البرمجية التي تقدمها. وهنا نتدخل - لنقوم بتحويل أفكارك إلى تجارب رقمية سلسة، قوية، وبديهية.</div>
 						</div>
 
 						<!-- Info Box -->
@@ -73,7 +73,7 @@ export default {
 								</div>
 							</div> -->
 
-							<NuxtLink to="/about" class="theme-btn btn-style-one"><span class="btn-title">اكتشف المزيد</span></NuxtLink>
+							<NuxtLink to="/ar/about" class="theme-btn btn-style-one"><span class="btn-title">اكتشف المزيد</span></NuxtLink>
 						</div>
 					</div>
 				</div>
@@ -89,7 +89,7 @@ export default {
 							<div class="inner">
 								<i class="icon flaticon-promotion"></i>
 								<span class="count">عشرات</span>
-								<div class="text">خبرة في العمل</div>
+								<div class="text">الخبرات العملية</div>
 							</div>
 						</div>
 					</div>

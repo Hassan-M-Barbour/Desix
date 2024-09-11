@@ -17,7 +17,7 @@
           <div class="contact-info-blockAr col-lg-4 col-md-6">
             <div class="inner">
               <i class="icon fa fa-envelope"></i>
-              <span class="sub-title">إرسال بريد إلكتروني</span>
+              <span class="sub-title"> البريد الاكتروني</span>
               <div class="text"><NuxtLink to="mailto:info@rosetech.se">info@rosetech.se</NuxtLink></div>
             </div>
           </div>
@@ -44,13 +44,13 @@
               <h5 class="widget-title">يستكشف</h5>
               <div class="widget-content">
                 <ul class="user-linksAr two-column">
-                  <li><NuxtLink to="/team">تعرف على فريقنا</NuxtLink></li>
-                  <li><NuxtLink to="/about">عن</NuxtLink></li>
-                  <li><NuxtLink to="/services">ما نقوم به</NuxtLink></li>
-                  <li><NuxtLink to="/contact">يدعم</NuxtLink></li>
-                  <li><NuxtLink to="/news">أحدث الأخبار</NuxtLink></li>
-                  <li><NuxtLink to="/projects">مشاريع جديدة</NuxtLink></li>
-                  <li><NuxtLink to="/contact">اتصال</NuxtLink></li>
+                  <li><NuxtLink to="/ar/team">فريقنا</NuxtLink></li>
+                  <li><NuxtLink to="/ar/about">من نحن</NuxtLink></li>
+                  <li><NuxtLink to="/ar/services">خدماتنا</NuxtLink></li>
+                  <li><NuxtLink to="/ar/contact">اتصل بنا</NuxtLink></li>
+                  <li><NuxtLink to="/ar/news">أحدث الأخبار</NuxtLink></li>
+                  <li><NuxtLink to="/ar/projects"> بعض مشاريعنا</NuxtLink></li>
+                  <!-- <li><NuxtLink to="/ar/contact">اتصل بنا</NuxtLink></li> -->
                   <!-- <li><NuxtLink to="#">Shop</NuxtLink></li>
                   <li><NuxtLink to="#">Faqs</NuxtLink></li> -->
                 </ul>                                
@@ -62,7 +62,8 @@
             <div class="footer-widget about-widget">
               <div class="widget-content">
                 <div class="logo"><NuxtLink to="/"> <img src="/images/logo.png" alt=""></NuxtLink></div>
-                <div class="text">مرحباً بكم في شركتنا. مع ROSETECH يمكنك تمكين عملك.</div>
+                <div class="text">.مرحباً بكم </div>
+                <div class="text"> . خيارك الأفضل لتطوير أعمالك  ROSEECH </div>
                 <ul class="social-icon-twoAr">
                   <!-- <li><NuxtLink to="#"><i class="fab fa-twitter"></i></NuxtLink></li> -->
                   <li><NuxtLink to="https://www.facebook.com/profile.php?id=61558032923218" target="_blank"><i class="fab fa-facebook"></i></NuxtLink></li>
@@ -98,7 +99,7 @@
     <!--  Footer Bottom -->
     <div class="footer-bottom">
       <div class="auto-container">
-        <div class="copyright-text">© حقوق الطبع والنشر {{new Date().getFullYear()}} محجوزة بواسطة ROSETECH</div>
+        <div class="copyright-text">© حميغ الحقوق محفوظة {{new Date().getFullYear()}} ROSETECH</div>
       </div>
     </div>
   </footer>
