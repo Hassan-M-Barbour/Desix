@@ -11,7 +11,7 @@
 				<div class="news-block col-lg-4 col-md-6 wow fadeInUp">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><NuxtLink to="/en/what-is-google-gemini-ai"><img src="/images/resource/news-1.jpg" alt=""></NuxtLink></figure>
+							<figure class="image"><NuxtLink to="/ar/what-is-google-gemini-ai"><img src="/images/resource/news-1.jpg" alt=""></NuxtLink></figure>
 						</div>
 						<div class="content-box">
 							<span class="date">30 يونيو</span>
@@ -20,7 +20,7 @@
 								<!-- <li><i class="fa fa-comments"></i> 2 Comments</li> -->
 							</ul>
 							<h4 class="title"><NuxtLink to="/ar/what-is-google-gemini-ai">ما هو جوجل جيميني ايه اي</NuxtLink></h4>
-							<NuxtLink to="what-is-google-gemini-ai" class="read-more">اقرأ المزيد <i class="fa fa-long-arrow-alt-left"></i></NuxtLink>
+							<NuxtLink to="/ar/what-is-google-gemini-ai" class="read-more">اقرأ المزيد <i class="fa fa-long-arrow-alt-left"></i></NuxtLink>
 						</div>
 					</div>
 				</div>
@@ -38,7 +38,7 @@
 								<!-- <li><i class="fa fa-comments"></i> 2 Comments</li> -->
 							</ul>
 							<h4 class="title"><NuxtLink to="/ar/content-strategy-examples">أمثلة على استراتيجية المحتوى</NuxtLink></h4>
-							<NuxtLink to="content-strategy-examples" class="read-more">اقرأ المزيد  <i class="fa fa-long-arrow-alt-left"></i></NuxtLink>
+							<NuxtLink to="/ar/content-strategy-examples" class="read-more">اقرأ المزيد  <i class="fa fa-long-arrow-alt-left"></i></NuxtLink>
 						</div>
 					</div>
 				</div>
@@ -47,7 +47,7 @@
 				<div class="news-block col-lg-4 col-md-6 wow fadeInUp">
 					<div class="inner-box">
 						<div class="image-box">
-							<figure class="image"><NuxtLink to="/en/what-are-keywords"><img src="/images/resource/news-3.jpg" alt=""></NuxtLink></figure>
+							<figure class="image"><NuxtLink to="/ar/what-are-keywords"><img src="/images/resource/news-3.jpg" alt=""></NuxtLink></figure>
 						</div>
 						<div class="content-box">
 							<span class="date">30 يونيو</span>
@@ -56,7 +56,7 @@
 								<!-- <li><i class="fa fa-comments"></i> 2 Comments</li> -->
 							</ul>
 							<h4 class="title"><NuxtLink to="/ar/what-are-keywords">ما هي الكلمات الرئيسية؟</NuxtLink></h4>
-							<NuxtLink to="what-are-keywords" class="read-more">اقرأ المزيد <i class="fa fa-long-arrow-alt-left"></i></NuxtLink>
+							<NuxtLink to="/ar/what-are-keywords" class="read-more">اقرأ المزيد <i class="fa fa-long-arrow-alt-left"></i></NuxtLink>
 						</div>
 					</div>
 				</div>

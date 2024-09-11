@@ -18,7 +18,7 @@
             <div class="auto-container">
               <div class="content-box">
                 <h1 data-animation-in="fadeInLeft" data-delay-in="0.2"> <span class="selected">جيل </span>جديد <br> للتكنولوجيا والتصميم</h1>
-                <NuxtLink to="/about" data-animation-in="fadeInUp" data-delay-in="0.4" class="theme-btn btn-style-one hover-light mt-20">اكتشف المزيد</NuxtLink>
+                <NuxtLink to="/ar/about" data-animation-in="fadeInUp" data-delay-in="0.4" class="theme-btn btn-style-one hover-light mt-20">اكتشف المزيد</NuxtLink>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@
             <div class="auto-container">
               <div class="content-box">
                 <h1 data-animation-in="fadeInLeft" data-delay-in="0.2"> <span class="selected">تطوير</span>التكنولوجيا <br>من أجل المستقبل</h1>
-                <NuxtLink to="/about" data-animation-in="fadeInUp" data-delay-in="0.4" class="theme-btn btn-style-one hover-light mt-20">اكتشف المزيد</NuxtLink>
+                <NuxtLink to="/ar/about" data-animation-in="fadeInUp" data-delay-in="0.4" class="theme-btn btn-style-one hover-light mt-20">اكتشف المزيد</NuxtLink>
               </div>
             </div>
           </div>
