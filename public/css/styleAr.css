@@ -2095,6 +2095,7 @@ Scroll To Top style
 
 /*Btn Style One*/
 .btn-style-one {
+  font-family: 'Cairo';
   position: relative;
   font-size: 15px;
   line-height: 20px;
