@@ -93,6 +93,9 @@
         <li>
           <NuxtLink to="/en">English</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/ar">العربية</NuxtLink>
+        </li>
       </ul>
     </li>
     </ul>

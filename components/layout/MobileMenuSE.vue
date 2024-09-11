@@ -83,6 +83,9 @@
     <li @click="handleToggled">
       <NuxtLink to="/en">English</NuxtLink>
     </li>
+    <li @click="handleToggled">
+      <NuxtLink to="/ar">العربية</NuxtLink>
+    </li>
     </ul>
   </template>
   <script setup>

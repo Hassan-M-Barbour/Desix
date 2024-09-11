@@ -1,4 +1,24 @@
+<style scoped>
+.mobile-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    max-width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999999;
+}
+.mobile-menu-visible .mobile-menu .menu-box{
+  direction: rtl ;
+}
+.mobile-menu .nav-logo{
+  text-align: right !important;
+}
+</style>
 <template>
+  
   <ul class="navigation clearfix">
     <!--Keep This Empty / Menu will come through Javascript-->
     <li @click="handleToggled" class="dropdown" :class="{ 'current': isActive.key === 1 }">
