@@ -11,7 +11,7 @@
           <NuxtLink to="/en">English</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/">العربية</NuxtLink>
+          <NuxtLink to="/ar">العربية</NuxtLink>
         </li>
       </ul>
     </li>
@@ -19,12 +19,12 @@
       <NuxtLink to="/ar/contact">اتصل بنا</NuxtLink>
     </li>
       <li><NuxtLink to="/ar/news">الأخبار</NuxtLink></li>
-      <li><NuxtLink to="/ar/projects">المشاريع</NuxtLink></li>
-      <li><NuxtLink to="/ar/services">الخدمات</NuxtLink></li>
-      <li><NuxtLink to="/ar/team">الفريق</NuxtLink></li>
+      <li><NuxtLink to="/ar/projects">بعض مشاريعنا</NuxtLink></li>
+      <li><NuxtLink to="/ar/services">خدماتنا</NuxtLink></li>
+      <li><NuxtLink to="/ar/team">فريقنا</NuxtLink></li>
       <li><NuxtLink to="/ar/about">من نحن</NuxtLink></li>
       <li>
-      <NuxtLink to="/ar">الصفحة الرئيسية</NuxtLink>
+      <NuxtLink to="/ar"> الرئيسية</NuxtLink>
       <!-- <ul>
         <li>
           <NuxtLink to="/">Home page 01</NuxtLink>

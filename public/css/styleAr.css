@@ -3324,7 +3324,7 @@ Header Style One
 
 @media (max-width: 1399.98px) {
   .header-style-oneAr .main-box {
-    padding-right: 20px;
+    padding-left: 20px;
     background: #ffffff;
   }
 }
@@ -3586,7 +3586,7 @@ Sticky Header
 
 .mobile-menu {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
   width: 300px;
   max-width: 100%;
@@ -3702,6 +3702,7 @@ Sticky Header
   transition: all 0.4s ease 200ms;
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
+  direction: ltr;
 }
 
 .mobile-menu-visible .mobile-menu .close-btn {

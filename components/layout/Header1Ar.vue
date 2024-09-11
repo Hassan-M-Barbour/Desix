@@ -14,9 +14,9 @@
         </div>
         <div class="top-right">
           <ul class="useful-links">
-            <li><NuxtLink to="/contact">مساعدة</NuxtLink></li>
+            <li><NuxtLink to="/ar/contact">مساعدة</NuxtLink></li>
             <!-- <li><NuxtLink to="#">Support</NuxtLink></li> -->
-            <li><NuxtLink to="/contact">اتصال</NuxtLink></li>
+            <li><NuxtLink to="/ar/contact">اتصال</NuxtLink></li>
           </ul>
           <ul class="social-icon-oneAr">
             <!-- <li><NuxtLink to="#"><span class="fab fa-twitter"></span></NuxtLink></li> -->
@@ -49,7 +49,7 @@
             
             <NuxtLink to="tel:+46 7 35 35 34 34" class="info-btn">
               <i class="icon lnr-icon-phone-handset"></i>
-              <small>اتصل في أي وقت</small>
+              <small>اتصل بنا في أي وقت</small>
               <!-- +92 (8800) - 9850 -->
               +46 7 35 35 34 34
             </NuxtLink>
@@ -73,13 +73,13 @@
           </div>
           <div class="close-btn" @click="handleToggled"><i class="icon fa fa-times"></i></div>
         </div>
-        <LayoutMobileMenu />
+        <LayoutMobileMenuAr />
         <ul class="contact-list-one">
           <li>
             <!-- Contact Info Box -->
             <div class="contact-info-box">
               <i class="icon lnr-icon-phone-handset"></i>
-              <span class="title">اتصل الآن</span>
+              <span class="title">اتصل بناالآن</span>
               <NuxtLink to="tel:+46 7 35 35 34 34">+46 7 35 35 34 34</NuxtLink>
             </div>
           </li>
@@ -87,7 +87,7 @@
             <!-- Contact Info Box -->
             <div class="contact-info-box">
               <span class="icon lnr-icon-envelope1"></span>
-              <span class="title">ارسال البريد الالكتروني</span>
+              <span class="title">أرسل بريد الالكتروني</span>
               <NuxtLink to="mailto:info@rosetech.se">info@rosetech.se</NuxtLink>
             </div>
           </li>
@@ -95,8 +95,10 @@
             <!-- Contact Info Box -->
             <div class="contact-info-box">
               <span class="icon lnr-icon-clock"></span>
-              <span class="title">ارسال البريد الالكتروني</span>
-              Mon - Fri 8:00 - 17:00, Saturday ,Sunday - CLOSED
+              <span class="title">أوقات العمل</span>
+              الاثنين - الجمعة : 8:00 - 17:00
+              <br>
+              السبت ، الأحد : مغلق
             </div>
           </li>
         </ul>
