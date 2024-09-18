@@ -54,13 +54,13 @@
 
 
     .v-toolbar__content{
-      background: #000;
+      background: #091a28;
     }
     select{
       color:#fff;
     }
     .scrollnavbar .v-list{
-      background: #000;
+      background: #091a28;
       color:#fff; 
     }
     .scrollnavbar .v-list a{
@@ -69,20 +69,20 @@
     }
     .v-navigation-drawer__content
     {
-      background: #000;
+      background: #091a28;
       color:#fff;
 
     }
     .v-table > .v-table__wrapper > table{
-      background: #000;
+      background: #091a28;
       color:#fff;
     }
     .v-table .v-table__wrapper > table > tbody > tr:not(:last-child) > td, .v-table .v-table__wrapper > table > tbody > tr:not(:last-child) > th, .v-table .v-table__wrapper > table > thead > tr:last-child > th{
-      background: #000;
+      background: #091a28;
       color:#fff;
     }
     .py-4{
-      background: #000;
+      background: #091a28;
       color:#fff;
     }
 
