@@ -44,6 +44,9 @@
       "assets": [
         "../assets"
       ],
+      "assets/*": [
+        "../assets/*"
+      ],
       "public": [
         "../public"
       ],
@@ -58,6 +61,9 @@
       ],
       "vue-demi": [
         "../node_modules/nuxt/dist/app/compat/vue-demi"
+      ],
+      "#color-mode-options": [
+        "./color-mode-options.mjs"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -81,6 +87,7 @@
     "../**/*",
     "../node_modules/nuxt-resend/runtime",
     "../node_modules/nuxt-gtag/runtime",
+    "../node_modules/@nuxtjs/color-mode/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     "..",
@@ -91,6 +98,7 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/nuxt-resend/runtime/server",
     "../node_modules/nuxt-gtag/runtime/server",
+    "../node_modules/@nuxtjs/color-mode/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../dist",

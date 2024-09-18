@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/color-mode": "^3.5.1",
     "nuxt": "^3.10.1",
     "nuxt-gtag": "^3.0.1",
     "nuxt-resend": "^0.0.2",
@@ -19,6 +21,7 @@
   "dependencies": {
     "resend": "^3.4.0",
     "swiper": "^11.0.5",
-    "vue-recaptcha-v3": "^2.0.1"
+    "vue-recaptcha-v3": "^2.0.1",
+    "vuetify": "^3.7.2"
   }
 }

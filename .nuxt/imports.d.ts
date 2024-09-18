@@ -28,5 +28,6 @@ export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerS
 export { validateEmail } from '../utils/validate.email';
 export { useGtag } from '../node_modules/nuxt-gtag/dist/runtime/composables/useGtag';
 export { useTrackEvent } from '../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent';
+export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

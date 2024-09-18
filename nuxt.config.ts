@@ -20,8 +20,10 @@ export default defineNuxtConfig({
         "public/css/style.css",
          "public/css/styleAr.css"
     ],
-    modules: ['nuxt-resend', "nuxt-gtag"] ,
-      
+    modules: ['nuxt-resend', "nuxt-gtag",'@nuxtjs/color-mode'] ,
+    build: {
+        transpile: ["vuetify"],
+      },
     gtag: {
         id: 'G-J9F6ZT1H5X'
       } 
