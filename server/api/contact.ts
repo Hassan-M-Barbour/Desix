@@ -9,6 +9,20 @@ export default defineEventHandler(async (event) => {
   const { name, mail, subject , telephone, message } = await readBody(event);
 
   try {
+    var myArray = ['Alex', 'Matelda']; 
+    var rand = myArray[(Math.random() * myArray.length) | 0]
+    await  $fetch("/api/contacts", {
+      method: "POST",
+      body: {
+        name: name,
+        email: mail,
+        message:message,
+        subject:subject,
+        phone:telephone,
+   emp:rand,
+      },
+    });
+    
     await resend.emails.send({
       // We can use one of our emails as the sender
       from: "Acme <onboarding@resend.dev>",

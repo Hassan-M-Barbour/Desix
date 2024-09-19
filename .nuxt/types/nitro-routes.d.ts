@@ -6,6 +6,12 @@ declare module 'nitropack' {
     '/api/contact': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/contact').default>>>>
     }
+    '/api/contacts': {
+      'delete': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/contacts.delete').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/contacts.get').default>>>>
+      'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/contacts.post').default>>>>
+      'put': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/contacts.put').default>>>>
+    }
     '/api/send': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/send').default>>>>
     }

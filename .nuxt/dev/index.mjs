@@ -5,6 +5,7 @@ import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
 import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseHeader, send as send$2, getResponseStatus, setResponseStatus, setResponseHeaders, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, readBody, getQuery as getQuery$1, createError, getResponseStatusText } from 'file://C:/projects/desix/node_modules/h3/dist/index.mjs';
 import { Resend } from 'file://C:/projects/desix/node_modules/resend/dist/index.mjs';
+import { PrismaClient } from 'file://C:/projects/desix/node_modules/@prisma/client/default.js';
 import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file://C:/projects/desix/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { stringify, uneval } from 'file://C:/projects/desix/node_modules/devalue/index.js';
 import { renderToString } from 'file://C:/projects/desix/node_modules/vue/server-renderer/index.mjs';
@@ -695,11 +696,19 @@ const errorHandler = (async function errorhandler(error, event) {
 });
 
 const _lazy_0nKqUo = () => Promise.resolve().then(function () { return contact$1; });
+const _lazy_1U42qB = () => Promise.resolve().then(function () { return contacts_delete$1; });
+const _lazy_dp5eQu = () => Promise.resolve().then(function () { return contacts_get$1; });
+const _lazy_p73oEI = () => Promise.resolve().then(function () { return contacts_post$1; });
+const _lazy_WDebSI = () => Promise.resolve().then(function () { return contacts_put$1; });
 const _lazy_w8BNFS = () => Promise.resolve().then(function () { return send$1; });
 const _lazy_4kaVTw = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
   { route: '/api/contact', handler: _lazy_0nKqUo, lazy: true, middleware: false, method: undefined },
+  { route: '/api/contacts', handler: _lazy_1U42qB, lazy: true, middleware: false, method: "delete" },
+  { route: '/api/contacts', handler: _lazy_dp5eQu, lazy: true, middleware: false, method: "get" },
+  { route: '/api/contacts', handler: _lazy_p73oEI, lazy: true, middleware: false, method: "post" },
+  { route: '/api/contacts', handler: _lazy_WDebSI, lazy: true, middleware: false, method: "put" },
   { route: '/api/send', handler: _lazy_w8BNFS, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_4kaVTw, lazy: true, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_4kaVTw, lazy: true, middleware: false, method: undefined }
@@ -890,6 +899,19 @@ const resend$1 = new Resend(process.env.RESEND_API_KEY);
 const contact = defineEventHandler(async (event) => {
   const { name, mail, subject, telephone, message } = await readBody(event);
   try {
+    var myArray = ["Alex", "Matelda"];
+    var rand = myArray[Math.random() * myArray.length | 0];
+    await $fetch("/api/contacts", {
+      method: "POST",
+      body: {
+        name,
+        email: mail,
+        message,
+        subject,
+        phone: telephone,
+        emp: rand
+      }
+    });
     await resend$1.emails.send({
       // We can use one of our emails as the sender
       from: "Acme <onboarding@resend.dev>",
@@ -913,10 +935,102 @@ const contact$1 = /*#__PURE__*/Object.freeze({
   default: contact
 });
 
+const prisma$3 = new PrismaClient();
+const contacts_delete = defineEventHandler(async (event) => {
+  const body = await readBody(event);
+  let deletedContact = null;
+  if (body.id) {
+    deletedContact = await prisma$3.contact.delete({
+      where: { id: body.id }
+    });
+  }
+  return { contacts: deletedContact };
+});
+
+const contacts_delete$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: contacts_delete
+});
+
+const prisma$2 = new PrismaClient();
+const contacts_get = defineEventHandler(async (event) => {
+  return await prisma$2.contact.findMany();
+});
+
+const contacts_get$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: contacts_get
+});
+
+const prisma$1 = new PrismaClient();
+const contacts_post = defineEventHandler(async (event) => {
+  const body = await readBody(event);
+  console.log("Received body:", body);
+  let user = null;
+  if (body.name && body.email && body.emp) {
+    return await prisma$1.contact.create({
+      data: {
+        name: body.name,
+        email: body.email,
+        subject: body.subject,
+        phone: body.phone,
+        message: body.message,
+        emp: body.emp
+      }
+    });
+  } else {
+    console.log("Name not provided in request body");
+  }
+  return { user };
+});
+
+const contacts_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: contacts_post
+});
+
+const prisma = new PrismaClient();
+const contacts_put = defineEventHandler(async (event) => {
+  const body = await readBody(event);
+  let updatedUser = null;
+  if (body.id && (body.name && body.email)) {
+    updatedUser = await prisma.contact.update({
+      where: { id: body.id },
+      data: {
+        name: body.name,
+        email: body.email,
+        subject: body.subject,
+        phone: body.phone,
+        message: body.message,
+        emp: body.emp
+      }
+    });
+  }
+  return { user: updatedUser };
+});
+
+const contacts_put$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: contacts_put
+});
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 const send = defineEventHandler(async (event) => {
   const { name, mail, message } = await readBody(event);
   try {
+    var myArray = ["Alex", "Matelda"];
+    var rand = myArray[Math.random() * myArray.length | 0];
+    await $fetch("/api/contacts", {
+      method: "POST",
+      body: {
+        name,
+        email: mail,
+        message,
+        subject: "",
+        phone: "",
+        emp: rand
+      }
+    });
     await resend.emails.send({
       // We can use one of our emails as the sender
       from: "Acme <onboarding@resend.dev>",
