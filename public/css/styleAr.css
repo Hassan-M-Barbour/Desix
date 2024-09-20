@@ -7650,7 +7650,7 @@ sec-titleArAr.text-center h2:before {
 
 .why-choose-usAr .info-outer {
   position: relative;
-  margin-left: -470px !important;
+  margin-right: -470px;
   border: 10px solid var(--theme-color2);
   background-color: #fff;
   padding: 40px 40px 10px;
@@ -7685,7 +7685,7 @@ sec-titleArAr.text-center h2:before {
 
 @media (max-width: 575.98px) {
   .why-choose-usAr .info-box .inner {
-    padding-left: 0;
+    padding-right: 0;
     text-align: center;
     padding-bottom: 10px;
   }
