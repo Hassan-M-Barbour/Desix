@@ -105,7 +105,7 @@
             <div class="image-box">
               <figure class="image anim-overlay"><img src="/images/resource/why-us.jpg" alt=""></figure>
               <div class="rounded-text">
-                <img src="/images/resource/round-text.png" alt="">
+                <img src="/images/resource/round-text-ar.png" alt="">
                 <span class="letter">R</span>
               </div>
             </div>
